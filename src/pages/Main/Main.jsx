@@ -200,14 +200,12 @@ const Main = () => {
                 <div className={styles.grandOpenText}>3월 GRAND OPEN 예정</div> 
               </div>
               <div>
-  <a href="#interestForm">
-    <img 
-      src={subpinkimg} 
-      className={styles.subPinkImg} 
-      alt="용인 힐스테이트 마크밸리 관심고객등록" 
-    />
-  </a>
-</div>
+              <a href="#interestForm">
+              <img 
+              src={subpinkimg} 
+              className={styles.subPinkImg} 
+              alt="용인 힐스테이트 마크밸리 관심고객등록" /></a>
+            </div>
 
             </div>
             <FixIcon type="absolute" />
@@ -313,8 +311,8 @@ const Main = () => {
                 <Link to="/FloorPlan/84A" className={styles.text2}>더 알아보기 {">"}</Link>
               </div>
             </div>
-          </div>
-          <div id="interestForm" className={styles.section}></div> */}
+          </div>*/}
+          <div id="interestForm" className={styles.section}></div> 
 
           {/* 관심고객 등록 섹션 (PC 버전) */}
           <div className={styles.section}>
@@ -362,6 +360,7 @@ const Main = () => {
                 >
                   <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
                   <input
+                    id="name"
                     type="text"
                     name="name"
                     placeholder=""
@@ -371,6 +370,7 @@ const Main = () => {
                   />
                   <label htmlFor="phonenumber">연락처<span style={{ color: 'red' }}>*</span></label>
                   <input
+                    id="Phonenumber"
                     type="tel"
                     name="phone"
                     placeholder=""
