@@ -43,7 +43,7 @@ const section3Contents = [
   {
 		imgSrc: section3_Image1,
 		title: "PREMIUM 01",
-		text1: `1990세대 랜드마크 푸르지오`,
+		text1: `1990세대 랜드마크 현대건설`,
 		text2: `용인을 대표할<br />
 			  대단지 브랜드 프리미엄`,
 		link: "/BusinessGuide/intro",
@@ -53,7 +53,7 @@ const section3Contents = [
 		imgSrc: section3_Image2,
 		title: "PREMIUM 02",
 		text1: `여유로운 직주근접 단지`,
-		text2: `세계최대규모 삼성전자 평택캠퍼스<br />
+		text2: `세계최대규모 삼성전자 용인캠퍼스<br />
 			  송탄·칠괴 산단,KG모빌리티 등`,
 		link: "/LocationEnvironment/intro",
 		linkText: "더 알아보기 >"

@@ -44,14 +44,14 @@ const Brand2 = () => {
 		<div className={styles.container}>
 
 					<Helmet>
-					<title>평택브레인시티푸르지오 - 홍보영상</title>
-					<meta name="description" content="평택브레인시티푸르지오의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요." />
-					<meta property="og:title" content="평택브레인시티푸르지오 - 홍보영상" />
-					<meta property="og:description" content="평택브레인시티푸르지오의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요." />
+					<title>힐스테이트 용인 마크밸리 - 홍보영상</title>
+					<meta name="description" content="힐스테이트 용인 마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요." />
+					<meta property="og:title" content="힐스테이트 용인 마크밸리 - 홍보영상" />
+					<meta property="og:description" content="힐스테이트 용인 마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요." />
 					<meta property="og:image" content="https://www.bunyang-114.com/Main1.png" />
 					<meta property="og:url" content="https://www.bunyang-114.com/Brand/video" />
-					<meta name="twitter:title" content="평택브레인시티푸르지오 - 홍보영상" />
-					<meta name="twitter:description" content="평택브레인시티푸르지오의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요." />
+					<meta name="twitter:title" content="힐스테이트 용인 마크밸리 - 홍보영상" />
+					<meta name="twitter:description" content="힐스테이트 용인 마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요." />
 					<meta name="twitter:image" content="https://www.bunyang-114.com/Main1.png" />
 					<meta name="twitter:url" content="https://www.bunyang-114.com/Brand/video" />
 					</Helmet>       
@@ -64,12 +64,12 @@ const Brand2 = () => {
 			<MenuBar contents={menuContents} />
 
 						{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-						<h1 className={styles.screenReaderOnly}>평택브레인시티푸르지오 - 홍보영상</h1>
-						<p className={styles.screenReaderOnly}>평택브레인시티푸르지오의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
+						<h1 className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 - 홍보영상</h1>
+						<p className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
 						</p>	
 
 			<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-                <div>브레인시티 푸르지오가 눈부신 가치 위에</div>
+                <div>힐스테이트 용인 마크밸리가 눈부신 가치 위에</div>
                 <div>새로운 자부심으로 찾아옵니다.</div>
             </div>
 

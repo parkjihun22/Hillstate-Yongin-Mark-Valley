@@ -66,12 +66,12 @@ const FloorPlan2 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>평택브레인시티푸르지오 - 59B 평면안내 </h1>
-			<p className={styles.screenReaderOnly}>59B타입의평면 안내 페이지는 평택브레인시티푸르지오의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
+            <h1 className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 - 59B 평면안내 </h1>
+			<p className={styles.screenReaderOnly}>59B타입의평면 안내 페이지는 힐스테이트 용인 마크밸리의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
 			</p>
 
 			<div className={styles.textBox}>
-				<div>평택 브레인시티의 눈부신 가치 위에</div>
+				<div>용인의 눈부신 가치 위에</div>
 				<div>푸르지오의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
@@ -79,7 +79,7 @@ const FloorPlan2 = () => {
 			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 푸르지오 59B 평면image"
+				alt="힐스테이트 용인 마크밸리 59B 평면image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

@@ -65,7 +65,7 @@ const FloorPlan5 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>평택 브레인시티의 눈부신 가치 위에</div>
+				<div>용인의 눈부신 가치 위에</div>
 				<div>푸르지오의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
@@ -73,7 +73,7 @@ const FloorPlan5 = () => {
 			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 푸르지오 119A 평면image"
+				alt="힐스테이트 용인 마크밸리 119A 평면image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

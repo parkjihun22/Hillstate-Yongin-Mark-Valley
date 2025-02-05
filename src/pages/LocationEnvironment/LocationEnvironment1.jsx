@@ -64,14 +64,14 @@ const LocationEnvironment1 = () => {
 		<div className={styles.container}>
 
 					<Helmet>
-					<title>평택브레인시티푸르지오 - 입지안내</title>
-					<meta name="description" content="평택브레인시티푸르지오의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
-					<meta property="og:title" content="평택브레인시티푸르지오 - 입지안내" />
-					<meta property="og:description" content="평택브레인시티푸르지오의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
+					<title>힐스테이트 용인 마크밸리 - 입지안내</title>
+					<meta name="description" content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
+					<meta property="og:title" content="힐스테이트 용인 마크밸리 - 입지안내" />
+					<meta property="og:description" content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
 					<meta property="og:image" content="https://www.bunyang-114.com/Main1.png" />
 					<meta property="og:url" content="https://www.bunyang-114.com/LocationEnvironment/intro" />
-					<meta name="twitter:title" content="평택브레인시티푸르지오 - 입지안내" />
-					<meta name="twitter:description" content="평택브레인시티푸르지오의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
+					<meta name="twitter:title" content="힐스테이트 용인 마크밸리 - 입지안내" />
+					<meta name="twitter:description" content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
 					<meta name="twitter:image" content="https://www.bunyang-114.com/Main1.png" />
 					<meta name="twitter:url" content="https://www.bunyang-114.com/LocationEnvironment/intro" />
 					</Helmet> 	
@@ -83,17 +83,16 @@ const LocationEnvironment1 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-			<h1 className={styles.screenReaderOnly}>평택브레인시티푸르지오 - 입지안내</h1>
-			<p className={styles.screenReaderOnly}>평택브레인시티푸르지오의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
+			<h1 className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 - 입지안내</h1>
+			<p className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
 			</p>
 
 			<div className={styles.textBox}>
-				<div>갈수록 완벽해질 브레인시티</div>
-				<div>살수록 높아질 푸르지오</div>
-				<div>도시를 압도할 자부심 브레인시티 푸르지오</div>
+				<div>살수록 높아질 힐스테이트</div>
+				<div>도시를 압도할 자부심 힐스테이트 용인 마크밸리</div>
 			</div>
 
-			{/* <img src={page1} className={styles.image2} alt="브레인시티푸르지오입지환경-image1" /> */}
+			{/* <img src={page1} className={styles.image2} alt="힐스테이트 용인 마크밸리-image1" /> */}
 			
 			<Ready />
 			{/* <div className={styles.section2}>
@@ -107,9 +106,7 @@ const LocationEnvironment1 = () => {
 			</div> */}
 
 			{/* <div className={styles.commonBox}>
-				<div className={styles.notice}>
-					※평택 브레인시티 개발계획 관련내용은 '경기도 고시 제2022-283호' 및 '평택도시공사 브레인시티 토지 이용 계획'을 참고하였습니다
-				</div>
+				
 				<div className={styles.notice}>
 					※아주대학교 평택병원 및 카이스트 평택캠퍼스 관련 내용은 '평택시청' 2024년 주요업무계획을 참고하였습니다
 				</div>
