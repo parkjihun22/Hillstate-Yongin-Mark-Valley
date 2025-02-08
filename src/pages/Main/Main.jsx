@@ -225,7 +225,7 @@ const Main = () => {
                   - 모두를 누리는 용인 힐스테이트 마크밸리
                 </div>
                 <div className={styles.text4}>
-                  <a href="https://naver.me/G58kVeiB" target="_black">
+                  <a href="https://naver.me/5N1tYGcp" target="_black">
                     관심고객 등록하기 {">"}
                   </a>
                 </div>
@@ -355,7 +355,7 @@ const Main = () => {
                 {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
                 <form
                   className={styles.registrationForm}
-                  action="https://formspree.io/f/xnnjvebv"
+                  action="https://naver.me/5N1tYGcp"
                   method="POST"
                 >
                   <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
@@ -482,7 +482,7 @@ const Main = () => {
               - 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
             <div className={styles.text4}>
-              <a href="https://naver.me/G58kVeiB" target="_black">
+              <a href="https://naver.me/5N1tYGcp" target="_black">
                 관심고객 등록하기 {">"}
               </a>
             </div>
@@ -553,7 +553,7 @@ const Main = () => {
             {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
             <form
               className={styles.registrationForm}
-              action="https://formspree.io/f/xnnjvebv"
+              action="https://naver.me/5N1tYGcp"
               method="POST"
             >
               <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>

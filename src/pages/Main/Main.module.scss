@@ -16,8 +16,8 @@
 
 .subPinkImg {
     position: absolute;
-    left: 53vw; /* 화면 오른쪽 끝으로 배치 */
-    top: -2vw; /* 세로 중앙 배치 (필요에 따라 수정 가능) */
+    left: 50vw; /* 화면 오른쪽 끝으로 배치 */
+    top: 1vw; /* 세로 중앙 배치 (필요에 따라 수정 가능) */
     width: 8vw; /* 크기 조정 (필요에 따라 변경) */
     z-index: 1; /* 텍스트와 겹치지 않도록 설정 */
     animation: subPinkImgFadeIn 1.5s ease-out forwards 1.5s; /* 서서히 나타나게 */
@@ -46,7 +46,7 @@
 .mainImageTextBox {
     font-weight: 900;
     position: absolute;
-    top: 35%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
@@ -78,7 +78,7 @@
 
 .grandOpenText {
     font-family: 'Paperlogy-8ExtraBold';
-    font-size: 48px;
+    font-size: 2vw;
     font-weight: bold;
     color: #890d18; /* 강조 색상 */
     text-align: center;

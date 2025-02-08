@@ -134,7 +134,7 @@ const Header = ({ isChanged }) => {
 							</Link>
 
 							<div className={styles.itemBox}>
-								<a href="https://naver.me/G58kVeiB" className={isChange ? styles.linkItem : styles.scrolledLinkItem}>
+								<a href="https://naver.me/5N1tYGcp" className={isChange ? styles.linkItem : styles.scrolledLinkItem}>
 									모바일 상담예약
 								</a>
 								{menuArray.map((menu, idx) => (
@@ -144,7 +144,7 @@ const Header = ({ isChanged }) => {
 								))}
 							</div>
 
-							<a href="https://naver.me/G58kVeiB" className={isChange ? styles.phoneNumber : styles.scrolledPhoneNumber}>
+							<a href="https://naver.me/5N1tYGcp" className={isChange ? styles.phoneNumber : styles.scrolledPhoneNumber}>
 								<IoCall size={20} /> 1533-8848
 							</a>
 						</header>
@@ -163,7 +163,7 @@ const Header = ({ isChanged }) => {
 							</div>
 
 							<div className={styles.itemBox}>
-								<a href="https://naver.me/G58kVeiB" className={styles.linkItem}>
+								<a href="https://naver.me/5N1tYGcp" className={styles.linkItem}>
 									모바일 상담예약
 								</a>
 								{menuArray.map((menu, idx) => (
@@ -183,7 +183,7 @@ const Header = ({ isChanged }) => {
 								))}
 							</div>
 
-							<a href="https://naver.me/G58kVeiB" className={styles.phoneNumber}>
+							<a href="https://naver.me/5N1tYGcp" className={styles.phoneNumber}>
 								<IoCall size={20} /> 1533-8848
 							</a>
 						</header>

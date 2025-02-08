@@ -23,7 +23,7 @@ const Footer = () => {
 							<div className={styles.text2}>COPYRIGHTⓒ 용인 힐스테이트 마크밸리모델하우스 ALL RIGHTS RESERVED.</div>
 						</div>
 
-						<a href="https://naver.me/G58kVeiB"><IoCall size={25} /> 1533-8848</a>
+						<a href="https://naver.me/5N1tYGcp"><IoCall size={25} /> 1533-8848</a>
 					</div>
 				</div>
 			) : (

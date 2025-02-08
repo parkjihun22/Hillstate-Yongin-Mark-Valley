@@ -14,18 +14,18 @@ const FixIcon = ({ type }) => {
 
     const IconContent = (content) => {
         if (content === "youtube") {
-            return (
-                <a href="https://youtube.com" className={`${styles.absolute} ${styles.youtube}`} target="_blank" rel="noopener noreferrer">
-                    <img src={youtube} alt="YouTube 아이콘" />
-                </a> // YouTube 관련 콘텐츠
-            );
+            // return (
+            //     <a href="https://youtube.com" className={`${styles.absolute} ${styles.youtube}`} target="_blank" rel="noopener noreferrer">
+            //         <img src={youtube} alt="YouTube 아이콘" />
+            //     </a> // YouTube 관련 콘텐츠
+            // );
         } else {
-            return (
-                <a href="https://naver.me/G58kVeiB" target="_blank" rel="noopener noreferrer" className={`${styles.container} ${type === "absolute" ? styles.absolute : styles.fixed}`}>
-                    <div className={styles.circlebox}>관심고객<br />등록</div>
-                    <img src={movingCircle} alt="circle animation" />
-                </a>
-            );
+            // return (
+            //     <a href="https://naver.me/G58kVeiB" target="_blank" rel="noopener noreferrer" className={`${styles.container} ${type === "absolute" ? styles.absolute : styles.fixed}`}>
+            //         <div className={styles.circlebox}>관심고객<br />등록</div>
+            //         <img src={movingCircle} alt="circle animation" />
+            //     </a>
+            // );
             
         }
     };
@@ -43,7 +43,7 @@ const FixIcon = ({ type }) => {
     <a
       id="visitReservation"
       className={styles.btn1}
-      href="https://naver.me/G58kVeiB"
+      href="https://naver.me/5N1tYGcp"
     >
       <IoIosCheckboxOutline size={20} />
       <div>방문예약</div>
