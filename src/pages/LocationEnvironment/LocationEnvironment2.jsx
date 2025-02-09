@@ -50,12 +50,12 @@ const LocationEnvironment1 = () => {
 					<meta name="description" content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다." />
 					<meta property="og:title" content="힐스테이트 용인 마크밸리 - 프리미엄" />
 					<meta property="og:description" content="힐스테이트 용인 마크밸리만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다." />
-					<meta property="og:image" content="https://www.bunyang-114.com/Main1.png" />
-					<meta property="og:url" content="https://www.bunyang-114.com/LocationEnvironment/primium" />
+					<meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+					<meta property="og:url" content="https://www.alwatanyh.com/LocationEnvironment/primium" />
 					<meta name="twitter:title" content="힐스테이트 용인 마크밸리 - 프리미엄" />
 					<meta name="twitter:description" content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다." />
-					<meta name="twitter:image" content="https://www.bunyang-114.com/Main1.png" />
-					<meta name="twitter:url" content="https://www.bunyang-114.com/LocationEnvironment/primium" />
+					<meta name="twitter:image" content="https://www.alwatanyh.com/Main1.png" />
+					<meta name="twitter:url" content="https://www.alwatanyh.com/LocationEnvironment/primium" />
 					</Helmet> 		
 			
 
