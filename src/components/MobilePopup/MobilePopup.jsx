@@ -10,43 +10,40 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
     const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
 
     // 쿠키의 유효기한을 지정하는 함수 (2시간)
-        // 쿠키의 유효기한을 지정하는 함수
-        const getExpiredDate = (days) => {
-            const date = new Date(); // 현재 시간을 받아온다
-            date.setDate(date.getDate() + days);
-            // 현재 시간의 날짜에 days 만큼 더하여 유효기간을 지정
-            return date;
-        };
+    const getExpiredDate = (days) => {
+        const date = new Date(); // 현재 시간을 받아온다
+        date.setDate(date.getDate() + days);
+        // 현재 시간의 날짜에 days 만큼 더하여 유효기간을 지정
+        return date;
+    };
     
-        // 닫기 버튼을 누를 때마다 실행될 코드.
-        useEffect(() => {
-            if (type === 1) {
-                // 쿠키를 저장하는 핵심 코드
-                const expires = getExpiredDate(1);
-                setCookie(`Popup_Cookie${numbering}`, true, { path: '/', expires });
-                onClosed(false);
-            } else if (type === 2) {
-                onClosed(false);
-            } else if (isPopupShown) {
-                onClosed(false);
-            }
-        }, [type, cookies]);
-    
-
+    // 닫기 버튼을 누를 때마다 실행될 코드.
+    useEffect(() => {
+        if (type === 1) {
+            // 쿠키를 저장하는 핵심 코드
+            const expires = getExpiredDate(1);
+            setCookie(`Popup_Cookie${numbering}`, true, { path: '/', expires });
+            onClosed(false);
+        } else if (type === 2) {
+            onClosed(false);
+        } else if (isPopupShown) {
+            onClosed(false);
+        }
+    }, [type, cookies]);
 
     return (
         <div className={styles.backgroundContainer}>
             <div className={styles.contentContainer}>
-                {/* 각 이미지에 맞는 usemap 설정 */}
-                <img
+                {/* 팝업 이미지 주석처리 */}
+                {/* <img
                     className={styles.popupImg}
                     style={!isMobile && numbering === 1 ? { width: '25vw'} : {}}
                     src={popupImage}
                     alt={`hansinduhyue-popup-image${numbering}`}
                     useMap={`#image-map${numbering}`}  // 각 이미지마다 다른 맵을 사용
-                />
+                /> */}
 
-                {/* 이미지 맵 영역 정의 */}
+                {/* 이미지 맵 영역 정의 (주석처리된 부분 유지) */}
                 {numbering === 2 && (
                     <map name="image-map2">
                         <area 
@@ -100,13 +97,13 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
                             shape="rect" 
                         />
                     </map>
-            
                 )}
 
-                <div className={styles.btnContainer}>
-                <div className={styles.todayNotOpenBtn} onClick={() => setType(1)}>오늘 하루 보지 않기</div>
-                <div className={styles.closeBtn} onClick={() => setType(2)}>닫기</div>
-                </div>
+                {/* 버튼 주석처리 */}
+                {/* <div className={styles.btnContainer}>
+                    <div className={styles.todayNotOpenBtn} onClick={() => setType(1)}>오늘 하루 보지 않기</div>
+                    <div className={styles.closeBtn} onClick={() => setType(2)}>닫기</div>
+                </div> */}
             </div>
         </div>
     );
