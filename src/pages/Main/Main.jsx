@@ -38,7 +38,7 @@ import map1 from "../../assets/Main/map1.jpg";
 import mobilemap1 from "../../assets/Main/mobilemap1.jpg";
 
 import subpinkimg from "../../assets/Main/subpinkimg.jpg";
-
+import InterestPopup from "../../components/InterestPopup/InterestPopup";
 const section3Contents = [
   {
 		imgSrc: section3_Image1,
@@ -87,6 +87,7 @@ const Main = () => {
   const [isOpenPopup2, setIsOpenPopup2] = useState(true);
   const [isOpenPopup3, setIsOpenPopup3] = useState(true);
   const [isOpenPopup4, setIsOpenPopup4] = useState(true);
+  const [isInterestPopupOpen, setIsInterestPopupOpen] = useState(false); // 방문예약 팝업 상태
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
   // 관심고객 등록 폼 상태 관리 (방문일자 필드 포함)
@@ -422,6 +423,14 @@ const Main = () => {
           <div className={styles.section5}>
             <Footer />
           </div>
+          {/* 방문예약 팝업 (PC) */}
+          {isInterestPopupOpen && (
+            <InterestPopup
+              onClose={() => setIsInterestPopupOpen(false)}
+              registration={registration}
+              handleInputChange={handleInputChange}
+            />
+          )}
         </>
       ) : (
         // 모바일 버전
@@ -473,7 +482,7 @@ const Main = () => {
             </div>
           </div>
 
-          {/* <div className={styles.container1}>
+          <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
               "방문예약을 하시면 신세계 상품권 100% 증정 "
@@ -485,11 +494,19 @@ const Main = () => {
               - 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
             <div className={styles.text4}>
-              <a href="https://naver.me/5N1tYGcp" target="_black">
-                관심고객 등록하기 {">"}
-              </a>
-            </div>
-          </div> */}
+              {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
+             <a
+             href="#"
+              onClick={(e) => {
+              e.preventDefault();
+              setIsInterestPopupOpen(true);
+              }}
+            className={styles.popupBtn}
+            >
+            관심고객 등록하기 {">"}
+            </a>
+          </div>   
+          </div>
 
           {/* <div className={styles.container7}>
             <div className={styles.textBox}>
@@ -620,6 +637,15 @@ const Main = () => {
             <Footer />
             <FixIcon />
           </div>
+
+          {/* 방문예약 팝업 (모바일) */}
+          {isInterestPopupOpen && (
+            <InterestPopup
+              onClose={() => setIsInterestPopupOpen(false)}
+              registration={registration}
+              handleInputChange={handleInputChange}
+            />
+          )}
         </div>
       )}
     </>
