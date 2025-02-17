@@ -65,7 +65,6 @@ const FixIcon = ({ type }) => {
           {IconContent()}
         </>
       ) : (
-        <div>
           <div className={styles.buttomBtnContainer}>
             {/* 방문예약 a 태그를 클릭하면 팝업이 열리도록 처리 */}
             <a
@@ -88,7 +87,6 @@ const FixIcon = ({ type }) => {
               <PiPhoneCallFill size={25} />
               <div>전화상담</div>
             </a>
-          </div>
           {/* 관심고객 등록 팝업 렌더링 */}
           {isInterestPopupOpen && (
             <InterestPopup

@@ -706,6 +706,7 @@
     background-color: #fffbf5;
 
     .text1 {
+      margin-left: 3vw;
       font-size: 8vw;
       color: #c98f25;
     }
@@ -713,11 +714,13 @@
     .text2 {
       margin-top: 8vw;
       font-size: 4vw;
+      margin-left: 3vw;
       color: #461900;
     }
 
     .text3 {
       margin-top: 8vw;
+      margin-left: 3vw;
       font-size: 2.5vw;
       font-family: "HakgyoansimBareonbatangA";
       font-weight: 300;
@@ -726,14 +729,15 @@
     }
 
     .text4 {
-      margin: 15vw 0 17vw 3vw;
+      margin: 10vw 0 17vw 4vw;
       font-size: 3vw;
       color: #241400;
+      z-index: 100;
 
       a {
         text-decoration: none; /* 밑줄 제거 */
         color: #000000; /* 검정색으로 변경 */
-        font-size: 4vw; /* 글자 크기 키우기 */
+        font-size: 3vw; /* 글자 크기 키우기 */
         font-weight: bold; /* 가독성을 위해 굵게 설정 */
         padding: 0; /* 내부 여백 제거 */
         display: inline; /* 버튼처럼 보이지 않도록 inline 설정 */
