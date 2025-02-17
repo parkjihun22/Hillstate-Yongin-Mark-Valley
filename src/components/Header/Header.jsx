@@ -104,7 +104,11 @@ const Header = () => {
         <div className={styles.mobileHeader}>
           <div onClick={() => setIsMobileMenu(!isMobileMenu)}>
             {!isMobileMenu ? (
-              <AiOutlineMenu className={styles.icon} size={25} color="#095052" />
+              <AiOutlineMenu
+                className={styles.icon}
+                size={25}
+                color="#095052"
+              />
             ) : (
               <IoCloseSharp className={styles.icon} size={25} color="#095052" />
             )}
@@ -205,7 +209,11 @@ const Header = () => {
             style={{ marginLeft: hoveredMenuRect.left }}
           >
             {menuArray[hoveredMenu].subMenu.map((submenu, subIdx) => (
-              <Link key={subIdx} to={submenu.subUrl} className={styles.dropdownItem}>
+              <Link
+                key={subIdx}
+                to={submenu.subUrl}
+                className={styles.dropdownItem}
+              >
                 {submenu.subTitle}
               </Link>
             ))}
