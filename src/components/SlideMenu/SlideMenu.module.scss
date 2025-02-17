@@ -9,7 +9,7 @@
     flex-direction: column;
     width: 60%; // 모바일 화면의 60%를 차지
     position: fixed;
-    top: var(--mobile-header-height); // 헤더 바로 아래에 위치하도록 자동 조정
+    top: 21.4vw; // 헤더 바로 아래에 위치하도록 자동 조정
     left: 0;
     height: calc(100vh - var(--mobile-header-height)); // 전체 높이에서 헤더 높이를 뺀 만큼
     background-color: white;

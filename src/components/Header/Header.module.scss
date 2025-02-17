@@ -173,7 +173,7 @@
   align-items: center;
   position: fixed;
   /* 헤더가 GIF 배너 바로 아래에 위치하도록 --header-top 변수 사용 */
-  top: calc(var(--header-top, calc(var(--gif-banner-height) + env(safe-area-inset-top, 0px))) + 13px);
+  top: 8.3vw;
   left: 0;
   padding: 5vw 0 4vw 0;
   width: 100%;

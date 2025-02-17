@@ -41,41 +41,41 @@ import subpinkimg from "../../assets/Main/subpinkimg.jpg";
 import InterestPopup from "../../components/InterestPopup/InterestPopup";
 const section3Contents = [
   {
-		imgSrc: section3_Image1,
-		title: "PREMIUM 01",
-		text1: `1990세대 랜드마크 현대건설`,
-		text2: `용인을 대표할<br />
+    imgSrc: section3_Image1,
+    title: "PREMIUM 01",
+    text1: `1990세대 랜드마크 현대건설`,
+    text2: `용인을 대표할<br />
 			  대단지 브랜드 프리미엄`,
-		link: "/BusinessGuide/intro",
-		linkText: "더 알아보기 >"
-	},
-	{
-		imgSrc: section3_Image2,
-		title: "PREMIUM 02",
-		text1: `여유로운 직주근접 단지`,
-		text2: `세계최대규모 삼성전자 용인캠퍼스<br />
+    link: "/BusinessGuide/intro",
+    linkText: "더 알아보기 >",
+  },
+  {
+    imgSrc: section3_Image2,
+    title: "PREMIUM 02",
+    text1: `여유로운 직주근접 단지`,
+    text2: `세계최대규모 삼성전자 용인캠퍼스<br />
 			  송탄·칠괴 산단,KG모빌리티 등`,
-		link: "/LocationEnvironment/intro",
-		linkText: "더 알아보기 >"
-	},
-	{
-		imgSrc: section3_Image3,
-		title: "PREMIUM 03",
-		text1: `다 갖춘 고품격 커뮤니티`,
-		text2: `용인 내 최초 실내 수영장 및<br />
+    link: "/LocationEnvironment/intro",
+    linkText: "더 알아보기 >",
+  },
+  {
+    imgSrc: section3_Image3,
+    title: "PREMIUM 03",
+    text1: `다 갖춘 고품격 커뮤니티`,
+    text2: `용인 내 최초 실내 수영장 및<br />
 			  독서실 골프클럽 등 대규모 커뮤니티`,
-		link: "/LocationEnvironment/intro",
-		linkText: "더 알아보기 >"
-	},
-	{
-		imgSrc: section3_Image4,
-		title: "PREMIUM 04",
-		text1: `합리적 분양가 상한제`,
-		text2: `입주자의 경제적 부담을 낮춘<br />
+    link: "/LocationEnvironment/intro",
+    linkText: "더 알아보기 >",
+  },
+  {
+    imgSrc: section3_Image4,
+    title: "PREMIUM 04",
+    text1: `합리적 분양가 상한제`,
+    text2: `입주자의 경제적 부담을 낮춘<br />
 			  내 집 마련의 기회`,
-		link: "/LocationEnvironment/primium",
-		linkText: "더 알아보기 >"
-	},
+    link: "/LocationEnvironment/primium",
+    linkText: "더 알아보기 >",
+  },
 ];
 
 const Main = () => {
@@ -95,7 +95,7 @@ const Main = () => {
     name: "",
     phone: "",
     email: "",
-    visitDate: ""
+    visitDate: "",
   });
 
   const handleInputChange = (e) => {
@@ -188,26 +188,34 @@ const Main = () => {
           )}
 
           <div className={styles.imageContainer}>
-            <img src={mainImage} className={styles.mainImage} alt="용인 힐스테이트 마크밸리-mainimage1" />
+            <img
+              src={mainImage}
+              className={styles.mainImage}
+              alt="용인 힐스테이트 마크밸리-mainimage1"
+            />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
-                브랜드 평판 1위 힐스테이트 <span className={styles.greyText}>브랜드 프리미엄</span>
+                브랜드 평판 1위 힐스테이트{" "}
+                <span className={styles.greyText}>브랜드 프리미엄</span>
               </div>
               <div className={styles.mainImageTitleBox}>
                 <div className={styles.mainImageText}>용인이 기다린</div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>힐스테이트 용인 마크밸리</div>
-                <div className={styles.grandOpenText}>3월 GRAND OPEN 예정</div> 
+                <div className={styles.mainImageText}>
+                  힐스테이트 용인 마크밸리
+                </div>
+                <div className={styles.grandOpenText}>3월 GRAND OPEN 예정</div>
               </div>
               <div>
-              <a href="#interestForm">
-              <img 
-              src={subpinkimg} 
-              className={styles.subPinkImg} 
-              alt="용인 힐스테이트 마크밸리 관심고객등록" /></a>
-            </div>
-
+                <a href="#interestForm">
+                  <img
+                    src={subpinkimg}
+                    className={styles.subPinkImg}
+                    alt="용인 힐스테이트 마크밸리 관심고객등록"
+                  />
+                </a>
+              </div>
             </div>
             <FixIcon type="absolute" />
           </div>
@@ -266,19 +274,30 @@ const Main = () => {
                   완벽한 생활에서 준비된 미래까지
                 </div>
                 <div className={`${styles.text2} fadeUpRepeat`}>
-                  기대한 모든 프리미엄이<br />용인 힐스테이트 마크밸리에서 펼쳐집니다
+                  기대한 모든 프리미엄이
+                  <br />
+                  용인 힐스테이트 마크밸리에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
                 </div>
                 <div className={`${styles.text4} fadeUpRepeat`}>
-                  살수록 자부심이 차원이 다른<br />프리미엄 주거라이프를 실현합니다
+                  살수록 자부심이 차원이 다른
+                  <br />
+                  프리미엄 주거라이프를 실현합니다
                 </div>
                 <div className={`${styles.text5} fadeUpRepeat`}>
-                  주거의 품격과 가치를 높이는 <span>특화설계</span><br />안전한 이동을 위한 세심한 <span>단지설계</span><br />편리한 생활을 위한 최적의 <span>공간설계</span>
+                  주거의 품격과 가치를 높이는 <span>특화설계</span>
+                  <br />
+                  안전한 이동을 위한 세심한 <span>단지설계</span>
+                  <br />
+                  편리한 생활을 위한 최적의 <span>공간설계</span>
                 </div>
               </div>
-              <img src={section2_Image1} alt="용인 힐스테이트 마크밸리아파트 조감도-image3" />
+              <img
+                src={section2_Image1}
+                alt="용인 힐스테이트 마크밸리아파트 조감도-image3"
+              />
             </div>
           </div>
 
@@ -313,7 +332,7 @@ const Main = () => {
               </div>
             </div>
           </div>*/}
-          <div id="interestForm" className={styles.section}></div> 
+          <div id="interestForm" className={styles.section}></div>
 
           {/* 관심고객 등록 섹션 (PC 버전) */}
           <div className={styles.section}>
@@ -322,14 +341,14 @@ const Main = () => {
               <div className={styles.registrationInfo}>
                 <div className={styles.text1}>
                   <p>
-                  용인 힐스테이트 마크밸리
+                    용인 힐스테이트 마크밸리
                     <br />
                     주변이 궁금하시나요?
                   </p>
                 </div>
                 <div className={styles.text2}>
                   <p>
-                  용인 힐스테이트 마크밸리
+                    용인 힐스테이트 마크밸리
                     <br />
                     현장 정보 및 견본주택 정보를 보실 수 있습니다.
                   </p>
@@ -348,10 +367,11 @@ const Main = () => {
               </div>
               {/* 오른쪽 관심고객 등록 폼 영역 */}
               <div className={styles.registrationSection}>
-                <div className={styles.registrationHeader}>대전 하늘채 스카이앤 3차</div>
+                <div className={styles.registrationHeader}>
+                  대전 하늘채 스카이앤 3차
+                </div>
                 <div className={styles.registrationDescription}>
                   관심고객등록
-                  
                 </div>
                 {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
                 <form
@@ -359,7 +379,9 @@ const Main = () => {
                   action="https://formspree.io/f/xnnjvebv"
                   method="POST"
                 >
-                  <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
+                  <label htmlFor="name">
+                    이름<span style={{ color: "red" }}>*</span>
+                  </label>
                   <input
                     type="text"
                     name="name"
@@ -368,7 +390,9 @@ const Main = () => {
                     onChange={handleInputChange}
                     required
                   />
-                  <label htmlFor="phonenumber">연락처<span style={{ color: 'red' }}>*</span></label>
+                  <label htmlFor="phonenumber">
+                    연락처<span style={{ color: "red" }}>*</span>
+                  </label>
                   <input
                     type="tel"
                     name="phone"
@@ -377,24 +401,28 @@ const Main = () => {
                     onChange={handleInputChange}
                     required
                   />
-                  <label htmlFor="date of birth">생년월일 [6자리]<span style={{ color: 'red' }}>*</span></label>
-              <input
-                type="text"
-                name="date of birth"
-                placeholder=""
-                value={registration.phone}
-                onChange={handleInputChange}
-                required
-              />
-              <label htmlFor="adrees">주소<span style={{ color: 'red' }}>*</span></label>
-              <input
-                type="text"
-                name="date of birth"
-                placeholder=""
-                value={registration.phone}
-                onChange={handleInputChange}
-                required
-              />
+                  <label htmlFor="date of birth">
+                    생년월일 [6자리]<span style={{ color: "red" }}>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="date of birth"
+                    placeholder=""
+                    value={registration.phone}
+                    onChange={handleInputChange}
+                    required
+                  />
+                  <label htmlFor="adrees">
+                    주소<span style={{ color: "red" }}>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="date of birth"
+                    placeholder=""
+                    value={registration.phone}
+                    onChange={handleInputChange}
+                    required
+                  />
                   <button type="submit">등록하기</button>
                 </form>
               </div>
@@ -467,17 +495,24 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img src={mobileImageMain} className={styles.mainImage} alt="용인 힐스테이트 마크밸리 mobilemain-image1" />
+            <img
+              src={mobileImageMain}
+              className={styles.mainImage}
+              alt="용인 힐스테이트 마크밸리 mobilemain-image1"
+            />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
-                브랜드 평판 1위 힐스테이트<br />
-                <span className={styles.greyText1}>브랜드 프리미엄 </span><br />
+                브랜드 평판 1위 힐스테이트
+                <br />
+                <span className={styles.greyText1}>브랜드 프리미엄 </span>
+                <br />
               </div>
               <div className={styles.mainImageTitleBox1}>
-
-                <div className={styles.mainImageText1}>용인 힐스테이트 마크밸리</div>
-                <div className={styles.grandOpenText1}>3월 GRAND OPEN 예정</div> 
+                <div className={styles.mainImageText1}>
+                  용인 힐스테이트 마크밸리
+                </div>
+                <div className={styles.grandOpenText1}>3월 GRAND OPEN 예정</div>
               </div>
             </div>
           </div>
@@ -488,24 +523,27 @@ const Main = () => {
               "방문예약을 하시면 신세계 상품권 100% 증정 "
             </div>
             <div className={styles.text3}>
-              - 용인 중심상업지구 가장인접한 입지<br />
-              - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분<br />
-              - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교, 수변공원<br />
-              - 모두를 누리는 반도체밸리 주거 타운의 완성
+              - 용인 중심상업지구 가장인접한 입지
+              <br />
+              - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분
+              <br />
+              - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교,
+              수변공원
+              <br />- 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
-             <a
-             href="#"
-              onClick={(e) => {
-              e.preventDefault();
-              setIsInterestPopupOpen(true);
-              }}
-            className={styles.popupBtn}
-            >
-            관심고객 등록하기 {">"}
-            </a>
-          </div>   
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsInterestPopupOpen(true);
+                }}
+                className={styles.popupBtn}
+              >
+                관심고객 등록하기 {">"}
+              </a>
+            </div>
           </div>
 
           {/* <div className={styles.container7}>
@@ -531,16 +569,22 @@ const Main = () => {
                 완벽한 생활에서 준비된 미래까지
               </div>
               <div className={`${styles.text2} fadeUpRepeat`}>
-                기대한 모든 프리미엄이<br />
+                기대한 모든 프리미엄이
+                <br />
                 용인 힐스테이트 마크밸리에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
-                살수록 자부심이 차원이 다른<br />
-                프리미엄 주거라이프를 용인 힐스테이트 마크밸리 <br/>모델하우스에서 확인하세요
+                살수록 자부심이 차원이 다른
+                <br />
+                프리미엄 주거라이프를 용인 힐스테이트 마크밸리 <br />
+                모델하우스에서 확인하세요
               </div>
             </div>
-            <img src={section2_Image1} alt="용인 힐스테이트 마크밸리 mobile조감도-image1" />
+            <img
+              src={section2_Image1}
+              alt="용인 힐스테이트 마크밸리 mobile조감도-image1"
+            />
           </div>
 
           <div className={styles.container4}>
@@ -566,17 +610,19 @@ const Main = () => {
 
           {/* 관심고객 등록 섹션 (모바일 버전) */}
           <div className={styles.containerRegistration}>
-            <div className={styles.registrationHeader}>용인 힐스테이트 마크밸리</div>
-            <div className={styles.registrationDescription}>
-              방문예약
+            <div className={styles.registrationHeader}>
+              용인 힐스테이트 마크밸리
             </div>
+            <div className={styles.registrationDescription}>방문예약</div>
             {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
             <form
               className={styles.registrationForm}
               action="https://naver.me/5N1tYGcp"
               method="POST"
             >
-              <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
+              <label htmlFor="name">
+                이름<span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="text"
                 name="name"
@@ -585,7 +631,9 @@ const Main = () => {
                 onChange={handleInputChange}
                 required
               />
-              <label htmlFor="phonenumber">연락처<span style={{ color: 'red' }}>*</span></label>
+              <label htmlFor="phonenumber">
+                연락처<span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="tel"
                 name="phone"
@@ -594,7 +642,9 @@ const Main = () => {
                 onChange={handleInputChange}
                 required
               />
-              <label htmlFor="date of birth">생년월일 [6자리]<span style={{ color: 'red' }}>*</span></label>
+              <label htmlFor="date of birth">
+                생년월일 [6자리]<span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="text"
                 name="date of birth"
@@ -603,7 +653,9 @@ const Main = () => {
                 onChange={handleInputChange}
                 required
               />
-              <label htmlFor="adrees">주소<span style={{ color: 'red' }}>*</span></label>
+              <label htmlFor="adrees">
+                주소<span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="text"
                 name="date of birth"
@@ -612,15 +664,17 @@ const Main = () => {
                 onChange={handleInputChange}
                 required
               />
-              
-              
+
               <button type="submit">등록하기</button>
             </form>
           </div>
 
           <div className={styles.container2}>
             <div>
-              <img src={section1_Image1} alt="용인 힐스테이트 마크밸리 브랜드소개 mobile-image5" />
+              <img
+                src={section1_Image1}
+                alt="용인 힐스테이트 마크밸리 브랜드소개 mobile-image5"
+              />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
               </Link>
