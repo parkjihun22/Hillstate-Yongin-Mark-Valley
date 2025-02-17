@@ -15,8 +15,8 @@
 
 .subPinkImg {
   position: absolute;
-  left: 40vw; /* 화면 오른쪽 끝으로 배치 */
-  top: 1.5vw; /* 세로 중앙 배치 (필요에 따라 수정 가능) */
+  left: 42vw; /* 화면 오른쪽 끝으로 배치 */
+  top: -1vw; /* 세로 중앙 배치 (필요에 따라 수정 가능) */
   width: 8vw; /* 크기 조정 (필요에 따라 변경) */
   z-index: 1; /* 텍스트와 겹치지 않도록 설정 */
   animation: subPinkImgFadeIn 1.5s ease-out forwards 1.5s; /* 서서히 나타나게 */
@@ -45,7 +45,7 @@
 .mainImageTextBox {
   font-weight: 900;
   position: absolute;
-  top: 40%;
+  top: 18vw;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -95,7 +95,7 @@
   font-family: "Paperlogy-8ExtraBold";
   font-weight: 400;
   font-size: 2vw; /* 텍스트2 가장 큰 크기 */
-  margin: 1vw 0;
+  margin: 0.2vw 0;
   color: #ffffff; /* 파랑 색상 */
 }
 
@@ -147,15 +147,16 @@
 
   .mainImageTextSub1 {
     color: #ffffff; /* 회색 */
-    font-size: 3vw; /* 모바일에서 글자 크기 줄임 */
+    font-size: 1.5vw; /* 모바일에서 글자 크기 줄임 */
     line-height: 1.4;
-    margin-bottom: 5vw; /* 모바일에서 여백 조금 줄임 */
+    margin-bottom: 2vw; /* 모바일에서 여백 조금 줄임 */
     animation: slideUp 1s ease-out forwards; /* 텍스트 슬라이드 애니메이션 */
   }
 
   .mainImageText1 {
     font-family: "GongGothicMedium";
-    font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
+    font-size: 3vw; /* 모바일에서 더 작은 글자 크기 */
+    margin-top: 2vw;
     font-weight: bold;
     line-height: 0.5; /* 텍스트 간격 조정 */
     color: #ffffff; /* 파랑 색상 */
@@ -167,23 +168,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
     color: #890d18; /* 파랑 색상 */
   }
 
   .greyText1 {
-    font-size: 20px; /* 텍스트2 가장 큰 크기 */
+    font-size: 3vw; /* 텍스트2 가장 큰 크기 */
     font-family: "Paperlogy-8ExtraBold";
     color: #fbf70a; /* 회색 텍스트 */
   }
 
   .grandOpenText1 {
     font-family: "Paperlogy-8ExtraBold";
-    font-size: 25px;
+    font-size: 2.5vw;
     font-weight: bold;
     color: #890d18; /* 강조 색상 */
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2vw;
   }
 }
 
