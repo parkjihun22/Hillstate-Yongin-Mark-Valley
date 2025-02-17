@@ -12,6 +12,7 @@ import UnitplanBox from "../../components/UnitplanBox/UnitplanBox";
 import MobilePopup from "../../components/MobilePopup/MobilePopup";
 import Popup from "../../components/Popup/Popup";
 import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox";
+import InterestPopup from "../../components/InterestPopup/InterestPopup";
 
 import mainImage from "../../assets/Main/Main1.jpg";
 import section1_Image1 from "../../assets/Main/section1-img1.jpg";
@@ -38,7 +39,7 @@ import map1 from "../../assets/Main/map1.jpg";
 import mobilemap1 from "../../assets/Main/mobilemap1.jpg";
 
 import subpinkimg from "../../assets/Main/subpinkimg.jpg";
-import InterestPopup from "../../components/InterestPopup/InterestPopup";
+
 const section3Contents = [
   {
     imgSrc: section3_Image1,
@@ -220,7 +221,7 @@ const Main = () => {
             <FixIcon type="absolute" />
           </div>
 
-          {/* <div className={styles.section}>
+           <div className={styles.section}>
             <div className={styles.section1}>
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
@@ -234,7 +235,13 @@ const Main = () => {
                   - 모두를 누리는 용인 힐스테이트 마크밸리
                 </div>
                 <div className={styles.text4}>
-                  <a href="https://naver.me/5N1tYGcp" target="_black">
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setIsInterestPopupOpen(true);
+                    }}
+                  >
                     관심고객 등록하기 {">"}
                   </a>
                 </div>
@@ -246,7 +253,7 @@ const Main = () => {
                 </Link>
               </div>
             </div>
-          </div> */}
+          </div> 
 
           {/* <div className={styles.section}>
             <div className={styles.section8}>
@@ -546,7 +553,7 @@ const Main = () => {
             </div>
           </div>
 
-          {/* <div className={styles.container7}>
+           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
                 용인의 중심으로 사는<br />
@@ -561,7 +568,7 @@ const Main = () => {
               </div>
             </div>
             <img src={section8Img3} alt="용인 힐스테이트 마크밸리 mobile입지안내-image1" />
-          </div> */}
+          </div> 
 
           <div className={styles.container3}>
             <div className={styles.textbox}>
@@ -595,7 +602,7 @@ const Main = () => {
             </Link>
           </div>
 
-          {/* <div className={styles.container6}>
+           <div className={styles.container6}>
             {section3Contents.map((section, idx) => (
               <MobileSectionBox
                 key={idx}
@@ -606,7 +613,7 @@ const Main = () => {
                 subText2={section.text2}
               />
             ))}
-          </div> */}
+          </div> 
 
           {/* 관심고객 등록 섹션 (모바일 버전) */}
           <div className={styles.containerRegistration}>
