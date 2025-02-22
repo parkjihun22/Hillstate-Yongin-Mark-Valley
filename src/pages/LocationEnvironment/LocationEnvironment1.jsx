@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import styles from './LocationEnvironment.module.scss';
+import styles from "./LocationEnvironment.module.scss";
 import Header from "../../components/Header/Header";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
@@ -9,7 +9,6 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import LocationSectionBox from "../../components/LocationSectionBox/LocationSectionBox";
 import { Helmet } from "react-helmet-async";
-
 
 // import page1 from "../../assets/LocationEnvironment/LocationEnvironment1/page1.jpg";
 // import section2Image1 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-1.jpg";
@@ -31,71 +30,131 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 // ]
 
 const LocationEnvironment1 = () => {
-	const menuContents = [
-		{ title: "입지 안내영상", url: "/FloorPlan/videos" },
-		{ title: "입지안내", url: "/LocationEnvironment/intro" }, 
-		{ title: "프리미엄", url: "/LocationEnvironment/primium" },
-					];
-	const [isScroll, setIsScroll] = useState(false);
-	const { pathname } = useLocation(); // 현재 경로를 가져옴
+  const menuContents = [
+    { title: "입지 안내영상", url: "/FloorPlan/videos" },
+    { title: "입지안내", url: "/LocationEnvironment/intro" },
+    { title: "프리미엄", url: "/LocationEnvironment/primium" },
+  ];
+  const [isScroll, setIsScroll] = useState(false);
+  const { pathname } = useLocation(); // 현재 경로를 가져옴
 
-	useEffect(() => {
-		window.scrollTo(0, 0); // 페이지가 로드될 때 스크롤을 최상단으로 이동
-	}, [pathname]); // pathname이 변경될 때마다 실행
+  useEffect(() => {
+    window.scrollTo(0, 0); // 페이지가 로드될 때 스크롤을 최상단으로 이동
+  }, [pathname]); // pathname이 변경될 때마다 실행
 
-	// 화면 스크롤이 탑이 아니면 isScroll 값 true로 변환
-	useEffect(() => {
-		const handleScroll = () => {
-			if (window.scrollY > 0) {
-				setIsScroll(true);
-			} else {
-				setIsScroll(false);
-			}
-		};
+  // 화면 스크롤이 탑이 아니면 isScroll 값 true로 변환
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScroll(true);
+      } else {
+        setIsScroll(false);
+      }
+    };
 
-		window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	}, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
-	return (
-		<div className={styles.container}>
+  return (
+    <div className={styles.container}>
+      <Helmet>
+        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
 
-					<Helmet>
-					<title>힐스테이트 용인 마크밸리 - 입지안내</title>
-					<meta name="description" content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
-					<meta property="og:title" content="힐스테이트 용인 마크밸리 - 입지안내" />
-					<meta property="og:description" content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
-					<meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
-					<meta property="og:url" content="https://www.alwatanyh.com/LocationEnvironment/intro" />
-					<meta name="twitter:title" content="힐스테이트 용인 마크밸리 - 입지안내" />
-					<meta name="twitter:description" content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다" />
-					<meta name="twitter:image" content="hhttps://www.alwatanyh.com/Main1.png" />
-					<meta name="twitter:url" content="https://www.alwatanyh.com/LocationEnvironment/intro" />
-					</Helmet> 	
+        {/* SEO 최적화를 위한 메타 태그 */}
+        <title>힐스테이트 용인 마크밸리 - 입지안내</title>
+        <meta
+          name="description"
+          content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+        />
+        <meta
+          name="keywords"
+          content="힐스테이트용인마크밸리, 용인마크밸리, 힐스테이트용인마크밸리모델하우스"
+        />
+        <link
+          rel="canonical"
+          href="https://www.alwatanyh.com/LocationEnvironment/intro"
+        />
 
-			<Header isChanged={isScroll} />
-			<FixIcon />
+        {/* Open Graph - 소셜 미디어 공유 최적화 */}
+        <meta
+          property="og:title"
+          content="힐스테이트 용인 마크밸리 - 입지안내"
+        />
+        <meta
+          property="og:description"
+          content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+        />
+        <meta
+          property="og:image"
+          content="https://www.alwatanyh.com/Main1.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.alwatanyh.com/LocationEnvironment/intro"
+        />
+        <meta property="og:site_name" content="힐스테이트 용인 마크밸리" />
 
-			<Bener title="입지환경" />
+        {/* Twitter 카드 설정 */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="힐스테이트 용인 마크밸리 - 입지안내"
+        />
+        <meta
+          name="twitter:description"
+          content="힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.alwatanyh.com/Main1.png"
+        />
+        <meta
+          name="twitter:url"
+          content="https://www.alwatanyh.com/LocationEnvironment/intro"
+        />
 
-			<MenuBar contents={menuContents} />
-			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-			<h1 className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 - 입지안내</h1>
-			<p className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
-			</p>
+        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+        <script type="application/ld+json">
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 용인 마크밸리 - 입지안내",		"description": "힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",		"url": "https://www.alwatanyh.com/LocationEnvironment/intro"	}	`}
+        </script>
+      </Helmet>
 
-			<div className={styles.textBox}>
-				<div>살수록 높아질 힐스테이트</div>
-				<div>도시를 압도할 자부심 힐스테이트 용인 마크밸리</div>
-			</div>
+      <Header isChanged={isScroll} />
+      <FixIcon />
 
-			{/* <img src={page1} className={styles.image2} alt="힐스테이트 용인 마크밸리-image1" /> */}
-			
-			<Ready />
-			{/* <div className={styles.section2}>
+      <Bener title="입지환경" />
+
+      <MenuBar contents={menuContents} />
+      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+      <h1 className={styles.screenReaderOnly}>
+        힐스테이트 용인 마크밸리 - 입지안내
+      </h1>
+      <p className={styles.screenReaderOnly}>
+        힐스테이트 용인 마크밸리의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의
+        중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
+      </p>
+
+      <div className={styles.textBox}>
+        <div>살수록 높아질 힐스테이트</div>
+        <div>도시를 압도할 자부심 힐스테이트 용인 마크밸리</div>
+      </div>
+
+      {/* <img src={page1} className={styles.image2} alt="힐스테이트 용인 마크밸리-image1" /> */}
+
+      <Ready />
+      {/* <div className={styles.section2}>
 				{LocationSection.map((value, idx) => (
 					<LocationSectionBox
 						image={value.img}
@@ -105,7 +164,7 @@ const LocationEnvironment1 = () => {
 				))}
 			</div> */}
 
-			{/* <div className={styles.commonBox}>
+      {/* <div className={styles.commonBox}>
 				
 				<div className={styles.notice}>
 					※아주대학교 평택병원 및 카이스트 평택캠퍼스 관련 내용은 '평택시청' 2024년 주요업무계획을 참고하였습니다
@@ -135,9 +194,9 @@ const LocationEnvironment1 = () => {
 	
 			</div> */}
 
-			<Footer />
-		</div>
-	)
-}
+      <Footer />
+    </div>
+  );
+};
 
 export default LocationEnvironment1;

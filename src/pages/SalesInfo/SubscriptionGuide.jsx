@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import styles from './SalesInfo.module.scss';
+import styles from "./SalesInfo.module.scss";
 import Header from "../../components/Header/Header";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
@@ -18,9 +18,9 @@ const ComplexGuide1 = () => {
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
     { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
   ];
-  
+
   const [isScroll, setIsScroll] = useState(false);
-  const [isImage2Loaded, setIsImage2Loaded] = useState(false);  // 이미지 로드 상태
+  const [isImage2Loaded, setIsImage2Loaded] = useState(false); // 이미지 로드 상태
   const { pathname } = useLocation(); // 현재 경로를 가져옴
 
   useEffect(() => {
@@ -36,10 +36,10 @@ const ComplexGuide1 = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -50,20 +50,74 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
+      <Helmet>
+        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
 
-          <Helmet>
-          <title>힐스테이트 용인 마크밸리 - 체크포인트</title>
-          <meta name="description" content="힐스테이트 용인 마크밸리분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다." />
-          <meta property="og:title" content="힐스테이트 용인 마크밸리 - 체크포인트" />
-          <meta property="og:description" content="힐스테이트 용인 마크밸리 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다." />
-          <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
-          <meta property="og:url" content="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide" />
-          <meta name="twitter:title" content="힐스테이트 용인 마크밸리 - 체크포인트" />
-          <meta name="twitter:description" content="힐스테이트 용인 마크밸리 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다." />
-          <meta name="twitter:image" content="https://www.alwatanyh.com/Main1.png" />
-          <meta name="twitter:url" content="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide" />
-          </Helmet> 
-      
+        {/* SEO 최적화를 위한 메타 태그 */}
+        <title>힐스테이트 용인 마크밸리 - 체크포인트</title>
+        <meta
+          name="description"
+          content="힐스테이트 용인 마크밸리분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+        />
+        <meta
+          name="keywords"
+          content="힐스테이트용인마크밸리, 용인마크밸리, 힐스테이트용인마크밸리모델하우스"
+        />
+        <link
+          rel="canonical"
+          href="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"
+        />
+
+        {/* Open Graph - 소셜 미디어 공유 최적화 */}
+        <meta
+          property="og:title"
+          content="힐스테이트 용인 마크밸리 - 체크포인트"
+        />
+        <meta
+          property="og:description"
+          content="힐스테이트 용인 마크밸리분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.	"
+        />
+        <meta
+          property="og:image"
+          content="https://www.alwatanyh.com/Main1.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"
+        />
+        <meta property="og:site_name" content="힐스테이트 용인 마크밸리" />
+
+        {/* Twitter 카드 설정 */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="힐스테이트 용인 마크밸리 - 체크포인트"
+        />
+        <meta
+          name="twitter:description"
+          content="힐스테이트 용인 마크밸리분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.alwatanyh.com/Main1.png"
+        />
+        <meta
+          name="twitter:url"
+          content="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"
+        />
+
+        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+        <script type="application/ld+json">
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 용인 마크밸리 - 체크포인트",		"description": "힐스테이트 용인 마크밸리분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",		"url": "https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"	}	`}
+        </script>
+      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
@@ -72,8 +126,14 @@ const ComplexGuide1 = () => {
 
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 - 체크포인트</h1>
-			<p className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.
+      <h1 className={styles.screenReaderOnly}>
+        힐스테이트 용인 마크밸리 - 체크포인트
+      </h1>
+      <p className={styles.screenReaderOnly}>
+        힐스테이트 용인 마크밸리 분양 전 필수 체크포인트를 확인하세요. 청약
+        자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을
+        정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수
+        있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>

@@ -12,7 +12,6 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
 
-
 // const projectData = [
 // 	{ label: '사업명', value: '힐스테이트 용인 마크밸리' },
 // 	{ label: '사업위치', value: '평택 브레인시티 일반산업단지 공동3BL' },
@@ -57,19 +56,58 @@ const BusinessGuide1 = () => {
 	return (
 		<div className={styles.container}>
 
-<Helmet>
-					<title>힐스테이트 용인 마크밸리- 사업안내</title>
-					<meta name="description" content="힐스테이트 용인 마크밸리의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
-					<meta property="og:title" content="힐스테이트 용인 마크밸리 - 사업안내" />
-					<meta property="og:description" content="힐스테이트 용인 마크밸리의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
-					<meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
-					<meta property="og:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
-					<meta name="twitter:title" content="힐스테이트 용인 마크밸리 - 사업안내" />
-					<meta name="twitter:description" content="힐스테이트 용인 마크밸리의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
-					<meta name="twitter:image" content="https://www.alwatanyh.com/Main1.png" />
-					<meta name="twitter:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
-					</Helmet>       
-			
+			<Helmet>
+				{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+				<meta name="theme-color" content="#ffffff" />
+				<meta name="robots" content="index, follow" />
+
+				{/* SEO 최적화를 위한 메타 태그 */}
+				<title>힐스테이트 용인 마크밸리 - 사업안내</title>
+				<meta
+					name="description"
+					content="힐스테이트 용인 마크밸리의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+				/>
+				<meta
+					name="keywords"
+					content="힐스테이트용인마크밸리, 용인마크밸리, 힐스테이트용인마크밸리모델하우스"
+				/>
+				<link rel="canonical" href="https://www.alwatanyh.com/BusinessGuide/intro" />
+
+				{/* Open Graph - 소셜 미디어 공유 최적화 */}
+				<meta property="og:title" content="힐스테이트 용인 마크밸리 - 사업안내" />
+				<meta
+					property="og:description"
+					content="힐스테이트 용인 마크밸리의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+				/>
+				<meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+				<meta property="og:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
+				<meta property="og:site_name" content="힐스테이트 용인 마크밸리" />
+
+				{/* Twitter 카드 설정 */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="힐스테이트 용인 마크밸리 - 사업안내" />
+				<meta
+					name="twitter:description"
+					content="힐스테이트 용인 마크밸리의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+				/>
+				<meta name="twitter:image" content="https://www.alwatanyh.com/Main1.png" />
+				<meta name="twitter:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
+
+				{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+				<script type="application/ld+json">
+					{`
+					{
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "힐스테이트 용인 마크밸리 - 사업안내",
+						"description": "힐스테이트 용인 마크밸리의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다.",
+						"url": "https://www.alwatanyh.com/BusinessGuide/intro"
+					}
+					`}
+				</script>
+			</Helmet>
 
 			<Header isChanged={isScroll} />
 			<FixIcon />
@@ -78,8 +116,9 @@ const BusinessGuide1 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 - 사업안내</h1>
-			<p className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리는 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
+			<h1 className={styles.screenReaderOnly}>힐스테이트 용인 마크밸리 - 사업안내</h1>
+			<p className={styles.screenReaderOnly}>
+				힐스테이트 용인 마크밸리는 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
 			</p>
 
 			<div className={styles.textBox}>
