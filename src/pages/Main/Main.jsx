@@ -14,6 +14,8 @@ import MobilePopup from "../../components/MobilePopup/MobilePopup";
 import Popup from "../../components/Popup/Popup";
 import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox";
 import InterestPopup from "../../components/InterestPopup/InterestPopup";
+import UrlContainer from "../../components/UrlContainer/UrlContainer";
+
 
 import mainImage from "../../assets/Main/Main1.jpg";
 import section1_Image1 from "../../assets/Main/section1-img1.jpg";
@@ -163,84 +165,6 @@ const Main = () => {
 
   return (
     <>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-
-        {/* SEO 최적화를 위한 메타 태그 추가 */}
-        <title>힐스테이트 용인 마크밸리 - 프리미엄 아파트</title>
-        <meta
-          name="description"
-          content="힐스테이트 용인 마크밸리ㅣ☎1533-8848ㅣ선착순개시ㅣ힐스테이트 용인마크밸리 모델하우스ㅣ용인 힐스테이트 마크밸리ㅣ힐스테이트 용인ㅣ방문예약"
-        />
-        <meta
-          name="keywords"
-          content="힐스테이트용인마크밸리, 용인마크밸리, 힐스테이트용인마크밸리모델하우스"
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.alwatanyh.com/" />
-
-        {/* 모바일 친화성을 위한 추가 태그 */}
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="theme-color" content="#ffffff" />
-
-        {/* Open Graph - 소셜 미디어(페이스북, LinkedIn 등) 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트 용인 마크밸리 - 프리미엄 아파트"
-        />
-        <meta
-          property="og:description"
-          content="힐스테이트 용인 마크밸리ㅣ☎1533-8848ㅣ선착순개시ㅣ힐스테이트 용인마크밸리 모델하우스ㅣ용인 힐스테이트 마크밸리ㅣ힐스테이트 용인ㅣ방문예약"
-        />
-        <meta property="og:url" content="https://www.alwatanyh.com/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://www.alwatanyh.com/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
-        />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트 용인 마크밸리 - 프리미엄 아파트"
-        />
-        <meta
-          name="twitter:description"
-          content="힐스테이트 용인 마크밸리ㅣ☎1533-8848ㅣ선착순개시ㅣ힐스테이트 용인마크밸리 모델하우스ㅣ용인 힐스테이트 마크밸리ㅣ힐스테이트 용인ㅣ방문예약"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png" // 실제 이미지 URL로 변경하세요.
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도를 높이기 위한 스키마 마크업 */}
-        <script type="application/ld+json">
-          {`
-      {
-        "@context": "http://schema.org",
-        "@type": "ApartmentComplex",
-        "name": "힐스테이트 용인 마크밸리",
-        "description": "브랜드 평판 1위 프리미엄 아파트. 방문 예약 시 신세계상품권 증정 등 다양한 혜택을 제공합니다.",
-        "url": "https://www.alwatanyh.com/",
-        "image": "https://www.alwatanyh.com/Main1.png",
-        "telephone": "1533-8848",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "주소정보를 입력하세요",
-          "addressLocality": "용인",
-          "addressRegion": "경기도",
-          "postalCode": "우편번호"
-        }
-      }
-    `}
-        </script>
-      </Helmet>
 
       {!isMobile ? (
         // PC 버전
@@ -272,7 +196,7 @@ const Main = () => {
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="힐스테이트 용인 마크밸리-mainimage1"
+              alt="힐스테이트 용인마크밸리-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
@@ -284,18 +208,21 @@ const Main = () => {
                 <div className={styles.mainImageText}>용인이 기다린</div>
                 <div className={styles.mainImageLine}></div>
                 <div className={styles.mainImageText}>
-                  힐스테이트 용인 마크밸리
+                  힐스테이트 용인마크밸리
                 </div>
                 <div className={styles.grandOpenText}>3월 GRAND OPEN 예정</div>
               </div>
               <div>
-                <a href="#interestForm">
+              <button
+                  onClick={() => setIsInterestPopupOpen(true)}
+                  className={styles.subPinkBtn}
+                >
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="힐스테이트 용인 마크밸리 관심고객등록"
+                    alt="힐스테이트용인마크밸리 관심고객등록 사진"
                   />
-                </a>
+                </button>
               </div>
             </div>
             <FixIcon type="absolute" />
@@ -311,8 +238,8 @@ const Main = () => {
                 <div className={styles.text3}>
                   - 용인 중심상업지구 매우인접 <br />
                   - 첨단 아주대학교 종합병원 도보 5분 <br />
-                  - 평택 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권{" "}
-                  <br />- 모두를 누리는 힐스테이트 용인 마크밸리
+                  - 용인 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권{" "}
+                  <br />- 모두를 누리는 힐스테이트 용인마크밸리
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -329,7 +256,7 @@ const Main = () => {
               <div className={styles.menuBox}>
                 <img
                   src={section1_Image1}
-                  alt="힐스테이트 용인 마크밸리 브랜드소개-image2"
+                  alt="힐스테이트 용인마크밸리 브랜드소개-image2"
                 />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
@@ -343,17 +270,17 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>최고의 브랜드 아파트 힐스테이트 용인 마크밸리</span>
+                  <span>최고의 브랜드 아파트 힐스테이트 용인마크밸리</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    힐스테이트 용인 마크밸리가 함께합니다
+                    힐스테이트 용인마크밸리가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="힐스테이트 용인 마크밸리 입지환경소개-image2" />
+              <img src={section8Img3} alt="힐스테이트 용인마크밸리 입지환경소개-image2" />
             </div>
           </div> */}
 
@@ -366,7 +293,7 @@ const Main = () => {
                 <div className={`${styles.text2} fadeUpRepeat`}>
                   기대한 모든 프리미엄이
                   <br />
-                  힐스테이트 용인 마크밸리에서 펼쳐집니다
+                  힐스테이트 용인마크밸리에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -386,7 +313,7 @@ const Main = () => {
               </div>
               <img
                 src={section2_Image1}
-                alt="힐스테이트 용인 마크밸리아파트 조감도-image3"
+                alt="힐스테이트 용인마크밸리아파트 조감도-image3"
               />
             </div>
           </div>
@@ -410,8 +337,8 @@ const Main = () => {
           {/* <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="힐스테이트 용인 마크밸리 브랜드소개-image4" />
-                <div className={styles.text1}>힐스테이트 용인 마크밸리</div>
+                <img src={section4_Image1} alt="힐스테이트 용인마크밸리 브랜드소개-image4" />
+                <div className={styles.text1}>힐스테이트 용인마크밸리</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -431,14 +358,14 @@ const Main = () => {
               <div className={styles.registrationInfo}>
                 <div className={styles.text1}>
                   <p>
-                    힐스테이트 용인 마크밸리
+                    힐스테이트 용인 마크밸리 모델하우스
                     <br />
                     주변이 궁금하시나요?
                   </p>
                 </div>
                 <div className={styles.text2}>
                   <p>
-                    힐스테이트 용인 마크밸리
+                    힐스테이트 용인 마크밸리 
                     <br />
                     현장 정보 및 견본주택 정보를 보실 수 있습니다.
                   </p>
@@ -523,22 +450,23 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                힐스테이트 용인 마크밸리<br />
+                힐스테이트 용인마크밸리<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    힐스테이트 용인 마크밸리가 함께합니다
+                    힐스테이트 용인마크밸리가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="힐스테이트 용인 마크밸리 오시는길안내-image1" />
+              <img src={map1} alt="힐스테이트 용인마크밸리 오시는길안내-image1" />
             </div>
           </div> */}
 
           <div className={styles.section5}>
+            <UrlContainer />
             <Footer />
           </div>
           {/* 방문예약 팝업 (PC) */}
@@ -588,7 +516,7 @@ const Main = () => {
             <img
               src={mobileImageMain}
               className={styles.mainImage}
-              alt="힐스테이트 용인 마크밸리 mobilemain-image1"
+              alt="힐스테이트 용인마크밸리 mobilemain-image1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
@@ -600,7 +528,7 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>
-                  힐스테이트 용인 마크밸리
+                  힐스테이트 용인마크밸리
                 </div>
                 <div className={styles.grandOpenText1}>3월 GRAND OPEN 예정</div>
               </div>
@@ -617,7 +545,7 @@ const Main = () => {
               <br />
               - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분
               <br />
-              - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교,
+              - 용인 지제역 KTX, GTX-A · C 확정 삼성전자 용인캠퍼스, 초등학교,
               수변공원
               <br />- 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
@@ -648,13 +576,13 @@ const Main = () => {
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해
                   <br />
-                  힐스테이트 용인 마크밸리가 함께합니다
+                  힐스테이트 용인마크밸리가 함께합니다
                 </div>
               </div>
             </div>
             <img
               src={section8Img3}
-              alt="힐스테이트 용인 마크밸리 mobile입지안내-image1"
+              alt="용인마크밸리 mobile입지안내-image1"
             />
           </div>
 
@@ -666,19 +594,19 @@ const Main = () => {
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이
                 <br />
-                힐스테이트 용인 마크밸리에서 펼쳐집니다
+                힐스테이트 용인마크밸리에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른
                 <br />
-                프리미엄 주거라이프를 힐스테이트 용인 마크밸리 <br />
+                프리미엄 주거라이프를 용인마크밸리 <br />
                 모델하우스에서 확인하세요
               </div>
             </div>
             <img
               src={section2_Image1}
-              alt="힐스테이트 용인 마크밸리 mobile조감도-image1"
+              alt="용인마크밸리 mobile조감도-image1"
             />
           </div>
 
@@ -706,7 +634,7 @@ const Main = () => {
           {/* 관심고객 등록 섹션 (모바일 버전) */}
           <div className={styles.containerRegistration}>
             <div className={styles.registrationHeader}>
-              힐스테이트 용인 마크밸리
+              힐스테이트 용인마크밸리
             </div>
             <div className={styles.registrationDescription}>방문예약</div>
             {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
@@ -768,7 +696,7 @@ const Main = () => {
             <div>
               <img
                 src={section1_Image1}
-                alt="힐스테이트 용인 마크밸리 브랜드소개 mobile-image5"
+                alt="용인마크밸리 브랜드소개 mobile-image5"
               />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
@@ -778,11 +706,12 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="힐스테이트 용인 마크밸리 오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="힐스테이트 용인마크밸리 오시는길안내-mobileimage2" />
             </div>
           </div> */}
 
           <div className={styles.section5}>
+            <UrlContainer />
             <Footer />
             <FixIcon />
           </div>

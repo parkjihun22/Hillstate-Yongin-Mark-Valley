@@ -10,7 +10,7 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
           &times;
         </button>
         <div className={styles.headerImage}>
-          <img src={bannerImage} alt="Registration Banner" />
+          <img src={bannerImage} alt="힐스테이트 용인마크밸리-Registration Banner" />
         </div>
         <div className={styles.formContainer}>
           {/* <h2>모델하우스 방문예약 </h2> */}
