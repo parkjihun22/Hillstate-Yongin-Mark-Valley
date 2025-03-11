@@ -98,10 +98,10 @@ const Main = () => {
   const [registration, setRegistration] = useState({
     name: "",
     phone: "",
-    email: "",
-    visitDate: "",
+    birthday: "",
+    residence: "",
   });
-
+  
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setRegistration((prev) => ({
@@ -265,12 +265,12 @@ const Main = () => {
             </div>
           </div>
 
-          {/* <div className={styles.section}>
+          <div className={styles.section}>
             <div className={styles.section8}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>최고의 브랜드 아파트 힐스테이트 용인마크밸리</span>
+                  <span>최고의 브랜드 아파트<br /> 힐스테이트 용인마크밸리</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
@@ -282,7 +282,7 @@ const Main = () => {
               </div>
               <img src={section8Img3} alt="힐스테이트 용인마크밸리 입지환경소개-image2" />
             </div>
-          </div> */}
+          </div>
 
           <div className={styles.section}>
             <div className={styles.section2}>
@@ -318,7 +318,7 @@ const Main = () => {
             </div>
           </div>
 
-          {/* <div className={styles.section}>
+          <div className={styles.section}>
             <div className={styles.section3}>
               {section3Contents.map((section, index) => (
                 <div key={index} className={styles.box}>
@@ -332,9 +332,9 @@ const Main = () => {
                 </div>
               ))}
             </div>
-          </div> */}
+          </div>
 
-          {/* <div className={styles.section}>
+          <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
                 <img src={section4_Image1} alt="힐스테이트 용인마크밸리 브랜드소개-image4" />
@@ -348,7 +348,7 @@ const Main = () => {
                 <Link to="/FloorPlan/84A" className={styles.text2}>더 알아보기 {">"}</Link>
               </div>
             </div>
-          </div>*/}
+          </div>
           <div id="interestForm" className={styles.section}></div>
 
           {/* 관심고객 등록 섹션 (PC 버전) */}
@@ -384,12 +384,8 @@ const Main = () => {
               </div>
               {/* 오른쪽 관심고객 등록 폼 영역 */}
               <div className={styles.registrationSection}>
-                <div className={styles.registrationHeader}>
-                  대전 하늘채 스카이앤 3차
-                </div>
-                <div className={styles.registrationDescription}>
-                  관심고객등록
-                </div>
+                
+                <div className={styles.registrationDescription}>관심고객등록</div>
                 {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
                 <form
                   className={styles.registrationForm}
@@ -418,28 +414,33 @@ const Main = () => {
                     onChange={handleInputChange}
                     required
                   />
-                  <label htmlFor="date of birth">
-                    생년월일 [6자리]<span style={{ color: "red" }}>*</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="date of birth"
-                    placeholder=""
-                    value={registration.phone}
-                    onChange={handleInputChange}
-                    required
-                  />
-                  <label htmlFor="adrees">
-                    주소<span style={{ color: "red" }}>*</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="date of birth"
-                    placeholder=""
-                    value={registration.phone}
-                    onChange={handleInputChange}
-                    required
-                  />
+                  {/* 날짜 선택 입력란에 라벨 추가 */}
+
+                  <div className={styles.registrationForm}>
+                  <label htmlFor="birthday">
+              생년월일(6자리)<span style={{ color: "red" }}>*</span>
+            </label>
+            <input
+              type="text"
+              name="birthday"
+              placeholder="예: 900101"
+              value={registration.birthday}
+              onChange={handleInputChange}
+              required
+            />
+
+            <label htmlFor="residence">
+              거주지역<span style={{ color: "red" }}>*</span>
+            </label>
+            <input
+              type="text"
+              name="residence"
+              placeholder="거주지역 입력"
+              value={registration.residence}
+              onChange={handleInputChange}
+              required
+            />
+                  </div>
                   <button type="submit">등록하기</button>
                 </form>
               </div>
@@ -632,10 +633,8 @@ const Main = () => {
 
           {/* 관심고객 등록 섹션 (모바일 버전) */}
           <div className={styles.containerRegistration}>
-            <div className={styles.registrationHeader}>
-              힐스테이트 용인마크밸리
-            </div>
-            <div className={styles.registrationDescription}>방문예약</div>
+            
+            <div className={styles.registrationDescription}>관심고객 등록</div>
             {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
             <form
               className={styles.registrationForm}
@@ -664,28 +663,30 @@ const Main = () => {
                 onChange={handleInputChange}
                 required
               />
-              <label htmlFor="date of birth">
-                생년월일 [6자리]<span style={{ color: "red" }}>*</span>
-              </label>
-              <input
-                type="text"
-                name="date of birth"
-                placeholder=""
-                value={registration.phone}
-                onChange={handleInputChange}
-                required
-              />
-              <label htmlFor="adrees">
-                주소<span style={{ color: "red" }}>*</span>
-              </label>
-              <input
-                type="text"
-                name="date of birth"
-                placeholder=""
-                value={registration.phone}
-                onChange={handleInputChange}
-                required
-              />
+              <label htmlFor="birthday">
+      생년월일(6자리)<span style={{ color: "red" }}>*</span>
+    </label>
+    <input
+      type="text"
+      name="birthday"
+      placeholder="예: 900101"
+      value={registration.birthday}
+      onChange={handleInputChange}
+      required
+    />
+
+    <label htmlFor="residence">
+      거주지역<span style={{ color: "red" }}>*</span>
+    </label>
+    <input
+      type="text"
+      name="residence"
+      placeholder="거주지역을 입력하세요"
+      value={registration.residence}
+      onChange={handleInputChange}
+      required
+    />
+              
 
               <button type="submit">등록하기</button>
             </form>

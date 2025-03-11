@@ -147,15 +147,14 @@
 
   .mainImageTextSub1 {
     color: #ffffff; /* 회색 */
-    font-size: 1.5vw; /* 모바일에서 글자 크기 줄임 */
+    font-size: 3vw; /* 모바일에서 글자 크기 줄임 */
     line-height: 1.4;
     margin-bottom: 2vw; /* 모바일에서 여백 조금 줄임 */
     animation: slideUp 1s ease-out forwards; /* 텍스트 슬라이드 애니메이션 */
   }
 
   .mainImageText1 {
-    font-family: "GongGothicMedium";
-    font-size: 3vw; /* 모바일에서 더 작은 글자 크기 */
+    font-size: 4.5vw; /* 모바일에서 더 작은 글자 크기 */
     margin-top: 2vw;
     font-weight: bold;
     line-height: 0.5; /* 텍스트 간격 조정 */
@@ -164,7 +163,7 @@
   }
 
   .mainImageTitleBox1 {
-    font-size: 40px; /* 텍스트2 가장 큰 크기 */
+    font-size: 5vw; /* 텍스트2 가장 큰 크기 */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,17 +172,16 @@
 
   .greyText1 {
     font-size: 3vw; /* 텍스트2 가장 큰 크기 */
-    font-family: "Paperlogy-8ExtraBold";
+
     color: #fbf70a; /* 회색 텍스트 */
   }
 
   .grandOpenText1 {
-    font-family: "Paperlogy-8ExtraBold";
-    font-size: 2.5vw;
-    font-weight: bold;
+    font-size: 4vw;
+    font-family: 'Paperlogy-8ExtraBold';
     color: #890d18; /* 강조 색상 */
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 4vw;
   }
 }
 
@@ -514,7 +512,7 @@
   }
 
   .textBox {
-    margin-top: 8vw;
+    margin-top: 11vw;
     margin-left: 4vw;
 
     width: 45vw;
@@ -528,7 +526,7 @@
     .text2 {
       position: relative;
       top: 2vw;
-      left: 90%;
+      left: 80%;
       width: 100%;
       text-align: center;
       text-decoration: none;
@@ -1012,24 +1010,22 @@
   background-color: #fffbf5;
 
   .textBox {
+    font-family: 'SUIT-Regular';
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 
-    margin: 12vw 0 0 6vw;
+    margin: 15vw 0 0 6vw;
     width: 80%;
 
     .title {
       color: #890d18;
-      font-family: "NanumHumanTTFBold";
       font-size: 2vw;
-      font-weight: 600;
       line-height: 3.5vw;
 
       span:first-of-type {
         color: #b88c52;
-        font-weight: 800;
         font-size: 2.5vw;
       }
     }
@@ -1044,14 +1040,13 @@
       width: 100%;
 
       .textLine {
-        border: 4px solid #890d18;
+        border: 2px solid #890d18;
         width: 0;
         height: 3.5vw;
       }
 
       .subText {
         color: #890d18;
-        font-family: "NanumHumanTTFBold";
         font-size: 1.3vw;
         line-height: 2vw;
       }
@@ -1059,8 +1054,8 @@
   }
 
   img {
-    margin: 8vw 5vw 2vw 0;
-    width: 40vw;
+    margin: 11vw 5vw 2vw 0;
+    width: 50vw;
   }
 }
 

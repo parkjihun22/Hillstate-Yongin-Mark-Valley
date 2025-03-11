@@ -20,7 +20,9 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
       });
 
       if (response.ok) {
-        setSuccessMessage("등록이 완료되었습니다.전문상담원이 확인즉시 연락드리도록 하겠습니다.");
+        setSuccessMessage(
+          "등록이 완료되었습니다. 전문상담원이 확인즉시 연락드리도록 하겠습니다."
+        );
       } else {
         setSuccessMessage("등록에 실패했습니다. 다시 시도해주세요.");
       }
@@ -69,9 +71,38 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
                   required
                 />
               </div>
-
-              <button type="submit" className={styles.submitBtn} disabled={isSubmitting}>
-                {isSubmitting ? "등록 중..." : "등록하기"}
+              <div className={styles.formGroup}>
+                <label htmlFor="birthday">
+                  생년월일(6자리)<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  name="birthday"
+                  value={registration.birthday}
+                  onChange={handleInputChange}
+                  placeholder="예: 900101"
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="residence">
+                  거주지역<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  name="residence"
+                  value={registration.residence}
+                  onChange={handleInputChange}
+                  placeholder="예 : 용인시"
+                  required
+                />
+              </div>
+              <button
+                type="submit"
+                className={styles.submitBtn}
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? "등록 중..." : "사전청약 관심고객 등록"}
               </button>
             </form>
           )}
