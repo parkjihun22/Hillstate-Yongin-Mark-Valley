@@ -10,24 +10,24 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import LocationSectionBox from "../../components/LocationSectionBox/LocationSectionBox";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/LocationEnvironment/LocationEnvironment1/page1.jpg";
-// import section2Image1 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-1.jpg";
-// import section2Image2 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-2.jpg";
-// import section2Image3 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-3.jpg";
-// import section2Image4 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-4.jpg";
-// import section2Image5 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-5.jpg";
-// import section2Image6 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-6.jpg";
-import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
+import page1 from "../../assets/LocationEnvironment/LocationEnvironment1/page1.jpg";
+import section2Image1 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-1.jpg";
+import section2Image2 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-2.jpg";
+import section2Image3 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-3.jpg";
+import section2Image4 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-4.jpg";
+import section2Image5 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-5.jpg";
+import section2Image6 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-6.jpg";
+
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 
-// const LocationSection = [
-// 	{ img: section2Image1, titleText: "확정된 개발호재로<br />평택을 더 새롭게 살수록 높아지는 미래가치", contentText: "삼성전자 평택캠퍼스 세계 최대 160만평규모(약289㎡)<br />최첨단 반도체 산업의 최중심<br />" },
-// 	{ img: section2Image2, titleText: "도보5분으로<br />의세권을 누리릴 수 있는 프리미엄", contentText: "아주대 첨단의료AI복합타운<br />AI활용 첨단의료시설로<br /> 500병상 규모로 2030년 개원 예정" },
-// 	{ img: section2Image3, titleText: "수도권 시내·외를 더 빠르게<br />광역으로 통하는 특급 교통", contentText: "지제역 복한환승센터,송탄IC<br />1호선, SRT (현재운행중), KTX, GTX-A/C 확정<br /> 수도권 내 유일 펜타역세권 프리미엄" },
-// 	{ img: section2Image4, titleText: "학교, 쇼핑,병원, 문화를 더 가깝게 한걸음에<br />모두 갖춘 중심생활", contentText: "브레인시티내 초·중·고 모두 개교예정 · 카이스트 평택 캠퍼스 2027년 개교예정<br />이마트, 코스트코 , CGV 등 편의시설 인접" },
-// 	{ img: section2Image5, titleText: "브레인시티내 최초이자<br />마지막 1군브랜드 ", contentText: "푸르지오 프리미엄" },
-// 	{ img: section2Image6, titleText: "브레인시티 최대 중심상업지구<br />도보 3분권내 초근접<br /> 마지막 브랜드단지  ", contentText: " 브레인시티 대장입지 <br />푸르지오 프리미엄에 더한 슬세권 프리미엄" },
-// ]
+const LocationSection = [
+	{ img: section2Image1, titleText: "확정된 개발호재로<br />평택을 더 새롭게 살수록 높아지는 미래가치", contentText: "삼성전자 평택캠퍼스 세계 최대 160만평규모(약289㎡)<br />최첨단 반도체 산업의 최중심<br />" },
+	{ img: section2Image2, titleText: "도보5분으로<br />의세권을 누리릴 수 있는 프리미엄", contentText: "아주대 첨단의료AI복합타운<br />AI활용 첨단의료시설로<br /> 500병상 규모로 2030년 개원 예정" },
+	{ img: section2Image3, titleText: "수도권 시내·외를 더 빠르게<br />광역으로 통하는 특급 교통", contentText: "지제역 복한환승센터,송탄IC<br />1호선, SRT (현재운행중), KTX, GTX-A/C 확정<br /> 수도권 내 유일 펜타역세권 프리미엄" },
+	{ img: section2Image4, titleText: "학교, 쇼핑,병원, 문화를 더 가깝게 한걸음에<br />모두 갖춘 중심생활", contentText: "브레인시티내 초·중·고 모두 개교예정 · 카이스트 평택 캠퍼스 2027년 개교예정<br />이마트, 코스트코 , CGV 등 편의시설 인접" },
+	{ img: section2Image5, titleText: "브레인시티내 최초이자<br />마지막 1군브랜드 ", contentText: "푸르지오 프리미엄" },
+	{ img: section2Image6, titleText: "브레인시티 최대 중심상업지구<br />도보 3분권내 초근접<br /> 마지막 브랜드단지  ", contentText: " 브레인시티 대장입지 <br />푸르지오 프리미엄에 더한 슬세권 프리미엄" },
+]
 
 const LocationEnvironment1 = () => {
   const menuContents = [
@@ -151,10 +151,10 @@ const LocationEnvironment1 = () => {
         <div>도시를 압도할 자부심 힐스테이트 용인 마크밸리</div>
       </div>
 
-      {/* <img src={page1} className={styles.image2} alt="힐스테이트 용인 마크밸리-image1" /> */}
+      <img src={page1} className={styles.image2} alt="힐스테이트 용인 마크밸리-image1" />
 
-      <Ready />
-      {/* <div className={styles.section2}>
+   
+      <div className={styles.section2}>
 				{LocationSection.map((value, idx) => (
 					<LocationSectionBox
 						image={value.img}
@@ -162,7 +162,7 @@ const LocationEnvironment1 = () => {
 						text={value.contentText}
 					/>
 				))}
-			</div> */}
+			</div>
 
       {/* <div className={styles.commonBox}>
 				

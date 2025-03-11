@@ -154,7 +154,7 @@ const Brand1 = () => {
         className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}
       >
         <div>생활의 모든 것을 한걸음에</div>
-        <div>힐스테이트, 브레인시티의 중심에 서다</div>
+        <div>힐스테이트, 반도체클러스터의 중심에 서다</div>
       </div>
 
       <img
