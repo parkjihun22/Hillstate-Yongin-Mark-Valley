@@ -49,7 +49,7 @@ const Footer = () => {
           {/* 상단 로고(텍스트/이미지) */}
           <div className={styles.mobileLogo}>
             {/* 원하는 로고/텍스트로 변경하세요 */}
-            <h2>Hillstate</h2>
+            <h2>힐스테이트</h2>
             <p>힐스테이트 용인마크밸리</p>
           </div>
 
