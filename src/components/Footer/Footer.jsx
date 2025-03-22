@@ -11,12 +11,11 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 
 // FAMILY SITE 목록 예시
 const partnerSites = [
-  { name: "강동역 센트럴파크", url: "https://www.donnyien.com" },
   { name: "엘리프 세종 5-1", url: "https://www.sekailog.com" },
+  { name: "강동역 센트럴파크", url: "https://www.donnyien.com" },
   { name: "용인 푸르지오 원클러스터 2단지", url: "https://www.beyinegzersizi.com" },
   { name: "도안 벽산블루밍", url: "https://www.abcya4.com/" },
   { name: "이편한세상 성성호수공원", url: "https://www.3sha-re.com/" },
-  { name: "힐스테이트 용인마크밸리", url: "https://www.alwatanyh.com" },
   { name: "평택화양 동문디이스트", url: "https://www.verficktescheisse.com" },
   { name: "평택 브레인시티 푸르지오", url: "https://www.a7lashare.com/" },
   { name: "평택 브레인시티 수자인", url: "https://www.vaaclubs.com/" },
@@ -27,10 +26,10 @@ const Footer = () => {
   // 모바일 여부 체크
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
-  // FAMILY SITE 열림/닫힘
+  // FAMILY SITE 열림/닫힘 상태 (사용자 인터랙션용)
   const [isFamilyOpen, setFamilyOpen] = useState(false);
 
-  // (선택) 방문예약 팝업 사용 시
+  // (선택) 방문예약 팝업 사용 시 상태 관리
   const [isPopupOpen, setPopupOpen] = useState(false);
   const [registration, setRegistration] = useState({ name: "", phone: "" });
   const handleInputChange = (e) => {
@@ -38,18 +37,26 @@ const Footer = () => {
     setRegistration((prev) => ({ ...prev, [name]: value }));
   };
 
+  // FAMILY SITE 목록 JSX (재사용)
+  const familySiteList = (
+    <ul id="family-site-list" className={styles.familyList}>
+      {partnerSites.map((site, idx) => (
+        <li key={idx}>
+          <a href={site.url} target="_blank" rel="noopener noreferrer">
+            {site.name}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+
   return (
     <footer className={styles.footerContainer}>
-      {/* 
-        ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
-        모바일 레이아웃 (첫 번째 스크린샷처럼)
-      */}
       {isMobile ? (
         <div className={styles.mobileWrapper}>
-          {/* 상단 로고(텍스트/이미지) */}
+          {/* 상단 로고 */}
           <div className={styles.mobileLogo}>
-            {/* 원하는 로고/텍스트로 변경하세요 */}
-            <h2>힐스테이트</h2>
+            <h2>현대건설</h2>
             <p>힐스테이트 용인마크밸리</p>
           </div>
 
@@ -77,13 +84,12 @@ const Footer = () => {
               <strong>시&nbsp;행&nbsp;사</strong> (주)현대건설
             </div>
             <div>
-              <strong>시&nbsp;공&nbsp;사</strong> (주)현대건설
+              <strong>시&nbsp;공&nbsp;사</strong> (주)현대엔지니어링
             </div>
           </div>
 
           {/* 방문예약 & FAMILY SITE 버튼 */}
           <div className={styles.mobileButtons}>
-            {/* 방문예약 (팝업) */}
             <button
               type="button"
               className={styles.reserveBtn}
@@ -92,48 +98,33 @@ const Footer = () => {
               방문예약 바로가기
             </button>
 
-            {/* FAMILY SITE 드롭다운 */}
             <div className={styles.familySite}>
               <button
                 type="button"
                 className={styles.familyBtn}
                 onClick={() => setFamilyOpen(!isFamilyOpen)}
+                aria-expanded={isFamilyOpen}
+                aria-controls="family-site-list"
               >
                 FAMILY SITE {isFamilyOpen ? <FaChevronUp /> : <FaChevronDown />}
               </button>
-              {isFamilyOpen && (
-                <ul className={styles.familyList}>
-                  {partnerSites.map((site, idx) => (
-                    <li key={idx}>
-                      <a
-                        href={site.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {site.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              )}
+              {/* JS 실행 시 토글에 따른 링크 목록 */}
+              {isFamilyOpen && familySiteList}
             </div>
           </div>
 
           {/* COPYRIGHT */}
           <div className={styles.mobileCopyright}>
-            <p>COPYRIGHTⓒ 2024 힐스테이트 용인마크밸리 INC. ALL RIGHTS RESERVED.</p>
+            <p>
+              COPYRIGHTⓒ 2024 힐스테이트 용인마크밸리 INC. ALL RIGHTS RESERVED.
+            </p>
           </div>
         </div>
       ) : (
         <>
-          {/* 
-            ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
-            데스크톱 레이아웃 (간단 예시)
-            - 실제 사이트에 맞춰 자유롭게 수정하세요
-          */}
           <div className={styles.desktopWrapper}>
             <div className={styles.leftSide}>
-              <h2>힐스테이트 용인마크밸리</h2>
+              <h2>현대건설 힐스테이트 용인마크밸리</h2>
               <p>
                 본 웹사이트에서 사용된 사진 및 이미지는 소비자의 이해를 돕기 위한
                 것으로 실제와 다를 수 있습니다.
@@ -152,7 +143,7 @@ const Footer = () => {
                   <strong>시&nbsp;행&nbsp;사</strong> (주)현대건설
                 </div>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)현대건설
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)현대엔지니어링
                 </div>
               </div>
               <div className={styles.buttonRow}>
@@ -168,36 +159,31 @@ const Footer = () => {
                     type="button"
                     className={styles.familyBtn}
                     onClick={() => setFamilyOpen(!isFamilyOpen)}
+                    aria-expanded={isFamilyOpen}
+                    aria-controls="family-site-list"
                   >
                     FAMILY SITE {isFamilyOpen ? <FaChevronUp /> : <FaChevronDown />}
                   </button>
-                  {isFamilyOpen && (
-                    <ul className={styles.familyList}>
-                      {partnerSites.map((site, idx) => (
-                        <li key={idx}>
-                          <a
-                            href={site.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {site.name}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
+                  {isFamilyOpen && familySiteList}
                 </div>
               </div>
             </div>
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2024 힐스테이트 용인마크밸리 INC. ALL RIGHTS
-              RESERVED.
+              COPYRIGHTⓒ 2024 힐스테이트 용인마크밸리 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>
       )}
+
+      {/* <noscript> 블록: 자바스크립트 미실행 환경에서도 파트너 링크 노출 */}
+      <noscript>
+        <div className={styles.familySiteNoscript}>
+          <h3>FAMILY SITE</h3>
+          {familySiteList}
+        </div>
+      </noscript>
 
       {/* (선택) 팝업 사용 시 */}
       {isPopupOpen && (
