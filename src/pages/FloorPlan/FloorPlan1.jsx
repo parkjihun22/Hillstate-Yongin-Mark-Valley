@@ -15,12 +15,12 @@ import { Helmet } from "react-helmet-async";
 
 const FloorPlan1 = () => {
   const menuContents = [
-    { title: "59A", url: "/FloorPlan/59A" },
-    { title: "59B", url: "/FloorPlan/59B" },
-    { title: "84A", url: "/FloorPlan/84A" },
-    { title: "84B", url: "/FloorPlan/84B" },
-    { title: "119A", url: "/FloorPlan/114A" },
-    { title: "119B", url: "/FloorPlan/114B" },
+    { title: "84A", url: "/FloorPlan/59A" },
+    { title: "84B", url: "/FloorPlan/59B" },
+    { title: "84C", url: "/FloorPlan/84A" },
+    { title: "109A", url: "/FloorPlan/84B" },
+    { title: "109B", url: "/FloorPlan/114A" },
+    { title: "132A", url: "/FloorPlan/114B" },
     { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
   ];
 

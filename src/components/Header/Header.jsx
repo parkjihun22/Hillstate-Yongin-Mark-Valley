@@ -57,12 +57,13 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "84A", subUrl: "/FloorPlan/84A" },
-      { subTitle: "84B", subUrl: "/FloorPlan/84B" },
-      { subTitle: "119A", subUrl: "/FloorPlan/114A" },
-      { subTitle: "119B", subUrl: "/FloorPlan/114B" },
+      { subTitle: "84A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "84B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "84C", subUrl: "/FloorPlan/84A" },
+      { subTitle: "109A", subUrl: "/FloorPlan/84B" },
+      { subTitle: "109B", subUrl: "/FloorPlan/114A" },
+      { subTitle: "119C", subUrl: "/FloorPlan/114B" },
+      { subTitle: "132A", subUrl: "/FloorPlan/114C" },
     ],
   },
   {

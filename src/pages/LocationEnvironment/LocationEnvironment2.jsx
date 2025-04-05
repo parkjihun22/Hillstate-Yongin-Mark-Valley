@@ -7,15 +7,14 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
-import Ready from "../../components/Ready/Ready";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
-// import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/page1.jpg";
+import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/page1.jpg";
 
 const LocationEnvironment1 = () => {
   const menuContents = [
     { title: "입지 안내영상", url: "/FloorPlan/videos" },
-    { title: "프리미엄", url: "/LocationEnvironment/intro" },
+    { title: "입지안내", url: "/LocationEnvironment/intro" },
     { title: "프리미엄", url: "/LocationEnvironment/primium" },
   ];
   const [isScroll, setIsScroll] = useState(false);
@@ -134,8 +133,8 @@ const LocationEnvironment1 = () => {
         <div>힐스테이트 용인 마크밸리의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      {/* <img src={page1} className={styles.image3} alt="힐스테이트 용인 마크밸리프리미엄-image1" /> */}
-      <Ready />
+      <img src={page1} className={styles.image3} alt="힐스테이트 용인 마크밸리프리미엄-image1" />
+ 
 
       <Footer />
     </div>

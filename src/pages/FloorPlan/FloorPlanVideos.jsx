@@ -51,6 +51,8 @@ const FloorPlanVideos= () => {
         window.removeEventListener('scroll', handleScroll);
       };
     }, []); 
+
+    
   
   return (
     <div className={styles.container}>
@@ -96,17 +98,17 @@ const FloorPlanVideos= () => {
         ))}
       </div>
 
-      {/* 동영상 표시 */}
       <div className={styles.videoContainer}>
-        <iframe
-          className={styles.videoPlayer}
-          src={videoFiles.find(video => video.id === activeTab)?.src}
-          frameBorder="0"
-          allow="autoplay; fullscreen"
-          allowFullScreen
-          title="Vimeo Video"
-        ></iframe>
-      </div>
+  <iframe
+    className={styles.videoPlayer}
+    src={videoFiles.find(video => video.id === activeTab)?.src} // 여기의 src는 유튜브 embed URL이어야 합니다.
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+    title="YouTube Video"
+  ></iframe>
+</div>
+
 
       <Footer />
     </div>

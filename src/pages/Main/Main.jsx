@@ -369,7 +369,7 @@ const Main = () => {
   {/* 입력 폼 */}
   <form
     className={styles.pcVisitForm}
-    action="https://formspree.io/f/xnnjvebv"
+    action="https://formspree.io/f/xvgzvlvr"
     method="POST"
   >
     <label htmlFor="name">
@@ -618,7 +618,7 @@ const Main = () => {
 
   <form
     className={styles.mobileVisitForm}
-    action="https://formspree.io/f/xnnjvebv"
+    action="https://formspree.io/f/xvgzvlvr"
     method="POST"
   >
     <label htmlFor="name">
@@ -640,6 +640,17 @@ const Main = () => {
       type="tel"
       name="phone"
       placeholder="010-0000-0000"
+      value={registration.phone}
+      onChange={handleInputChange}
+      required
+    />
+    <label htmlFor="phone">
+      생년월일 <span className={styles.redStar}>*</span>
+    </label>
+    <input
+      type="number"
+      name="birthDate"
+      placeholder="0000-00-00"
       value={registration.phone}
       onChange={handleInputChange}
       required

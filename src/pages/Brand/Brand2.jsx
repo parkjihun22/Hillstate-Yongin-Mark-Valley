@@ -11,7 +11,6 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
 
 const Brand2 = () => {
   const menuContents = [
@@ -145,9 +144,9 @@ const Brand2 = () => {
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      {/* <div className={styles.videoContainer}>
+       <div className={styles.videoContainer}>
 				<YouTube
-					videoId="KyQh_rEZwk4"
+					videoId="ljBXHPSwxPI"
 					opts={{
 						width: isMobile ? "400" : "1300",
 						height: isMobile ? "300" : "500",
@@ -161,9 +160,9 @@ const Brand2 = () => {
 						e.target.stopVideo(0);  // 비디오 종료 시 정지
 					}}
 				/>
-			</div> */}
+			</div> 
 
-      <Ready />
+
       <Footer />
     </div>
   );
