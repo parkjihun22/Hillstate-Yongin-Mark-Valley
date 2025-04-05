@@ -466,14 +466,7 @@ const Main = () => {
               numbering={3}
             />
           )}
-          {isOpenPopup4 && (
-            <MobilePopup
-              onClosed={() => setIsOpenPopup4(!isOpenPopup4)}
-              popupImage={mobilePopupPage3}
-              numbering={4}
-            />
-          )}
-
+          
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
