@@ -37,7 +37,7 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
                 {/* 팝업 이미지 주석처리 */}
                 <img
                     className={styles.popupImg}
-                    style={!isMobile && numbering === 1 ? { width: '25vw'} : {}}
+                    style={!isMobile && numbering === 1 ? { width: '30vw'} : {}}
                     src={popupImage}
                     alt={`hansinduhyue-popup-image${numbering}`}
                     useMap={`#image-map${numbering}`}  // 각 이미지마다 다른 맵을 사용

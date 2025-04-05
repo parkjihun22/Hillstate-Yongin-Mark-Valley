@@ -210,7 +210,7 @@ const Main = () => {
                 <div className={styles.mainImageText}>
                   힐스테이트 용인마크밸리
                 </div>
-                <div className={styles.grandOpenText}>3월 GRAND OPEN 예정</div>
+                <div className={styles.grandOpenText}>4월14일 GRAND OPEN</div>
               </div>
               <div>
               <button
@@ -487,7 +487,7 @@ const Main = () => {
                 <div className={styles.mainImageText1}>
                   힐스테이트 용인마크밸리
                 </div>
-                <div className={styles.grandOpenText1}>3월 GRAND OPEN 예정</div>
+                <div className={styles.grandOpenText1}>4월14일 GRAND OPEN </div>
               </div>
             </div>
           </div>
