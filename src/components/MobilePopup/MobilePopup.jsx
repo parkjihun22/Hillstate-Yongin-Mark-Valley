@@ -35,13 +35,13 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
         <div className={styles.backgroundContainer}>
             <div className={styles.contentContainer}>
                 {/* 팝업 이미지 주석처리 */}
-                {/* <img
+                <img
                     className={styles.popupImg}
                     style={!isMobile && numbering === 1 ? { width: '25vw'} : {}}
                     src={popupImage}
                     alt={`hansinduhyue-popup-image${numbering}`}
                     useMap={`#image-map${numbering}`}  // 각 이미지마다 다른 맵을 사용
-                /> */}
+                />
 
                 {/* 이미지 맵 영역 정의 (주석처리된 부분 유지) */}
                 {numbering === 2 && (
@@ -99,11 +99,11 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
                     </map>
                 )}
 
-                {/* 버튼 주석처리 */}
-                {/* <div className={styles.btnContainer}>
+                {/* 버튼  */}
+                <div className={styles.btnContainer}>
                     <div className={styles.todayNotOpenBtn} onClick={() => setType(1)}>오늘 하루 보지 않기</div>
                     <div className={styles.closeBtn} onClick={() => setType(2)}>닫기</div>
-                </div> */}
+                </div>
             </div>
         </div>
     );
