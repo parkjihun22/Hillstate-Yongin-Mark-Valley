@@ -26,7 +26,7 @@ const menuArray = [
     subMenu: [
       { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
       { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
-      { subTitle: "선착순계약 서류안내", subUrl: "/BusinessGuide/documents" },
+      { subTitle: "공급안내", subUrl: "/BusinessGuide/documents" },
     ],
   },
   {
@@ -62,7 +62,7 @@ const menuArray = [
       { subTitle: "84C", subUrl: "/FloorPlan/84A" },
       { subTitle: "109A", subUrl: "/FloorPlan/84B" },
       { subTitle: "109B", subUrl: "/FloorPlan/114A" },
-      { subTitle: "119C", subUrl: "/FloorPlan/114B" },
+      { subTitle: "109C", subUrl: "/FloorPlan/114B" },
       { subTitle: "132A", subUrl: "/FloorPlan/114C" },
     ],
   },

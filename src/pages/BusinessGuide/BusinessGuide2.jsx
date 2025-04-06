@@ -8,14 +8,13 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
-import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
+import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
 
 const BusinessGuide2 = () => {
   const menuContents = [
-    { title: "분양일정", url: "/BusinessGuide/intro" },
+    { title: "사업안내", url: "/BusinessGuide/intro" },
     { title: "분양일정", url: "/BusinessGuide/plan" },
-    { title: "선착순계약 서류안내", url: "/BusinessGuide/documents" },
+    { title: "공급안내", url: "/BusinessGuide/documents" },
   ];
   const [isScroll, setIsScroll] = useState(false);
   const [isImageVisible, setIsImageVisible] = useState(false); // isImageVisible 상태 추가
@@ -153,10 +152,10 @@ const BusinessGuide2 = () => {
         <div>힐스테이트 용인 마크밸리의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      {/* 이미지에 isImageVisible 상태 적용
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 용인 마크밸리 분양일정안내-image1" /> */}
+      이미지에 isImageVisible 상태 적용
+			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 용인 마크밸리 분양일정안내-image1" />
 
-      <Ready />
+
       <Footer />
     </div>
   );

@@ -10,17 +10,18 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg"
-import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
+import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg"
+
 
 const FloorPlan2 = () => {
 	const menuContents = [
 		{ title: "84A", url: "/FloorPlan/59A" },
-    { title: "84B", url: "/FloorPlan/59B" },
-    { title: "84C", url: "/FloorPlan/84A" },
-    { title: "109A", url: "/FloorPlan/84B" },
-    { title: "109B", url: "/FloorPlan/114A" },
-    { title: "132A", url: "/FloorPlan/114B" },
+		{ title: "84B", url: "/FloorPlan/59B" },
+		{ title: "84C", url: "/FloorPlan/84A" },
+		{ title: "109A", url: "/FloorPlan/84B" },
+		{ title: "109B", url: "/FloorPlan/114A" },
+		{ title: "109C", url: "/FloorPlan/114B" },
+		{ title: "132A", url: "/FloorPlan/114C" },
     	{ title: "세대안내영상", url: "/FloorPlan/videos" }  // 세대안내영상 링크
 	
 	];
@@ -76,14 +77,13 @@ const FloorPlan2 = () => {
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			{/* <img
+			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="힐스테이트 용인 마크밸리 59B 평면image"
+				alt="힐스테이트 용인 마크밸리 84B 평면image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
+			/>
 
-			<Ready />
 
 			<div className={styles.commonBox2}>
 				<div className={styles.notice}>

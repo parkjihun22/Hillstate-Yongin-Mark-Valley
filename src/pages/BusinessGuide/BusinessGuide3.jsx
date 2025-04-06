@@ -9,13 +9,12 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
-import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러오기
 
 const BusinessGuide2 = () => {
   const menuContents = [
     { title: "사업안내", url: "/BusinessGuide/intro" },
-    { title: "당첨자 서류안내", url: "/BusinessGuide/plan" },
-    { title: "선착순계약 서류안내", url: "/BusinessGuide/documents" },
+    { title: "분양일정", url: "/BusinessGuide/plan" },
+    { title: "공급안내", url: "/BusinessGuide/documents" },
   ];
   const [isScroll, setIsScroll] = useState(false);
   const [selectedOption, setSelectedOption] = useState(1); // 선택된 옵션 (1~6)
@@ -161,10 +160,9 @@ const BusinessGuide2 = () => {
         <div>힐스테이트 용인 마크밸리의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      {/* 이미지에 isImageVisible 상태 적용
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 용인 마크밸리 계약서류안내-image1" /> */}
+			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 용인 마크밸리 계약서류안내-image1" />
 
-      <Ready />
+
       <Footer />
     </div>
   );
