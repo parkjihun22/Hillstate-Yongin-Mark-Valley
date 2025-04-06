@@ -152,7 +152,6 @@ const BusinessGuide2 = () => {
         <div>힐스테이트 용인 마크밸리의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      이미지에 isImageVisible 상태 적용
 			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 용인 마크밸리 분양일정안내-image1" />
 
 
