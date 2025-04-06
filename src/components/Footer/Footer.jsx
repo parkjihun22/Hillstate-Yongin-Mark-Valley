@@ -12,10 +12,8 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 // FAMILY SITE 목록 예시
 const partnerSites = [
   { name: "엘리프 세종 5-1", url: "https://www.sekailog.com" },
-  { name: "강동역 센트럴파크", url: "https://www.donnyien.com" },
   { name: "용인 푸르지오 원클러스터 2단지", url: "https://www.beyinegzersizi.com" },
   { name: "도안 벽산블루밍", url: "https://www.abcya4.com/" },
-  { name: "이편한세상 성성호수공원", url: "https://www.3sha-re.com/" },
   { name: "평택화양 동문디이스트", url: "https://www.verficktescheisse.com" },
   { name: "평택 브레인시티 푸르지오", url: "https://www.a7lashare.com/" },
   { name: "평택 브레인시티 수자인", url: "https://www.vaaclubs.com/" },
