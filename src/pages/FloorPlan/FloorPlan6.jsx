@@ -59,7 +59,7 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="힐스테이트 용인 마크밸리 109B 평면image" />
+			<Bener title="세대안내" />
 
 			<MenuBar contents={menuContents} />
 

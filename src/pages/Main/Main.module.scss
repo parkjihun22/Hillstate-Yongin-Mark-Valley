@@ -17,7 +17,7 @@
   position: absolute;
   left: 42vw; /* 화면 오른쪽 끝으로 배치 */
   top: -1vw; /* 세로 중앙 배치 (필요에 따라 수정 가능) */
-  width: 8vw; /* 크기 조정 (필요에 따라 변경) */
+  width: 6vw; /* 크기 조정 (필요에 따라 변경) */
   z-index: 1; /* 텍스트와 겹치지 않도록 설정 */
   animation: subPinkImgFadeIn 1.5s ease-out forwards 1.5s; /* 서서히 나타나게 */
 }
@@ -65,7 +65,8 @@
 
 .greyText {
   font-size: 1.5vw; /* 텍스트2 가장 큰 크기 */
-  font-family: "Paperlogy-8ExtraBold";
+  font-family: 'Pretendard-Regular';
+  font-weight: 800;
   color: #fbf70a; /* 회색 텍스트 */
 }
 
@@ -92,10 +93,10 @@
 }
 
 .mainImageText {
-  font-family: "Paperlogy-8ExtraBold";
-  font-weight: 400;
+  font-family: 'Pretendard-Regular';
+  font-weight: 800;
   font-size: 2vw; /* 텍스트2 가장 큰 크기 */
-  margin: 0.2vw 0;
+  margin: 0.5vw 0;
   color: #ffffff; /* 파랑 색상 */
 }
 

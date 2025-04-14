@@ -47,9 +47,9 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `1990세대 랜드마크 현대건설`,
+    text1: `660세대 랜드마크 현대건설`,
     text2: `용인을 대표할<br />
-			  대단지 브랜드 프리미엄`,
+			      브랜드 프리미엄`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
@@ -57,26 +57,26 @@ const section3Contents = [
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
     text1: `여유로운 직주근접 단지`,
-    text2: `세계최대규모 삼성전자 용인캠퍼스<br />
-			  송탄·칠괴 산단,KG모빌리티 등`,
+    text2: `첨단 시스템반도체 국가산업단지(계획)<br />
+			      용인 반도체클러스터 일반산업단지 등`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `다 갖춘 고품격 커뮤니티`,
-    text2: `용인 내 최초 실내 수영장 및<br />
-			  독서실 골프클럽 등 대규모 커뮤니티`,
+    text1: `우수한 교육환경`,
+    text2: `바로 앞 처인초·중교, 처인고교<br />
+			      학원가 조성등 원스톱 안심교육 환경`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `합리적 분양가 상한제`,
-    text2: `입주자의 경제적 부담을 낮춘<br />
-			  내 집 마련의 기회`,
+    text1: `브랜드 프리미엄`,
+    text2: `베스트 아파트 브랜드 2년 연속 1위,<br />
+			      브랜드 평판 71개월 1위 브랜드 프리미엄`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -210,7 +210,7 @@ const Main = () => {
                 <div className={styles.mainImageText}>
                   힐스테이트 용인마크밸리
                 </div>
-                <div className={styles.grandOpenText}>4월14일 GRAND OPEN</div>
+               
               </div>
               <div>
               <button

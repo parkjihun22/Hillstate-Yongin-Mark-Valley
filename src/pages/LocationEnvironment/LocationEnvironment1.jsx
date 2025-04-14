@@ -21,12 +21,12 @@ import section2Image6 from "../../assets/LocationEnvironment/LocationEnvironment
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 
 const LocationSection = [
-	{ img: section2Image1, titleText: "확정된 개발호재로<br />평택을 더 새롭게 살수록 높아지는 미래가치", contentText: "삼성전자 평택캠퍼스 세계 최대 160만평규모(약289㎡)<br />최첨단 반도체 산업의 최중심<br />" },
-	{ img: section2Image2, titleText: "도보5분으로<br />의세권을 누리릴 수 있는 프리미엄", contentText: "아주대 첨단의료AI복합타운<br />AI활용 첨단의료시설로<br /> 500병상 규모로 2030년 개원 예정" },
-	{ img: section2Image3, titleText: "수도권 시내·외를 더 빠르게<br />광역으로 통하는 특급 교통", contentText: "지제역 복한환승센터,송탄IC<br />1호선, SRT (현재운행중), KTX, GTX-A/C 확정<br /> 수도권 내 유일 펜타역세권 프리미엄" },
-	{ img: section2Image4, titleText: "학교, 쇼핑,병원, 문화를 더 가깝게 한걸음에<br />모두 갖춘 중심생활", contentText: "브레인시티내 초·중·고 모두 개교예정 · 카이스트 평택 캠퍼스 2027년 개교예정<br />이마트, 코스트코 , CGV 등 편의시설 인접" },
-	{ img: section2Image5, titleText: "브레인시티내 최초이자<br />마지막 1군브랜드 ", contentText: "푸르지오 프리미엄" },
-	{ img: section2Image6, titleText: "브레인시티 최대 중심상업지구<br />도보 3분권내 초근접<br /> 마지막 브랜드단지  ", contentText: " 브레인시티 대장입지 <br />푸르지오 프리미엄에 더한 슬세권 프리미엄" },
+	{ img: section2Image1, titleText: "확정된 개발호재로<br />용인을 더 새롭게 살수록 높아지는 미래가치", contentText: "첨단 시스템반도체 국가산업단지 <br />용인반도체클러스터 일반산업단지 등 <br /> 더 가깝게 만나는 비전과 프리미엄" },
+	{ img: section2Image2, titleText: "남다른 혁신설계", contentText: "선호도 높은 중·대형 평면 설계 및 다양하고 넉넉한 수납공간 <br /> 조성 등와이드하고 스마트하게 누리는공간" },
+	{ img: section2Image3, titleText: "수도권 시내·외를 더 빠르게<br />광역으로 통하는 특급 교통", contentText: "세종~포천고속도로, 반도체고속도로(계획) 등<br />1호선, SRT (현재운행중),경강선 연장(계획), 주요간선도로 확장 등<br /> 특급 교통망" },
+	{ img: section2Image4, titleText: "학교를 더 가깝게 한걸음에<br /> 안심학세권 프리미엄", contentText: "단지 바로 앞 처인초,중교 · 처인고교 <br />학원가 조성등 도보거리에 누리는 <br /> 원스톱 안심교육환경" },
+	{ img: section2Image5, titleText: "압도적인 브랜드 프리미엄<br />1군브랜드 ", contentText: "베스트 아파트 브랜드 2년 연속1위<br /> 브랜드 평판71개월 1위 등 <br / > 힐스테이트 브랜드 프리미엄" },
+	{ img: section2Image6, titleText: "편리한 생활중심<br />", contentText: "롯데프레시,한숲애비뉴 <br />남사스포츠센터, 공원 등<br />풍부한 인프라로 편리한 생활" },
 ]
 
 const LocationEnvironment1 = () => {

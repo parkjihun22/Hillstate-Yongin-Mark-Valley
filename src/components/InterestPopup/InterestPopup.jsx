@@ -35,77 +35,83 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
 
   return (
     <div className={styles.popupOverlay}>
-      <div className={styles.popupContainer}>
-        <button className={styles.closeBtn} onClick={onClose}>
-          &times;
-        </button>
-        <div className={styles.headerImage}>
-          <img src={bannerImage} alt="Registration Banner" />
+      <div className={styles.popupWrapper}>
+        {/* 팝업창 컨테이너 */}
+        <div className={styles.popupContainer}>
+          <div className={styles.headerImage}>
+            <img src={bannerImage} alt="Registration Banner" />
+          </div>
+          <div className={styles.formContainer}>
+            {successMessage ? (
+              <p className={styles.successMessage}>{successMessage}</p>
+            ) : (
+              <form onSubmit={handleSubmit}>
+                <div className={styles.formGroup}>
+                  <label htmlFor="name">
+                    이름<span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={registration.name}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                <div className={styles.formGroup}>
+                  <label htmlFor="phone">
+                    연락처<span>*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={registration.phone}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                <div className={styles.formGroup}>
+                  <label htmlFor="birthday">
+                    생년월일(6자리)<span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="birthday"
+                    value={registration.birthday}
+                    onChange={handleInputChange}
+                    placeholder="예: 900101"
+                    required
+                  />
+                </div>
+                <div className={styles.formGroup}>
+                  <label htmlFor="residence">
+                    거주지역<span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="residence"
+                    value={registration.residence}
+                    onChange={handleInputChange}
+                    placeholder="예: 용인시"
+                    required
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className={styles.submitBtn}
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? "등록 중..." : "사전청약 관심고객 등록"}
+                </button>
+              </form>
+            )}
+          </div>
         </div>
-        <div className={styles.formContainer}>
-          {successMessage ? (
-            <p className={styles.successMessage}>{successMessage}</p>
-          ) : (
-            <form onSubmit={handleSubmit}>
-              <div className={styles.formGroup}>
-                <label htmlFor="name">
-                  이름<span>*</span>
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  value={registration.name}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="phone">
-                  연락처<span>*</span>
-                </label>
-                <input
-                  type="tel"
-                  name="phone"
-                  value={registration.phone}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="birthday">
-                  생년월일(6자리)<span>*</span>
-                </label>
-                <input
-                  type="text"
-                  name="birthday"
-                  value={registration.birthday}
-                  onChange={handleInputChange}
-                  placeholder="예: 900101"
-                  required
-                />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="residence">
-                  거주지역<span>*</span>
-                </label>
-                <input
-                  type="text"
-                  name="residence"
-                  value={registration.residence}
-                  onChange={handleInputChange}
-                  placeholder="예 : 용인시"
-                  required
-                />
-              </div>
-              <button
-                type="submit"
-                className={styles.submitBtn}
-                disabled={isSubmitting}
-              >
-                {isSubmitting ? "등록 중..." : "사전청약 관심고객 등록"}
-              </button>
-            </form>
-          )}
+        {/* 외부 닫기 버튼 */}
+        <div className={styles.externalCloseBtnBox}>
+          <button className={styles.externalCloseBtn} onClick={onClose}>
+            &times;
+          </button>
         </div>
       </div>
     </div>

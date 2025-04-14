@@ -13,10 +13,8 @@ import page1 from "../../assets/SalesInfo/SubscriptionGuide/page1.jpg";
 
 const ComplexGuide1 = () => {
   const menuContents = [
-    { title: "인터넷 청약", url: "/SalesInfo/guide" },
+    { title: "공급안내", url: "/SalesInfo/guide" },
     { title: "체크포인트", url: "/SalesInfo/SubscriptionGuide" },
-    { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);

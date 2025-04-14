@@ -30,12 +30,11 @@ const menuArray = [
     ],
   },
   {
-    title: "청약안내",
+    title: "분양안내",
     subMenu: [
-      { subTitle: "인터넷청약", subUrl: "/SalesInfo/guide" },
+      { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
       { subTitle: "체크포인트", subUrl: "/SalesInfo/SubscriptionGuide" },
-      { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
-      { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
+
     ],
   },
   {
