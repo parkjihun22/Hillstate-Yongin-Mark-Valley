@@ -70,32 +70,7 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
                     required
                   />
                 </div>
-                <div className={styles.formGroup}>
-                  <label htmlFor="birthday">
-                    생년월일(6자리)<span>*</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="birthday"
-                    value={registration.birthday}
-                    onChange={handleInputChange}
-                    placeholder="예: 900101"
-                    required
-                  />
-                </div>
-                <div className={styles.formGroup}>
-                  <label htmlFor="residence">
-                    거주지역<span>*</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="residence"
-                    value={registration.residence}
-                    onChange={handleInputChange}
-                    placeholder="예: 용인시"
-                    required
-                  />
-                </div>
+               
                 <button
                   type="submit"
                   className={styles.submitBtn}
