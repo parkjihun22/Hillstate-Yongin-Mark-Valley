@@ -170,7 +170,7 @@ const Main = () => {
         // PC 버전
         <>
           <Header isChanged={isScroll} />
-          {isOpenPopup1 && (
+          {/* {isOpenPopup1 && (
             <Popup
               onClosed={() => setIsOpenPopup1(false)}
               popupImage={popupPage1}
@@ -190,7 +190,7 @@ const Main = () => {
               popupImage={popupPage3}
               numbering={3}
             />
-          )}
+          )} */}
 
           <div className={styles.imageContainer}>
             <img
@@ -445,7 +445,7 @@ const Main = () => {
       ) : (
         // 모바일 버전
         <div className={styles.mobileMain}>
-          {isOpenPopup1 && (
+          {/* {isOpenPopup1 && (
             <MobilePopup
               onClosed={() => setIsOpenPopup1(!isOpenPopup1)}
               popupImage={mobilePopupPage1}
@@ -465,7 +465,7 @@ const Main = () => {
               popupImage={mobilePopupPage3}
               numbering={3}
             />
-          )}
+          )} */}
           
           <Header isChanged={isScroll} />
 
@@ -478,6 +478,7 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
+                반도체클러스터에서의 첫 시작<br/>
                 브랜드 평판 1위 힐스테이트
                 <br />
                 <span className={styles.greyText1}>브랜드 프리미엄 </span>
@@ -487,7 +488,7 @@ const Main = () => {
                 <div className={styles.mainImageText1}>
                   힐스테이트 용인마크밸리
                 </div>
-                <div className={styles.grandOpenText1}>4월14일 GRAND OPEN </div>
+
               </div>
             </div>
           </div>
