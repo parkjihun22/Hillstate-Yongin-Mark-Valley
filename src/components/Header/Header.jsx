@@ -40,7 +40,7 @@ const menuArray = [
   {
     title: "입지환경",
     subMenu: [
-      { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
+      // { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
       { subTitle: "입지안내", subUrl: "/LocationEnvironment/intro" },
       { subTitle: "프리미엄", subUrl: "/LocationEnvironment/primium" },
     ],

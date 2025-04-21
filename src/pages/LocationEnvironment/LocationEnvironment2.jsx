@@ -13,7 +13,7 @@ import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/page1.j
 
 const LocationEnvironment1 = () => {
   const menuContents = [
-    { title: "입지 안내영상", url: "/FloorPlan/videos" },
+    // { title: "입지 안내영상", url: "/FloorPlan/videos" },
     { title: "입지안내", url: "/LocationEnvironment/intro" },
     { title: "프리미엄", url: "/LocationEnvironment/primium" },
   ];
