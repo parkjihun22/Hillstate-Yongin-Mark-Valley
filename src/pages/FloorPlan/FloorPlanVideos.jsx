@@ -82,7 +82,7 @@ const FloorPlanVideos= () => {
 
 			<div className={styles.textBox}>
 				<div>용인의 눈부신 가치위에 찾아오는</div>
-				<div>푸르지오의 가치를 영상으로 확인해보세요</div>
+				<div>힐스테이트의 가치를 영상으로 확인해보세요</div>
 			</div>
 
       {/* 두 번째 메뉴바 (탭 메뉴) */}

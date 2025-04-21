@@ -57,7 +57,7 @@ const LocationEnvironment1 = () => {
         <title>힐스테이트 용인 마크밸리 - 프리미엄</title>
         <meta
           name="description"
-          content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다."
+          content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
         />
         <meta
           name="keywords"
@@ -75,7 +75,7 @@ const LocationEnvironment1 = () => {
         />
         <meta
           property="og:description"
-          content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다."
+          content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
         />
         <meta
           property="og:image"
@@ -95,7 +95,7 @@ const LocationEnvironment1 = () => {
         />
         <meta
           name="twitter:description"
-          content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다."
+          content="힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
         />
         <meta
           name="twitter:image"
@@ -108,7 +108,7 @@ const LocationEnvironment1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 용인 마크밸리 - 프리미엄",		"description": "힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 푸르지오만의 독보적인 가치를 제공합니다.",		"url": "https://www.alwatanyh.com/LocationEnvironment/primium"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 용인 마크밸리 - 프리미엄",		"description": "힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다.",		"url": "https://www.alwatanyh.com/LocationEnvironment/primium"	}	`}
         </script>
       </Helmet>
 
@@ -125,7 +125,7 @@ const LocationEnvironment1 = () => {
       <p className={styles.screenReaderOnly}>
         힐스테이트 용인 마크밸리의 차별화된 프리미엄을 만나보세요. 고급스러운
         디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해
-        푸르지오만의 독보적인 가치를 제공합니다.
+        힐스테이트만의 독보적인 가치를 제공합니다.
       </p>
 
       <div className={styles.textBox}>
