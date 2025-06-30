@@ -11,6 +11,7 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
+    { title: "세대안내", url: "/FloorPlan/59A" },
     { title: "84A", key: "84A" },
     { title: "109A", key: "109A" },
     { title: "109B", key: "109B" },

@@ -22,7 +22,8 @@ const FloorPlan2 = () => {
 		{ title: "109B", url: "/FloorPlan/114A" },
 		{ title: "109C", url: "/FloorPlan/114B" },
 		{ title: "132A", url: "/FloorPlan/114C" },
-    	{ title: "세대안내영상", url: "/FloorPlan/videos" }  // 세대안내영상 링크
+		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
+		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 	
 	];
 
