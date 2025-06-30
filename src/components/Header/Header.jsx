@@ -63,6 +63,8 @@ const menuArray = [
       { subTitle: "109B", subUrl: "/FloorPlan/114A" },
       { subTitle: "109C", subUrl: "/FloorPlan/114B" },
       { subTitle: "132A", subUrl: "/FloorPlan/114C" },
+      { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
+      
     ],
   },
   {

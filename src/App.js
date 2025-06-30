@@ -23,6 +23,7 @@ import FloorPlan4 from './pages/FloorPlan/FloorPlan4';
 import FloorPlan5 from './pages/FloorPlan/FloorPlan5';
 import FloorPlan6 from './pages/FloorPlan/FloorPlan6';
 import FloorPlan7 from './pages/FloorPlan/FloorPlan7';
+import Emodel from "./pages/FloorPlan/Emodel";
 
 import FloorPlanVideos from './pages/FloorPlan/FloorPlanVideos';
 
@@ -62,7 +63,8 @@ function App() {
           <Route path="/FloorPlan/114A" element={<FloorPlan5 />} />
           <Route path="/FloorPlan/114B" element={<FloorPlan6 />} />
           <Route path="/FloorPlan/114C" element={<FloorPlan7 />} />
-          <Route path="/FloorPlan/videos" element={<FloorPlanVideos />} /> 
+          <Route path="/FloorPlan/videos" element={<FloorPlanVideos />} />
+          <Route path="/FloorPlan/Emodel" element={<Emodel />} /> 
           
           <Route path="/Interior/59A" element={<Interior1 />} />
           <Route path="/Interior/84A" element={<Interior2 />} />
