@@ -75,7 +75,7 @@ const FloorPlan3 = () => {
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="힐스테이트 용인 마크밸리 84C 평면image"
+				alt="힐스테이트 용인마크밸리 84C 평면image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

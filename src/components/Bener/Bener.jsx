@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="힐스테이트 용인 마크밸리-benerimage"
+                alt="힐스테이트 용인마크밸리-benerimage"
             />
             <div className={styles.overlay}></div>
             <div
@@ -50,7 +50,7 @@ const contents = (text, isLoaded) => {
                     용인의 최상단 중심
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 힐스테이트 용인 마크밸리와 함께합니다.
+                    NO.1 브랜드 힐스테이트 용인마크밸리와 함께합니다.
                 </div>
             </>
         );
@@ -67,7 +67,7 @@ const contents = (text, isLoaded) => {
                     가장 높은 브랜드의 첫 시작
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    힐스테이트 용인 마크밸리
+                    힐스테이트 용인마크밸리
                 </div>
             </>
         );
@@ -92,7 +92,7 @@ const contents = (text, isLoaded) => {
                     편리한 생활을 위한 최적의 공간설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 힐스테이트 용인 마크밸리, 처음이자 마지막으로 용인에 찾아옵니다
+                    소수에게만 허락된 힐스테이트 용인마크밸리, 처음이자 마지막으로 용인에 찾아옵니다
                 </div>
             </>
         );
