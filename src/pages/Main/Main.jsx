@@ -501,16 +501,16 @@ const Main = () => {
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              "방문예약을 하시면 신세계 상품권 100% 증정 "
+              힐스테이트 용인마크밸리 POINT
             </div>
             <div className={styles.text3}>
               - 용인 힐스테이트 마크밸리 중심상업지구 가장인접한 입지
               <br />
               - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분
               <br />
-              - 용인 반도체클러스터 삼성전자 용인캠퍼스, SK하이닉스 초등학교,
-              수변공원
-              <br />- 모두를 누리는 반도체밸리 주거 타운의 완성
+              - 용인 반도체클러스터 삼성전자 용인캠퍼스, SK하이닉스 
+              <br />- 학세권인근 단지 및 수변공원 프리미엄까지
+              <br />- 모두를 누리는 힐스테이트 용인마크밸리
             </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -528,9 +528,8 @@ const Main = () => {
           </div>
           <MobileOverviewSection />
           <DarkComplexSection />
-          <UnitInfoSection />
 
-          {/* <div className={styles.container7}>
+           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
                 용인의 중심으로 사는
@@ -550,9 +549,9 @@ const Main = () => {
               src={section8Img3}
               alt="용인마크밸리 mobile입지안내-image1"
             />
-          </div> */}
+          </div> 
 
-          {/* <div className={styles.container3}>
+           <div className={styles.container3}>
             <div className={styles.textbox}>
               <div className={`${styles.text1} fadeUpRepeat`}>
                 완벽한 생활에서 준비된 미래까지
@@ -574,7 +573,8 @@ const Main = () => {
               src={section2_Image1}
               alt="용인마크밸리 mobile조감도-image1"
             />
-          </div> */}
+          </div> 
+          <UnitInfoSection />
 
           {/* <div className={styles.container4}>
             <div className={styles.text1}>UNITPLAN</div>
