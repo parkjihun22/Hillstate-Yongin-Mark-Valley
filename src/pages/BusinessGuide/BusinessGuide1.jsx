@@ -14,7 +14,7 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
 	{ label: '사업명', value: '힐스테이트 용인마크밸리' },
-	{ label: '사업위치', value: '경기 용인시 처인구 남사읍 아곡리 705번지 7BL' },
+	{ label: '사업위치', value: '인천광역시 서구 청라동 86-6번지 (청라국제도시 업무용지 B1)' },
 	{ label: '대지면적', value: '106,050.4985㎡' },
 	{ label: '건축면적', value: '13,404.3638㎡' },
 	{ label: '연면적', value: '376,069.7623㎡' },
