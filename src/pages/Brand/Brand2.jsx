@@ -55,25 +55,25 @@ const Brand2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 용인마크밸리 - 홍보영상</title>
+        <title>힐스테이트 도안리버파크 모델하우스 - 홍보영상</title>
         <meta
           name="description"
-          content="힐스테이트 용인마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+          content="힐스테이트 도안리버파크 모델하우스의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
         />
         <meta
           name="keywords"
-          content="힐스테이트용인마크밸리, 용인마크밸리, 힐스테이트용인마크밸리모델하우스"
+          content="힐스테이트도안리버파크, 용인마크밸리, 힐스테이트도안리버파크모델하우스"
         />
         <link rel="canonical" href="https://www.alwatanyh.com/Brand/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="힐스테이트 용인마크밸리 - 홍보영상"
+          content="힐스테이트 도안리버파크 모델하우스 - 홍보영상"
         />
         <meta
           property="og:description"
-          content="힐스테이트 용인마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+          content="힐스테이트 도안리버파크 모델하우스의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
         />
         <meta
           property="og:image"
@@ -83,17 +83,17 @@ const Brand2 = () => {
           property="og:url"
           content="https://www.alwatanyh.com/Brand/intro"
         />
-        <meta property="og:site_name" content="힐스테이트 용인마크밸리" />
+        <meta property="og:site_name" content="힐스테이트 도안리버파크 모델하우스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="힐스테이트 용인마크밸리 - 홍보영상"
+          content="힐스테이트 도안리버파크 모델하우스 - 홍보영상"
         />
         <meta
           name="twitter:description"
-          content="힐스테이트 용인마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+          content="힐스테이트 도안리버파크 모델하우스의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
         />
         <meta
           name="twitter:image"
@@ -110,8 +110,8 @@ const Brand2 = () => {
 															{
 																"@context": "https://schema.org",
 																"@type": "WebPage",
-																"name": "힐스테이트 용인마크밸리 - 홍보영상",
-																"description": "힐스테이트 용인마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
+																"name": "힐스테이트 도안리버파크 모델하우스 - 홍보영상",
+																"description": "힐스테이트 도안리버파크 모델하우스의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
 					",
 																"url": "https://www.alwatanyh.com/Brand/intro"
 															}
@@ -128,10 +128,10 @@ const Brand2 = () => {
 
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 용인마크밸리 - 홍보영상
+        힐스테이트 도안리버파크 모델하우스 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 용인마크밸리의 홍보영상을 통해 단지의 매력적인 디자인과 최신
+        힐스테이트 도안리버파크 모델하우스의 홍보영상을 통해 단지의 매력적인 디자인과 최신
         편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거
         환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로
         확인하세요.
@@ -140,7 +140,7 @@ const Brand2 = () => {
       <div
         className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}
       >
-        <div>힐스테이트 용인마크밸리가 눈부신 가치 위에</div>
+        <div>힐스테이트 도안리버파크 모델하우스가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 

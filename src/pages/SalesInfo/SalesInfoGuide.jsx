@@ -59,14 +59,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 용인마크밸리 - 공급안내</title>
+        <title>힐스테이트 도안리버파크 모델하우스 - 공급안내</title>
         <meta
           name="description"
-          content="힐스테이트 용인마크밸리의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 용인마크밸리의 기회를 놓치지 마세요."
+          content="힐스테이트 도안리버파크 모델하우스의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 도안리버파크 모델하우스의 기회를 놓치지 마세요."
         />
         <meta
           name="keywords"
-          content="힐스테이트용인마크밸리, 용인마크밸리, 힐스테이트용인마크밸리모델하우스"
+          content="힐스테이트도안리버파크, 용인마크밸리, 힐스테이트도안리버파크모델하우스"
         />
         <link
           rel="canonical"
@@ -76,11 +76,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="힐스테이트 용인마크밸리 - 공급안내"
+          content="힐스테이트 도안리버파크 모델하우스 - 공급안내"
         />
         <meta
           property="og:description"
-          content="힐스테이트 용인마크밸리의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 용인마크밸리의 기회를 놓치지 마세요.	"
+          content="힐스테이트 도안리버파크 모델하우스의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 도안리버파크 모델하우스의 기회를 놓치지 마세요.	"
         />
         <meta
           property="og:image"
@@ -90,17 +90,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.alwatanyh.com/SalesInfo/guide"
         />
-        <meta property="og:site_name" content="힐스테이트 용인마크밸리" />
+        <meta property="og:site_name" content="힐스테이트 도안리버파크 모델하우스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="힐스테이트 용인마크밸리 - 공급안내"
+          content="힐스테이트 도안리버파크 모델하우스 - 공급안내"
         />
         <meta
           name="twitter:description"
-          content="힐스테이트 용인마크밸리의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 용인마크밸리의 기회를 놓치지 마세요."
+          content="힐스테이트 도안리버파크 모델하우스의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 도안리버파크 모델하우스의 기회를 놓치지 마세요."
         />
         <meta
           name="twitter:image"
@@ -113,7 +113,7 @@ const ComplexGuide1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 용인마크밸리 - 공급안내",		"description": "힐스테이트 용인마크밸리의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 용인마크밸리의 기회를 놓치지 마세요.",		"url": "https://www.alwatanyh.com/SalesInfo/guide"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 모델하우스 - 공급안내",		"description": "힐스테이트 도안리버파크 모델하우스의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 도안리버파크 모델하우스의 기회를 놓치지 마세요.",		"url": "https://www.alwatanyh.com/SalesInfo/guide"	}	`}
         </script>
       </Helmet>
 
@@ -125,25 +125,25 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 용인마크밸리 - 공급안내
+        힐스테이트 도안리버파크 모델하우스 - 공급안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 용인마크밸리의 인터넷 청약은 간편하고 빠르게 분양에 참여할
+        힐스테이트 도안리버파크 모델하우스의 인터넷 청약은 간편하고 빠르게 분양에 참여할
         수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며,
         언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를
-        확인하고, 청약을 통해 힐스테이트 용인마크밸리의 기회를 놓치지 마세요.
+        확인하고, 청약을 통해 힐스테이트 도안리버파크 모델하우스의 기회를 놓치지 마세요.
       </p>
 
       <div className={styles.textBox}>
         <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 힐스테이트 용인마크밸리</div>
+        <div>소수만 누리는 프리미엄 힐스테이트 도안리버파크 모델하우스</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
        <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="힐스테이트 용인마크밸리청약안내-image1"
+        alt="힐스테이트 도안리버파크 모델하우스청약안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
       /> 
 
