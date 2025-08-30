@@ -24,12 +24,12 @@ const items = [
       <ul className={styles.detailList}>
         <li>
           <strong>사업명</strong>
-          <span>힐스테이트 도안리버파크 모델하우스</span>
+          <span>힐스테이트 도안리버파크</span>
         </li>
         <li>
           <strong>대지위치</strong>
           <span>
-          경기 용인시 처인구 남사읍 아곡리 705번지 7BL<br />
+          경기 도안시 처인구 남사읍 아곡리 705번지 7BL<br />
 
           </span>
         </li>
@@ -97,9 +97,9 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "미래가치를 높여주는 용인반도체벨트",
+      title: "미래가치를 높여주는 도안반도체벨트",
       desc:
-        "삼성 · SK하이닉스 반도체 클러스터(계획), <br />용인반도체 클러스터 일반산업단지 L자형 반도체벨트의 비전",
+        "삼성 · SK하이닉스 반도체 클러스터(계획), <br />도안반도체 클러스터 일반산업단지 L자형 반도체벨트의 비전",
     },
     {
       img: slide2,

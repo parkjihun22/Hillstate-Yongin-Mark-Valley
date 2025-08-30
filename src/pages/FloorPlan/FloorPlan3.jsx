@@ -67,7 +67,7 @@ const FloorPlan3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>용인의 눈부신 가치 위에</div>
+				<div>도안의 눈부신 가치 위에</div>
 				<div>힐스테이트의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
@@ -75,7 +75,7 @@ const FloorPlan3 = () => {
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="힐스테이트 도안리버파크 모델하우스 84C 평면image"
+				alt="힐스테이트 도안리버파크 84C 평면image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

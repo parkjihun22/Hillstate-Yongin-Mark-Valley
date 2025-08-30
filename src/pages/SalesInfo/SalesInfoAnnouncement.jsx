@@ -76,14 +76,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 도안리버파크 모델하우스 - 모집공고안내</title>
+        <title>힐스테이트 도안리버파크 - 모집공고안내</title>
         <meta
           name="description"
-          content="힐스테이트 도안리버파크 모델하우스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="힐스테이트 도안리버파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           name="keywords"
-          content="힐스테이트도안리버파크, 용인마크밸리, 힐스테이트도안리버파크모델하우스"
+          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
         />
         <link
           rel="canonical"
@@ -93,11 +93,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="힐스테이트 도안리버파크 모델하우스 - 모집공고안내"
+          content="힐스테이트 도안리버파크 - 모집공고안내"
         />
         <meta
           property="og:description"
-          content="힐스테이트 도안리버파크 모델하우스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.	"
+          content="힐스테이트 도안리버파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.	"
         />
         <meta
           property="og:image"
@@ -107,17 +107,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.alwatanyh.com/SalesInfo/announcement"
         />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크 모델하우스" />
+        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="힐스테이트 도안리버파크 모델하우스 - 모집공고안내"
+          content="힐스테이트 도안리버파크 - 모집공고안내"
         />
         <meta
           name="twitter:description"
-          content="힐스테이트 도안리버파크 모델하우스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="힐스테이트 도안리버파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           name="twitter:image"
@@ -130,7 +130,7 @@ const ComplexGuide1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 모델하우스 - 모집공고안내",		"description": "힐스테이트 도안리버파크 모델하우스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",		"url": "https://www.alwatanyh.com/SalesInfo/announcement"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 - 모집공고안내",		"description": "힐스테이트 도안리버파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",		"url": "https://www.alwatanyh.com/SalesInfo/announcement"	}	`}
         </script>
       </Helmet>
 
@@ -142,10 +142,10 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 도안리버파크 모델하우스 - 모집공고안내
+        힐스테이트 도안리버파크 - 모집공고안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 도안리버파크 모델하우스의 모집 공고는 분양 전 단계에서 중요한
+        힐스테이트 도안리버파크의 모집 공고는 분양 전 단계에서 중요한
         안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건,
         필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을
         준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이
@@ -154,11 +154,11 @@ const ComplexGuide1 = () => {
 
       <div className={styles.textBox}>
         <div>입주자 모집공고안내를 확인하세요</div>
-        <div>힐스테이트 도안리버파크 모델하우스</div>
+        <div>힐스테이트 도안리버파크</div>
       </div>
 
       {/* <img className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`} src={page1}
-                alt="힐스테이트 도안리버파크 모델하우스 모집공고안내-image1"
+                alt="힐스테이트 도안리버파크 모집공고안내-image1"
                 onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
                 /> */}
 

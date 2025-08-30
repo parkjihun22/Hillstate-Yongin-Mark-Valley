@@ -21,7 +21,7 @@ import section2Image6 from "../../assets/LocationEnvironment/LocationEnvironment
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 
 const LocationSection = [
-	{ img: section2Image1, titleText: "확정된 개발호재로<br />용인을 더 새롭게 살수록 높아지는 미래가치", contentText: "첨단 시스템반도체 국가산업단지 <br />용인반도체클러스터 일반산업단지 등 <br /> 더 가깝게 만나는 비전과 프리미엄" },
+	{ img: section2Image1, titleText: "확정된 개발호재로<br />도안을 더 새롭게 살수록 높아지는 미래가치", contentText: "첨단 시스템반도체 국가산업단지 <br />도안반도체클러스터 일반산업단지 등 <br /> 더 가깝게 만나는 비전과 프리미엄" },
 	{ img: section2Image2, titleText: "남다른 혁신설계", contentText: "선호도 높은 중·대형 평면 설계 및 다양하고 넉넉한 수납공간 <br /> 조성 등와이드하고 스마트하게 누리는공간" },
 	{ img: section2Image3, titleText: "수도권 시내·외를 더 빠르게<br />광역으로 통하는 특급 교통", contentText: "세종~포천고속도로, 반도체고속도로(계획) 등<br />1호선, SRT (현재운행중),경강선 연장(계획), 주요간선도로 확장 등<br /> 특급 교통망" },
 	{ img: section2Image4, titleText: "학교를 더 가깝게 한걸음에<br /> 안심학세권 프리미엄", contentText: "단지 바로 앞 처인초,중교 · 처인고교 <br />학원가 조성등 도보거리에 누리는 <br /> 원스톱 안심교육환경" },
@@ -72,14 +72,14 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 도안리버파크 모델하우스 - 입지안내</title>
+        <title>힐스테이트 도안리버파크 - 입지안내</title>
         <meta
           name="description"
-          content="힐스테이트 도안리버파크 모델하우스의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="힐스테이트 도안리버파크의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="keywords"
-          content="힐스테이트도안리버파크, 용인마크밸리, 힐스테이트도안리버파크모델하우스"
+          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
         />
         <link
           rel="canonical"
@@ -89,11 +89,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="힐스테이트 도안리버파크 모델하우스 - 입지안내"
+          content="힐스테이트 도안리버파크 - 입지안내"
         />
         <meta
           property="og:description"
-          content="힐스테이트 도안리버파크 모델하우스의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="힐스테이트 도안리버파크의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           property="og:image"
@@ -103,17 +103,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://www.alwatanyh.com/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크 모델하우스" />
+        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="힐스테이트 도안리버파크 모델하우스 - 입지안내"
+          content="힐스테이트 도안리버파크 - 입지안내"
         />
         <meta
           name="twitter:description"
-          content="힐스테이트 도안리버파크 모델하우스의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="힐스테이트 도안리버파크의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="twitter:image"
@@ -126,7 +126,7 @@ const LocationEnvironment1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 모델하우스 - 입지안내",		"description": "힐스테이트 도안리버파크 모델하우스의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",		"url": "https://www.alwatanyh.com/LocationEnvironment/intro"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 - 입지안내",		"description": "힐스테이트 도안리버파크의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",		"url": "https://www.alwatanyh.com/LocationEnvironment/intro"	}	`}
         </script>
       </Helmet>
 
@@ -138,20 +138,20 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 도안리버파크 모델하우스 - 입지안내
+        힐스테이트 도안리버파크 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 도안리버파크 모델하우스의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        힐스테이트 도안리버파크의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
         인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의
         중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
       </p>
 
       <div className={styles.textBox}>
         <div>살수록 높아질 힐스테이트</div>
-        <div>도시를 압도할 자부심 힐스테이트 도안리버파크 모델하우스</div>
+        <div>도시를 압도할 자부심 힐스테이트 도안리버파크</div>
       </div>
 
-      <img src={page1} className={styles.image2} alt="힐스테이트 도안리버파크 모델하우스-image1" />
+      <img src={page1} className={styles.image2} alt="힐스테이트 도안리버파크-image1" />
 
    
       <div className={styles.section2}>
