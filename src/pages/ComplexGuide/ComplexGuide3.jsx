@@ -48,74 +48,33 @@ const ComplexGuide3 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+        <Helmet>
+          <title>힐스테이트 도안리버파크 - 커뮤니티</title>
+          <meta
+            name="description"
+            content="힐스테이트 도안리버파크의 커뮤니티 시설을 소개합니다. 피트니스, 독서실, 카페 등 다양한 공간으로 입주민의 생활 품격을 높입니다."
+          />
+          <link
+            rel="canonical"
+            href="https://www.alwatanyh.com/ComplexGuide/community"
+          />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 도안리버파크 - 커뮤니티</title>
-        <meta
-          name="description"
-          content="힐스테이트 도안리버파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
-        />
-        <meta
-          name="keywords"
-          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://www.alwatanyh.com/ComplexGuide/community"
-        />
+          {/* Open Graph */}
+          <meta property="og:title" content="힐스테이트 도안리버파크 - 커뮤니티" />
+          <meta
+            property="og:description"
+            content="힐스테이트 도안리버파크의 커뮤니티 시설을 소개합니다. 피트니스, 독서실, 카페 등 다양한 공간으로 입주민의 생활 품격을 높입니다."
+          />
+          <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+          <meta
+            property="og:url"
+            content="https://www.alwatanyh.com/ComplexGuide/community"
+          />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트 도안리버파크 - 커뮤니티"
-        />
-        <meta
-          property="og:description"
-          content="힐스테이트 도안리버파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.	"
-        />
-        <meta
-          property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.alwatanyh.com/ComplexGuide/community"
-        />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+          {/* Twitter */}
+          <meta name="twitter:card" content="summary_large_image" />
+        </Helmet>
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트 도안리버파크 - 커뮤니티"
-        />
-        <meta
-          name="twitter:description"
-          content="힐스테이트 도안리버파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.alwatanyh.com/ComplexGuide/community"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 - 커뮤니티",		"description": "힐스테이트 도안리버파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.",		"url": "https://www.alwatanyh.com/ComplexGuide/community"	}	`}
-        </script>
-      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />

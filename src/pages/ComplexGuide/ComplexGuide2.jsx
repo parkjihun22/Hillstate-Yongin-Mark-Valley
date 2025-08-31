@@ -49,72 +49,30 @@ const ComplexGuide1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
         <title>힐스테이트 도안리버파크 - 호수배치도</title>
         <meta
           name="description"
-          content="힐스테이트 도안리버파크의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
-        />
-        <meta
-          name="keywords"
-          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
+          content="힐스테이트 도안리버파크 동·호수 배치도를 통해 단지 구조와 편의시설 위치를 확인하세요."
         />
         <link
           rel="canonical"
           href="https://www.alwatanyh.com/ComplexGuide/detailintro"
         />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트 도안리버파크 - 호수배치도"
-        />
+        {/* Open Graph */}
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 호수배치도" />
         <meta
           property="og:description"
-          content="힐스테이트 도안리버파크의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.	"
+          content="힐스테이트 도안리버파크 동·호수 배치도를 통해 단지 구조와 편의시설 위치를 확인하세요."
         />
-        <meta
-          property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
+        <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
         <meta
           property="og:url"
           content="https://www.alwatanyh.com/ComplexGuide/detailintro"
         />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
 
-        {/* Twitter 카드 설정 */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트 도안리버파크 - 호수배치도"
-        />
-        <meta
-          name="twitter:description"
-          content="힐스테이트 도안리버파크의 호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.alwatanyh.com/ComplexGuide/detailintro"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 - 호수배치도", "description": "힐스테이트 도안리버파크의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다 ",		"url": "https://www.alwatanyh.com/ComplexGuide/detailintro"	}	`}
-        </script>
       </Helmet>
 
       <Header isChanged={isScroll} />

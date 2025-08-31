@@ -29,28 +29,25 @@ const items = [
         <li>
           <strong>대지위치</strong>
           <span>
-          경기 도안시 처인구 남사읍 아곡리 705번지 7BL<br />
-
+            대전광역시 유성구 학하동 86번지 일원 (도안2-2지구)<br/>
           </span>
         </li>
         <li>
           <strong>건축규모</strong>
           <span>
-            지하 2층 ~ 최고27층, 7개동<br />
-          </span>
-        </li>
-        <li>
-          <strong>주택형</strong>
-          <span>
-            84㎡A·B·C / 109㎡A·B·C / 132㎡A / 150㎡PA·PB·PC / 182㎡P<br />
-        
+            지하 2층 ~ 지상 35층, 총 51개동<br/>
           </span>
         </li>
         <li>
           <strong>세대수</strong>
           <span>
-          660세대
+            총 5,329세대<br/>
+            • 1단지: 1,124세대 (임대 233세대)<br/>
+            • 2단지: 1,437세대 (임대 215세대)<br/>
+            • 3단지: 1,639세대 (임대 416세대)<br/>
+            • 5단지: 443세대 (임대 50세대)  
           </span>
+
         </li>
       </ul>
     ),
@@ -82,8 +79,8 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            반도체 클러스터의 중심으로 사는<br />
-            최고의 브랜드 아파트
+            5,329세대 브랜드 타운의 위상,<br />
+            대전을 대표하는 힐스테이트
           </p>
         </div>
         {/* 슬라이더 */}
@@ -97,39 +94,43 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "미래가치를 높여주는 도안반도체벨트",
+      title: "대전을 바꾸는 초대형 개발호재",
       desc:
-        "삼성 · SK하이닉스 반도체 클러스터(계획), <br />도안반도체 클러스터 일반산업단지 L자형 반도체벨트의 비전",
+        "도안신도시 핵심 입지에 들어서는<br />5,329세대 브랜드 시티, 국가산업단지(예정)와 직주근접 프리미엄",
     },
     {
       img: slide2,
-      title: "의세권을 누리릴 수 있는 프리미엄",
+      title: "대형 의료 인프라 프리미엄",
       desc:
-        "오래된 의료경력을 갖고 있는<br />500병상 규모 명지병원 인접",
+        "을지대학병원·충남대병원 등 대형 종합병원 인접<br />풍부한 전문 의료 네트워크로 안심 생활",
     },
     {
       img: slide3,
-      title: "광역으로 통하는 특급 교통",
+      title: "사통팔달 교통망",
       desc:
-        "국도42호선,국도45호선, 세종-포천고속도로 등 <br />편리한 교통망에 더해지는 반도체 클러스터",
+        "도안대로·동서대로·유성대로 인접<br />트램(2호선 예정)·유성IC·현충원IC로 광역 이동성 강화",
     },
     {
       img: slide4,
-      title: "학교, 쇼핑,병원, 문화를 더 가깝게 <br /> 한걸음에 SMART 인프라",
-      desc: "대형 피트니스, 골프연습장, 독서실 등 입주민 전용 시설",
+      title: "교육·쇼핑·문화 원스톱 인프라",
+      desc:
+        "신설 예정 초·중학교 도보권, 명문 학군 인접<br />상업시설·스포츠타운·문화시설 가까운 생활 편의",
     },
     {
       img: slide5,
-      title: "압도적인 1군 브랜드",
+      title: "브랜드가치를 더하는 힐스테이트",
       desc:
-        "63개월 연속 브랜드 평판 1위 현대건설 프리미엄",
+        "63개월 연속 브랜드 평판 1위 현대건설<br />신뢰와 프리미엄을 동시에",
     },
     {
       img: slide6,
-      title: "확정된 미래가치 보장",
-      desc: "반도체 클러스터 연계 기대수익 및 브랜드 가치 상승",
+      title: "도안신도시의 미래가치",
+      desc:
+        "대전 국가산업단지(예정)·반도체 클러스터 수혜<br />투자와 주거 가치를 함께 높이는 입지",
     },
   ];
+
+
 
   const [current, setCurrent] = useState(0);
   const [touchStartX, setTouchStartX] = useState(null);

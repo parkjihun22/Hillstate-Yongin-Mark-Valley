@@ -14,14 +14,11 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
 	{ label: '사업명', value: '힐스테이트 도안리버파크' },
-	{ label: '사업위치', value: '인천광역시 서구 청라동 86-6번지 (청라국제도시 업무용지 B1)' },
-	{ label: '대지면적', value: '106,050.4985㎡' },
-	{ label: '건축면적', value: '13,404.3638㎡' },
-	{ label: '연면적', value: '376,069.7623㎡' },
-	{ label: '용적률', value: '229.55%' },
-	{ label: '건축규모', value: 'B2-27F, 7개동' },
-	{ label: '세대수', value: '660세대 / 84㎡A·B·C / 109㎡A·B·C / 132㎡A / 150㎡PA·PB·PC / 182㎡P' },
-];
+	{ label: '사업위치', value: '대전광역시 유성구 도안신도시' },
+	{ label: '대지면적', value: '106,050㎡' },
+	{ label: '건축규모', value: '지하 2층 ~ 지상 29층, 8개동' },
+	{ label: '세대수', value: '총 1,727세대' },
+  ];
 
 const BusinessGuide1 = () => {
 	const menuContents = [

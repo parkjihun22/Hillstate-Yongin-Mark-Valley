@@ -53,72 +53,24 @@ const Interior1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 도안리버파크 - 인테리어 </title>
+        <title>힐스테이트 도안리버파크 - 인테리어</title>
         <meta
           name="description"
-          content="인테리어 페이지에서는 힐스테이트 도안리버파크 59타입의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
+          content="힐스테이트 도안리버파크 59A 타입 인테리어를 소개합니다. 세련된 디자인과 고급 자재로 완성된 쾌적한 주거 공간을 확인하세요."
         />
-        <meta
-          name="keywords"
-          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://www.alwatanyh.com/Interior/59A"
-        />
+        <link rel="canonical" href="https://www.alwatanyh.com/Interior/59A" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트 도안리버파크 - 인테리어"
-        />
+        {/* Open Graph */}
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 인테리어" />
         <meta
           property="og:description"
-          content="인테리어 페이지에서는 힐스테이트 도안리버파크 59타입의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
+          content="힐스테이트 도안리버파크 59A 타입의 고급 인테리어와 세련된 공간 설계를 확인하세요."
         />
-        <meta
-          property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.alwatanyh.com/Interior/59A"
-        />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+        <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+        <meta property="og:url" content="https://www.alwatanyh.com/Interior/59A" />
 
-        {/* Twitter 카드 설정 */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트 도안리버파크 - 인테리어"
-        />
-        <meta
-          name="twitter:description"
-          content="인테리어 페이지에서는 힐스테이트 도안리버파크 59타입의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.alwatanyh.com/Interior/59A"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 - 인테리어",		"description": "인테리어 페이지에서는 힐스테이트 도안리버파크 59타입의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.",		"url": "https://www.alwatanyh.com/Interior/59A"	}	`}
-        </script>
       </Helmet>
 
       <Header isChanged={isScroll} />

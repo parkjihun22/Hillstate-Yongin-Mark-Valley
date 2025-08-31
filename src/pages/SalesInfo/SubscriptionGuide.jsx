@@ -49,73 +49,29 @@ const ComplexGuide1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
         <title>힐스테이트 도안리버파크 - 체크포인트</title>
         <meta
           name="description"
-          content="힐스테이트 도안리버파크분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
-        />
-        <meta
-          name="keywords"
-          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
+          content="힐스테이트 도안리버파크 분양 전 반드시 확인해야 할 체크포인트를 안내합니다. 청약 자격, 서류 준비, 일정 등 필수 정보를 확인하세요."
         />
         <link
           rel="canonical"
           href="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"
         />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트 도안리버파크 - 체크포인트"
-        />
+        {/* Open Graph */}
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 체크포인트" />
         <meta
           property="og:description"
-          content="힐스테이트 도안리버파크분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.	"
+          content="분양 전 필수 체크포인트를 한눈에 확인하세요. 청약 자격부터 서류 준비, 일정까지 빠짐없이 안내합니다."
         />
-        <meta
-          property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"
-        />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+        <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+        <meta property="og:url" content="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide" />
 
-        {/* Twitter 카드 설정 */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트 도안리버파크 - 체크포인트"
-        />
-        <meta
-          name="twitter:description"
-          content="힐스테이트 도안리버파크분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 - 체크포인트",		"description": "힐스테이트 도안리버파크분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",		"url": "https://www.alwatanyh.com/SalesInfo/SubscriptionGuide"	}	`}
-        </script>
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

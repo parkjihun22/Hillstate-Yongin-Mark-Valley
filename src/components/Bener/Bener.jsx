@@ -40,17 +40,17 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '힐스테이트' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
+    if (text === '힐스테이트' || text === '홍보영상' || text === '체크포인트' || text === '당첨자서류안내') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    지친 하루를 마치고 가장 나에 가까운 본연의 모습으로 돌아와 누리는 프리미엄입니다.
+                    지친 하루를 마치고 본연의 안식으로 돌아가는 순간, 누리는 프리미엄.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    도안의 최상단 중심
+                    대전 도안 신도시의 중심에서
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 힐스테이트 도안리버파크와 함께합니다.
+                    NO.1 브랜드, 힐스테이트 도안리버파크와 함께합니다.
                 </div>
             </>
         );
@@ -58,13 +58,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    아주대 종합병원이 선택한 새도시!
+                    대전 도안 신도시가 선택한 새로운 주거 기준
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    도안삼성전자캠퍼스 · 기흥역 펜타역세권 프리미엄
+                    대전 도안 생활권·광역 교통망 프리미엄
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    가장 높은 브랜드의 첫 시작
+                    브랜드 가치와 함께 시작하는 미래
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     힐스테이트 도안리버파크
@@ -75,10 +75,10 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
+                    교육·교통·생활 인프라가 조화를 이루는 신도시 중심
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 도안 힐스테이트에서 펼쳐집니다
+                    기대하던 모든 프리미엄이 힐스테이트 도안리버파크에서 실현됩니다
                 </div>
             </>
         );
@@ -86,13 +86,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    주거의 품격과 가치를 높이는 특화설계
+                    주거의 품격과 가치를 높이는 특화 설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    편리한 생활을 위한 최적의 공간설계
+                    편리한 생활을 위한 최적의 공간 설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 힐스테이트 도안리버파크, 처음이자 마지막으로 도안에 찾아옵니다
+                    힐스테이트 도안리버파크, 도안 신도시에 찾아옵니다
                 </div>
             </>
         );

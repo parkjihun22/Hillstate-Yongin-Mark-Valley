@@ -62,83 +62,29 @@ const BusinessGuide2 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
         <title>힐스테이트 도안리버파크 - 당첨자 서류안내</title>
         <meta
           name="description"
-          content="힐스테이트 도안리버파크 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-			"
-        />
-        <meta
-          name="keywords"
-          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
+          content="힐스테이트 도안리버파크 청약 당첨자를 위한 필수 서류와 제출 절차를 안내합니다."
         />
         <link
           rel="canonical"
           href="https://www.alwatanyh.com/BusinessGuide/documents"
         />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트 도안리버파크 - 당첨자 서류안내"
-        />
+        {/* Open Graph */}
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 당첨자 서류안내" />
         <meta
           property="og:description"
-          content="힐스테이트 도안리버파크 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-			"
+          content="청약 당첨 후 준비해야 할 필수 서류와 제출 절차를 확인하세요."
         />
-        <meta
-          property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.alwatanyh.com/BusinessGuide/documents"
-        />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+        <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+        <meta property="og:url" content="https://www.alwatanyh.com/BusinessGuide/documents" />
 
-        {/* Twitter 카드 설정 */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트 도안리버파크 - 당첨자 서류안내"
-        />
-        <meta
-          name="twitter:description"
-          content="힐스테이트 도안리버파크 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.alwatanyh.com/BusinessGuide/documents"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-													{
-														"@context": "https://schema.org",
-														"@type": "WebPage",
-														"name": "힐스테이트 도안리버파크 - 당첨자 서류안내",
-														"description": "힐스테이트 도안리버파크 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다",
-														"url": "https://www.alwatanyh.com/BusinessGuide/documents"
-													}
-													`}
-        </script>
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

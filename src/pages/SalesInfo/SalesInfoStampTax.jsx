@@ -48,73 +48,26 @@ const ComplexGuide1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 도안리버파크 - 인지세안내</title>
+        <title>힐스테이트 도안리버파크 - 인지세 안내</title>
         <meta
           name="description"
-          content="힐스테이트 도안리버파크의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
+          content="힐스테이트 도안리버파크 인지세 안내 페이지입니다. 계약서 작성 시 부과되는 인지세의 세액과 납부 절차를 확인하세요."
         />
-        <meta
-          name="keywords"
-          content="힐스테이트도안리버파크, 도안힐스테이트, 힐스테이트도안리버파크모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://www.alwatanyh.com/SalesInfo/stampTax"
-        />
+        <link rel="canonical" href="https://www.alwatanyh.com/SalesInfo/stampTax" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트 도안리버파크 - 인지세안내"
-        />
+        {/* Open Graph */}
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 인지세 안내" />
         <meta
           property="og:description"
-          content="힐스테이트 도안리버파크의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.	"
+          content="계약 시 필요한 인지세 정보를 확인하세요. 세액과 납부 절차를 쉽게 안내합니다."
         />
-        <meta
-          property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.alwatanyh.com/SalesInfo/stampTax"
-        />
-        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+        <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+        <meta property="og:url" content="https://www.alwatanyh.com/SalesInfo/stampTax" />
 
-        {/* Twitter 카드 설정 */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트 도안리버파크 - 인지세안내"
-        />
-        <meta
-          name="twitter:description"
-          content="힐스테이트 도안리버파크의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.alwatanyh.com/SalesInfo/stampTax"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 도안리버파크 - 인지세안내",		"description": "힐스테이트 도안리버파크의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.",		"url": "https://www.alwatanyh.com/SalesInfo/stampTax"	}	`}
-        </script>
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

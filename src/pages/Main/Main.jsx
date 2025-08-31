@@ -52,27 +52,27 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `660세대 랜드마크 현대건설`,
-    text2: `도안을 대표할<br />
-			      브랜드 프리미엄`,
+    text1: `브랜드시티 대단지`,
+    text2: `도안 신도시의 새로운<br />
+            주거 랜드마크`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `여유로운 직주근접 단지`,
-    text2: `첨단 시스템반도체 국가산업단지(계획)<br />
-			      도안 반도체클러스터 일반산업단지 등`,
+    text1: `사통팔달 교통 프리미엄`,
+    text2: `도안대로·동서대로·유성대로 인접<br />
+            트램(2호선 예정)·유성IC·현충원IC 접근성`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `우수한 교육환경`,
-    text2: `바로 앞 처인초·중교, 처인고교<br />
-			      학원가 조성등 원스톱 안심교육 환경`,
+    text1: `안심 학세권`,
+    text2: `도보권 초·중·고교와<br />
+            도안 학원가로 완성되는 교육환경`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -80,12 +80,13 @@ const section3Contents = [
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
     text1: `브랜드 프리미엄`,
-    text2: `베스트 아파트 브랜드 2년 연속 1위,<br />
-			      브랜드 평판 71개월 1위 브랜드 프리미엄`,
+    text2: `현대건설 힐스테이트가 선보이는<br />
+            품격 있는 주거 가치`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
 ];
+
 
 const Main = () => {
   // 기존 상태 변수들
@@ -238,14 +239,14 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                  " 방문 예약 고객 전원 신세계상품권 100% 증정 "
+                  힐스테이트 도안리버파크 중요 POINT
                 </div>
                 <div className={styles.text3}>
-                  - 도안 중심상업지구 매우인접 <br />
-                  - 첨단 아주대학교 종합병원 도보 5분 <br />
-                  - 도안 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권{" "}
-                  <br />- 모두를 누리는 힐스테이트 도안리버파크
-                </div>
+                - 도안 중심상업지구(도안 2-9지구) 인접, 핵심 상권 접근성<br />
+                - 을지대학교병원·충남대학교병원 등 대형 의료기관 접근성 우수<br />
+                - 도시철도 2호선(트램) 도안대로 구간 공사 진행 중, 1호선과의 연계로 이동성 강화<br />
+                - 대전을 대표하는 브랜드시티, 힐스테이트 도안리버파크
+              </div>
                 <div className={styles.text4}>
                   <a
                     href="#"
@@ -357,64 +358,64 @@ const Main = () => {
           <div id="interestForm" className={styles.section}></div>
 
           {/* ================== 방문예약 섹션 (PC) ================== */}
-<div className={styles.pcVisitContainer}>
-  {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
-  <div className={styles.pcTitleRow}>
-    <div className={styles.leftTitle}>
-      <h2>힐스테이트 도안리버파크</h2>
-      <p>방문예약</p>
-    </div>
-    <div className={styles.rightText}>
-      방문예약 등록 시 모델하우스 주소 SMS발송 및
-      <br />
-      잔여세대를 안내드립니다.
-    </div>
-  </div>
+                  <div className={styles.pcVisitContainer}>
+                    {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
+                    <div className={styles.pcTitleRow}>
+                      <div className={styles.leftTitle}>
+                        <h2>힐스테이트 도안리버파크</h2>
+                        <p>방문예약</p>
+                      </div>
+                      <div className={styles.rightText}>
+                        방문예약 등록 시 모델하우스 주소 SMS발송 및
+                        <br />
+                        잔여세대를 안내드립니다.
+                      </div>
+                    </div>
 
-  {/* 입력 폼 */}
-  <form
-    className={styles.pcVisitForm}
-    action="https://formspree.io/f/xvgzvlvr"
-    method="POST"
-  >
-    <label htmlFor="name">
-      고객명 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="text"
-      name="name"
-      placeholder="고객명"
-      value={registration.name}
-      onChange={handleInputChange}
-      required
-    />
+                    {/* 입력 폼 */}
+                    <form
+                      className={styles.pcVisitForm}
+                      action="https://formspree.io/f/xldwndrb"
+                      method="POST"
+                    >
+                      <label htmlFor="name">
+                        고객명 <span className={styles.redStar}>*</span>
+                      </label>
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="고객명"
+                        value={registration.name}
+                        onChange={handleInputChange}
+                        required
+                      />
 
-    <label htmlFor="phone">
-      연락처 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
+                      <label htmlFor="phone">
+                        연락처 <span className={styles.redStar}>*</span>
+                      </label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        placeholder="010-0000-0000"
+                        value={registration.phone}
+                        onChange={handleInputChange}
+                        required
+                      />
 
-    <label htmlFor="message">
-      문의 내용
-    </label>
-    <textarea
-      name="message"
-      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
-      value={registration.message}
-      onChange={handleInputChange}
-      rows={5}
-    />
+                      <label htmlFor="message">
+                        문의 내용
+                      </label>
+                      <textarea
+                        name="message"
+                        placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+                        value={registration.message}
+                        onChange={handleInputChange}
+                        rows={5}
+                      />
 
-    <button type="submit">등록하기</button>
-  </form>
-</div>
+                      <button type="submit">등록하기</button>
+                    </form>
+                  </div>
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
@@ -482,17 +483,17 @@ const Main = () => {
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
-              <div className={styles.mainImageTextSub1}>
-                반도체클러스터에서의 첫 시작<br/>
-                브랜드 평판 1위 힐스테이트
-                <br />
-                <span className={styles.greyText1}>브랜드 프리미엄 </span>
-                <br />
+            <div className={styles.mainImageTextSub1}>
+              도안신도시의 새로운 주거 기준<br/>
+              브랜드 평판 1위 힐스테이트
+              <br />
+              <span className={styles.greyText1}>브랜드 프리미엄</span>
+              <br />
+            </div>
+            <div className={styles.mainImageTitleBox1}>
+              <div className={styles.mainImageText1}>
+                힐스테이트 도안리버파크
               </div>
-              <div className={styles.mainImageTitleBox1}>
-                <div className={styles.mainImageText1}>
-                  힐스테이트 도안리버파크
-                </div>
 
               </div>
             </div>
@@ -501,17 +502,14 @@ const Main = () => {
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              힐스테이트 도안리버파크 POINT
+              힐스테이트 도안리버파크 중요 POINT
             </div>
             <div className={styles.text3}>
-              - 도안신도시 중심상업지구 가장인접한 입지
-              <br />
-              - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분
-              <br />
-              - 도안 반도체클러스터 삼성전자 도안캠퍼스, SK하이닉스 
-              <br />- 학세권인근 단지 및 수변공원 프리미엄까지
-              <br />- 모두를 누리는 힐스테이트 도안리버파크
-            </div>
+                - 도안 중심상업지구(도안 2-9지구) 인접, 핵심 상권 접근성<br />
+                - 을지대학교병원·충남대학교병원 등 대형 의료기관 접근성 우수<br />
+                - 도시철도 2호선(트램) 도안대로 구간 공사 진행 중, 1호선과의 연계로 이동성 강화<br />
+                - 대전을 대표하는 브랜드시티, 힐스테이트 도안리버파크
+              </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
               <a
@@ -617,54 +615,54 @@ const Main = () => {
           </div> */}
 
           {/* 모바일 방문예약 섹션 */}
-<div className={styles.mobileVisitContainer}>
-  <h2>힐스테이트 도안리버파크</h2>
-  <p className={styles.mobileSubTitle}>방문예약</p>
-  <p className={styles.mobileInfoText}>
-    방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
-    잔여세대를 안내드립니다.
-  </p>
+            <div className={styles.mobileVisitContainer}>
+              <h2>힐스테이트 도안리버파크</h2>
+              <p className={styles.mobileSubTitle}>방문예약</p>
+              <p className={styles.mobileInfoText}>
+                방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
+                잔여세대를 안내드립니다.
+              </p>
 
-  <form
-    className={styles.mobileVisitForm}
-    action="https://formspree.io/f/xvgzvlvr"
-    method="POST"
-  >
-    <label htmlFor="name">
-      고객명 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="text"
-      name="name"
-      placeholder="고객명"
-      value={registration.name}
-      onChange={handleInputChange}
-      required
-    />
+              <form
+                className={styles.mobileVisitForm}
+                action="https://formspree.io/f/xldwndrb"
+                method="POST"
+              >
+                <label htmlFor="name">
+                  고객명 <span className={styles.redStar}>*</span>
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="고객명"
+                  value={registration.name}
+                  onChange={handleInputChange}
+                  required
+                />
 
-    <label htmlFor="phone">
-      연락처 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
-    <label htmlFor="message">문의 내용</label>
-    <textarea
-      name="message"
-      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
-      value={registration.message}
-      onChange={handleInputChange}
-      rows={5}
-    />
+                <label htmlFor="phone">
+                  연락처 <span className={styles.redStar}>*</span>
+                </label>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="010-0000-0000"
+                  value={registration.phone}
+                  onChange={handleInputChange}
+                  required
+                />
+                <label htmlFor="message">문의 내용</label>
+                <textarea
+                  name="message"
+                  placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+                  value={registration.message}
+                  onChange={handleInputChange}
+                  rows={5}
+                />
 
-    <button type="submit">등록하기</button>
-  </form>
-</div>
+                <button type="submit">등록하기</button>
+              </form>
+            </div>
 
           <div className={styles.section5}>
             <Footer />
