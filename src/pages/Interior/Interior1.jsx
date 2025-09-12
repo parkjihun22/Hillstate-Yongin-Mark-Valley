@@ -16,8 +16,8 @@ import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러�
 
 const Interior1 = () => {
   const menuContents = [
-    { title: "59㎡", url: "/Interior/59A" },
-    { title: "84㎡", url: "/Interior/84A" },
+    { title: "인테리어", url: "/Interior/59A" },
+    // { title: "84㎡", url: "/Interior/84A" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);

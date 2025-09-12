@@ -11,21 +11,24 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
-    { title: "세대안내", url: "/FloorPlan/59A" },
-    { title: "84A", key: "84A" },
-    { title: "109A", key: "109A" },
-    { title: "109B", key: "109B" },
+    { title: "1,2단지", key: "1,2단지" },
+    { title: "3,5단지", key: "3,5단지" },
+    // { title: "84A", key: "84A" },
+    // { title: "84B", key: "84B" },
   ];
 
   const vrUrls = {
-    "84A": "https://www.hillstate.co.kr/upload/2025/04/20250407100817019911/tour.html",
-    "109A": "https://www.hillstate.co.kr/upload/2025/04/20250407104054016338/tour.html",
-    "109B": "https://www.hillstate.co.kr/upload/2025/04/20250407104514012388/tour.html",
-
-
+    "1,2단지": "https://www.hillstate.co.kr/upload/2024/07/20240719023756017530/tour.html",
+    "3,5단지": "https://www.hillstate.co.kr/upload/2024/11/20241107065049013129/tour.html",
+    // "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
+    // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
   };
 
-  const [selectedType, setSelectedType] = useState("84A");
+
+
+
+
+  const [selectedType, setSelectedType] = useState("1,2단지");
   const { pathname } = useLocation();
   const [isScroll, setIsScroll] = useState(false);
 
@@ -44,31 +47,72 @@ const Emodel = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+        {/* 핵심 SEO 페이지: E-모델하우스 */}
         <title>힐스테이트 도안리버파크 - E-모델하우스</title>
-        <meta name="description" content="힐스테이트 도안리버파크의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="keywords" content="힐스테이트 도안리버파크, E-모델하우스, 온라인모델하우스" />
-        <link rel="canonical" href="https://www.beyinegzersizi.com/FloorPlan/Emodel" />
-        <meta property="og:title" content="힐스테이트 도안리버파크 - E-모델하우스" />
-        <meta property="og:description" content="힐스테이트 도안리버파크의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta property="og:image" content="https://www.beyinegzersizi.com/Main1.png" />
-        <meta property="og:url" content="https://www.beyinegzersizi.com/FloorPlan/Emodel" />
+        <meta
+          name="description"
+          content="대전 도안신도시 힐스테이트 도안리버파크 E-모델하우스를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 세대별 평면도, 인테리어까지 실감나게 확인하실 수 있습니다."
+        />
+        <meta name="robots" content="index,follow" />
+        <link rel="canonical" href="https://www.alwatanyh.com/FloorPlan/Emodel" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+        <meta property="og:title" content="힐스테이트 도안리버파크 - E-모델하우스" />
+        <meta
+          property="og:description"
+          content="대전 도안신도시 힐스테이트 도안리버파크 E-모델하우스를 온라인에서 둘러보세요. VR 투어와 세대별 평면도를 통해 실제와 같은 공간을 체험할 수 있습니다."
+        />
+        <meta property="og:url" content="https://www.alwatanyh.com/FloorPlan/Emodel" />
+        <meta property="og:image" content="https://www.alwatanyh.com/img/og/emodel.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="힐스테이트 도안리버파크 - E-모델하우스" />
-        <meta name="twitter:description" content="힐스테이트 도안리버파크의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="twitter:image" content="https://www.beyinegzersizi.com/Main1.png" />
+        <meta
+          name="twitter:description"
+          content="힐스테이트 도안리버파크 E-모델하우스를 온라인에서 편리하게 둘러보세요. VR 투어와 평면도로 실제 같은 공간을 경험하세요."
+        />
+        <meta name="twitter:image" content="https://www.alwatanyh.com/img/og/emodel.jpg" />
+        <meta name="twitter:url" content="https://www.alwatanyh.com/FloorPlan/Emodel" />
+
+        {/* JSON-LD (구조화 데이터) */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "힐스테이트 도안리버파크 - E-모델하우스",
+            "url": "https://www.alwatanyh.com/FloorPlan/Emodel",
+            "description":
+              "대전 도안신도시 힐스테이트 도안리버파크 E-모델하우스를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 세대별 평면도를 확인할 수 있습니다.",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "contentUrl": "https://www.alwatanyh.com/img/og/emodel.jpg",
+              "width": 1200,
+              "height": 630
+            },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.alwatanyh.com/" },
+                { "@type": "ListItem", "position": 2, "name": "E-모델하우스", "item": "https://www.alwatanyh.com/FloorPlan/Emodel" }
+              ]
+            }
+          })}
+        </script>
       </Helmet>
+
+
 
       <Header isChanged={isScroll} />
       <FixIcon />
       <Bener title="E-모델하우스" />
       <MenuBar contents={menuContents} />
 
-      <h1 className={styles.screenReaderOnly}>힐스테이트 도안리버파크 - E-모델하우스 안내</h1>
+      <h1 className={styles.screenReaderOnly}>힐스테이트 도안리버파크 - E-모델하우스</h1>
 
       <div className={styles.tabMenu}>
         {menuContents.slice(0, 5).map((tab, idx) => (

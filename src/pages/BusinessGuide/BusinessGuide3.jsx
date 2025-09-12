@@ -8,7 +8,8 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
+// import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const BusinessGuide2 = () => {
   const menuContents = [
@@ -106,8 +107,10 @@ const BusinessGuide2 = () => {
         <div>힐스테이트 도안리버파크의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 도안리버파크 계약서류안내-image1" />
+			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 도안리버파크 계약서류안내-image1" /> */}
 
+
+      <Ready/>
 
       <Footer />
     </div>

@@ -56,23 +56,21 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "84A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "84B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "84C", subUrl: "/FloorPlan/84A" },
-      { subTitle: "109A", subUrl: "/FloorPlan/84B" },
-      { subTitle: "109B", subUrl: "/FloorPlan/114A" },
-      { subTitle: "109C", subUrl: "/FloorPlan/114B" },
-      { subTitle: "132A", subUrl: "/FloorPlan/114C" },
+      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "84A", subUrl: "/FloorPlan/84A" },
+      { subTitle: "84B", subUrl: "/FloorPlan/84B" },
+      { subTitle: "84C", subUrl: "/FloorPlan/114A" },
+      { subTitle: "84C", subUrl: "/FloorPlan/114B" },
       { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
-      
     ],
   },
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "84A", subUrl: "/Interior/59A" },
-      { subTitle: "119A", subUrl: "/Interior/84A" },
-      { subTitle: "119B", subUrl: "/Interior/84B" },
+      { subTitle: "인테리어", subUrl: "/Interior/59A" },
+      // { subTitle: "119A", subUrl: "/Interior/84A" },
+      // { subTitle: "119B", subUrl: "/Interior/84B" },
     ],
   },
 ];

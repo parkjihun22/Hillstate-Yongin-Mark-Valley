@@ -14,10 +14,10 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
 	{ label: '사업명', value: '힐스테이트 도안리버파크' },
-	{ label: '사업위치', value: '대전광역시 유성구 도안신도시' },
-	{ label: '대지면적', value: '106,050㎡' },
-	{ label: '건축규모', value: '지하 2층 ~ 지상 29층, 8개동' },
-	{ label: '세대수', value: '총 1,727세대' },
+	{ label: '사업위치', value: '대전광역시 유성구 도안2-2지구 일원(학하동·복용동)' },
+	{ label: '대지면적', value: '미공개 / 추후 공지' },
+	{ label: '건축규모', value: '지하 2층 ~ 지상 35층, 총 51개동, 5개 단지' },
+	{ label: '세대수', value: '총 5,329세대' },
   ];
 
 const BusinessGuide1 = () => {
