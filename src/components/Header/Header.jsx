@@ -127,7 +127,7 @@ const Header = () => {
             <img src={mainlogowhite} alt="Logo" className={styles.logo} />
           </Link>
           {/* 모바일에서는 기존 전화 연결 a 태그 유지 */}
-          <a href="tel:1533-8848">
+          <a href="tel:1866-1344">
             <IoCall className={styles.icon} size={25} color="#710101" />
           </a>
         </div>
@@ -201,7 +201,7 @@ const Header = () => {
           type="button"
           style={{ background: "none", border: "none", cursor: "pointer" }}
         >
-          <IoCall size={20} /> 1533-8848
+          <IoCall size={20} /> 1866-1344
         </button>
       </header>
       {hoveredMenu !== null && hoveredMenuRect && (
