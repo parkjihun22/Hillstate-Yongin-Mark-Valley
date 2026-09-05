@@ -63,10 +63,10 @@ const BusinessGuide2 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>힐스테이트 도안리버파크 - 당첨자 서류안내</title>
+        <title>힐스테이트 양산더스카이 - 당첨자 서류안내</title>
         <meta
           name="description"
-          content="힐스테이트 도안리버파크 청약 당첨자를 위한 필수 서류와 제출 절차를 안내합니다."
+          content="힐스테이트 양산더스카이 청약 당첨자를 위한 필수 서류와 제출 절차를 안내합니다."
         />
         <link
           rel="canonical"
@@ -74,7 +74,7 @@ const BusinessGuide2 = () => {
         />
 
         {/* Open Graph */}
-        <meta property="og:title" content="힐스테이트 도안리버파크 - 당첨자 서류안내" />
+        <meta property="og:title" content="힐스테이트 양산더스카이 - 당첨자 서류안내" />
         <meta
           property="og:description"
           content="청약 당첨 후 준비해야 할 필수 서류와 제출 절차를 확인하세요."
@@ -93,7 +93,7 @@ const BusinessGuide2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 도안리버파크- 계약서류안내
+        힐스테이트 양산더스카이- 계약서류안내
       </h1>
       <p className={styles.screenReaderOnly}>
         계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해
@@ -104,10 +104,10 @@ const BusinessGuide2 = () => {
 
       <div className={styles.textBox}>
         <div>도안의 눈부신 가치 위에</div>
-        <div>힐스테이트 도안리버파크의 새로운 자부심으로 찾아옵니다.</div>
+        <div>힐스테이트 양산더스카이의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 도안리버파크 계약서류안내-image1" /> */}
+			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 양산더스카이 계약서류안내-image1" /> */}
 
 
       <Ready/>

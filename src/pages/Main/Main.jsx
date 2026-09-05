@@ -202,7 +202,7 @@ const Main = () => {
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="힐스테이트 도안리버파크-mainimage1"
+              alt="힐스테이트 양산더스카이-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
@@ -214,7 +214,7 @@ const Main = () => {
                 <div className={styles.mainImageText}>도안이 기다린</div>
                 <div className={styles.mainImageLine}></div>
                 <div className={styles.mainImageText}>
-                  힐스테이트 도안리버파크
+                  힐스테이트 양산더스카이
                 </div>
                
               </div>
@@ -239,13 +239,13 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                  힐스테이트 도안리버파크 중요 POINT
+                  힐스테이트 양산더스카이 중요 POINT
                 </div>
                 <div className={styles.text3}>
                 - 도안 중심상업지구(도안 2-9지구) 인접, 핵심 상권 접근성<br />
                 - 을지대학교병원·충남대학교병원 등 대형 의료기관 접근성 우수<br />
                 - 도시철도 2호선(트램) 도안대로 구간 공사 진행 중, 1호선과의 연계로 이동성 강화<br />
-                - 대전을 대표하는 브랜드시티, 힐스테이트 도안리버파크
+                - 대전을 대표하는 브랜드시티, 힐스테이트 양산더스카이
               </div>
                 <div className={styles.text4}>
                   <a
@@ -262,7 +262,7 @@ const Main = () => {
               <div className={styles.menuBox}>
                 <img
                   src={section1_Image1}
-                  alt="힐스테이트 도안리버파크 브랜드소개-image2"
+                  alt="힐스테이트 양산더스카이 브랜드소개-image2"
                 />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
@@ -276,17 +276,17 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>최고의 브랜드 아파트<br /> 힐스테이트 도안리버파크</span>
+                  <span>최고의 브랜드 아파트<br /> 힐스테이트 양산더스카이</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    힐스테이트 도안리버파크가 함께합니다
+                    힐스테이트 양산더스카이가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="힐스테이트 도안리버파크 입지환경소개-image2" />
+              <img src={section8Img3} alt="힐스테이트 양산더스카이 입지환경소개-image2" />
             </div>
           </div>
 
@@ -299,7 +299,7 @@ const Main = () => {
                 <div className={`${styles.text2} fadeUpRepeat`}>
                   기대한 모든 프리미엄이
                   <br />
-                  힐스테이트 도안리버파크에서 펼쳐집니다
+                  힐스테이트 양산더스카이에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -319,7 +319,7 @@ const Main = () => {
               </div>
               <img
                 src={section2_Image1}
-                alt="힐스테이트 도안리버파크아파트 조감도-image3"
+                alt="힐스테이트 양산더스카이아파트 조감도-image3"
               />
             </div>
           </div>
@@ -343,8 +343,8 @@ const Main = () => {
           <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="힐스테이트 도안리버파크 브랜드소개-image4" />
-                <div className={styles.text1}>힐스테이트 도안리버파크</div>
+                <img src={section4_Image1} alt="힐스테이트 양산더스카이 브랜드소개-image4" />
+                <div className={styles.text1}>힐스테이트 양산더스카이</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -362,7 +362,7 @@ const Main = () => {
                     {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
                     <div className={styles.pcTitleRow}>
                       <div className={styles.leftTitle}>
-                        <h2>힐스테이트 도안리버파크</h2>
+                        <h2>힐스테이트 양산더스카이</h2>
                         <p>방문예약</p>
                       </div>
                       <div className={styles.rightText}>
@@ -421,18 +421,18 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                힐스테이트 도안리버파크<br />
+                힐스테이트 양산더스카이<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    힐스테이트 도안리버파크가 함께합니다
+                    힐스테이트 양산더스카이가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="힐스테이트 도안리버파크 오시는길안내-image1" />
+              <img src={map1} alt="힐스테이트 양산더스카이 오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -479,7 +479,7 @@ const Main = () => {
             <img
               src={mobileImageMain}
               className={styles.mainImage}
-              alt="힐스테이트 도안리버파크 mobilemain-image1"
+              alt="힐스테이트 양산더스카이 mobilemain-image1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
@@ -492,7 +492,7 @@ const Main = () => {
             </div>
             <div className={styles.mainImageTitleBox1}>
               <div className={styles.mainImageText1}>
-                힐스테이트 도안리버파크
+                힐스테이트 양산더스카이
               </div>
 
               </div>
@@ -502,13 +502,13 @@ const Main = () => {
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              힐스테이트 도안리버파크 중요 POINT
+              힐스테이트 양산더스카이 중요 POINT
             </div>
             <div className={styles.text3}>
                 - 도안 중심상업지구(도안 2-9지구) 인접, 핵심 상권 접근성<br />
                 - 을지대학교병원·충남대학교병원 등 대형 의료기관 접근성 우수<br />
                 - 도시철도 2호선(트램) 도안대로 구간 공사 진행 중, 1호선과의 연계로 이동성 강화<br />
-                - 대전을 대표하는 브랜드시티, 힐스테이트 도안리버파크
+                - 대전을 대표하는 브랜드시티, 힐스테이트 양산더스카이
               </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -539,7 +539,7 @@ const Main = () => {
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해
                   <br />
-                  힐스테이트 도안리버파크가 함께합니다
+                  힐스테이트 양산더스카이가 함께합니다
                 </div>
               </div>
             </div>
@@ -557,7 +557,7 @@ const Main = () => {
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이
                 <br />
-                힐스테이트 도안리버파크에서 펼쳐집니다
+                힐스테이트 양산더스카이에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
@@ -610,13 +610,13 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="힐스테이트 도안리버파크 오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="힐스테이트 양산더스카이 오시는길안내-mobileimage2" />
             </div>
           </div> */}
 
           {/* 모바일 방문예약 섹션 */}
             <div className={styles.mobileVisitContainer}>
-              <h2>힐스테이트 도안리버파크</h2>
+              <h2>힐스테이트 양산더스카이</h2>
               <p className={styles.mobileSubTitle}>방문예약</p>
               <p className={styles.mobileInfoText}>
                 방문예약 등록 시 모델하우스 주소 SMS발송 및<br />

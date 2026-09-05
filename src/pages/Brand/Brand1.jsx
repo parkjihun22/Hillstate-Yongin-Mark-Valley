@@ -62,14 +62,14 @@ const Brand1 = () => {
     <meta name="robots" content="index, follow" />
 
     {/* SEO 최적화를 위한 메타 태그 */}
-    <title>힐스테이트 도안리버파크 - 브랜드 소개</title>
+    <title>힐스테이트 양산더스카이 - 브랜드 소개</title>
     <meta
       name="description"
-      content="힐스테이트 도안리버파크의 브랜드 철학과 가치를 소개합니다. 현대건설 힐스테이트는 사람 중심 설계와 혁신 기술, 지속가능한 주거 철학을 바탕으로 고급스럽고 실용적인 주거 문화를 제시합니다."
+      content="힐스테이트 양산더스카이의 브랜드 철학과 가치를 소개합니다. 현대건설 힐스테이트는 사람 중심 설계와 혁신 기술, 지속가능한 주거 철학을 바탕으로 고급스럽고 실용적인 주거 문화를 제시합니다."
     />
     <meta
       name="keywords"
-      content="힐스테이트 도안리버파크, 도안 힐스테이트, 브랜드 소개"
+      content="힐스테이트 양산더스카이, 도안 힐스테이트, 브랜드 소개"
     />
     <link
       rel="canonical"
@@ -79,11 +79,11 @@ const Brand1 = () => {
     {/* Open Graph - 소셜 미디어 공유 최적화 */}
     <meta
       property="og:title"
-      content="힐스테이트 도안리버파크 - 브랜드 소개"
+      content="힐스테이트 양산더스카이 - 브랜드 소개"
     />
     <meta
       property="og:description"
-      content="힐스테이트 도안리버파크의 브랜드 철학과 가치를 소개합니다. 사람 중심 설계, 혁신 기술, 지속가능한 주거 철학으로 새로운 라이프스타일을 제안합니다."
+      content="힐스테이트 양산더스카이의 브랜드 철학과 가치를 소개합니다. 사람 중심 설계, 혁신 기술, 지속가능한 주거 철학으로 새로운 라이프스타일을 제안합니다."
     />
     <meta
       property="og:image"
@@ -93,17 +93,17 @@ const Brand1 = () => {
       property="og:url"
       content="https://www.alwatanyh.com/Brand/intro"
     />
-    <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+    <meta property="og:site_name" content="힐스테이트 양산더스카이" />
 
     {/* Twitter 카드 설정 */}
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="힐스테이트 도안리버파크 - 브랜드 소개"
+      content="힐스테이트 양산더스카이 - 브랜드 소개"
     />
     <meta
       name="twitter:description"
-      content="힐스테이트 도안리버파크의 브랜드 철학과 가치를 소개합니다. 사람 중심 설계와 혁신 기술, 지속가능한 주거 철학으로 고급스러운 생활을 완성합니다."
+      content="힐스테이트 양산더스카이의 브랜드 철학과 가치를 소개합니다. 사람 중심 설계와 혁신 기술, 지속가능한 주거 철학으로 고급스러운 생활을 완성합니다."
     />
     <meta
       name="twitter:image"
@@ -120,8 +120,8 @@ const Brand1 = () => {
         {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "힐스테이트 도안리버파크 - 브랜드 소개",
-          "description": "힐스테이트 도안리버파크의 브랜드 철학과 가치를 소개합니다. 현대건설 힐스테이트는 사람 중심 설계와 혁신 기술, 지속가능한 주거 철학을 바탕으로 고급스럽고 실용적인 주거 문화를 제시합니다.",
+          "name": "힐스테이트 양산더스카이 - 브랜드 소개",
+          "description": "힐스테이트 양산더스카이의 브랜드 철학과 가치를 소개합니다. 현대건설 힐스테이트는 사람 중심 설계와 혁신 기술, 지속가능한 주거 철학을 바탕으로 고급스럽고 실용적인 주거 문화를 제시합니다.",
           "url": "https://www.alwatanyh.com/Brand/intro"
         }
       `}
@@ -136,10 +136,10 @@ const Brand1 = () => {
   <MenuBar contents={menuContents} />
   {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 도안리버파크 - 브랜드 소개
+        힐스테이트 양산더스카이 - 브랜드 소개
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 도안리버파크는 사람 중심 설계와 검증된 품질을 바탕으로
+        힐스테이트 양산더스카이는 사람 중심 설계와 검증된 품질을 바탕으로
         고급스럽고 실용적인 주거 환경을 제공합니다. 지속가능한 철학과
         혁신 기술로 새로운 주거 문화를 제시합니다.
       </p>
@@ -148,13 +148,13 @@ const Brand1 = () => {
     className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}
   >
           <div>생활의 기준을 높이는 선택</div>
-          <div>힐스테이트 도안리버파크, 도안 신도시의 중심에 서다</div>
+          <div>힐스테이트 양산더스카이, 도안 신도시의 중심에 서다</div>
         </div>
 
       <img
         className={`${styles.image} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
-        alt="힐스테이트 도안리버파크 brand-Image1"
+        alt="힐스테이트 양산더스카이 brand-Image1"
       />
 
       <Footer />
