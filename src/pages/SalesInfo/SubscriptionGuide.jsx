@@ -51,10 +51,10 @@ const ComplexGuide1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>힐스테이트 양산더스카이 - 체크포인트</title>
+        <title>힐스테이트 도안리버파크 - 체크포인트</title>
         <meta
           name="description"
-          content="힐스테이트 양산더스카이 분양 전 반드시 확인해야 할 체크포인트를 안내합니다. 청약 자격, 서류 준비, 일정 등 필수 정보를 확인하세요."
+          content="힐스테이트 도안리버파크 분양 전 반드시 확인해야 할 체크포인트를 안내합니다. 청약 자격, 서류 준비, 일정 등 필수 정보를 확인하세요."
         />
         <link
           rel="canonical"
@@ -62,7 +62,7 @@ const ComplexGuide1 = () => {
         />
 
         {/* Open Graph */}
-        <meta property="og:title" content="힐스테이트 양산더스카이 - 체크포인트" />
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 체크포인트" />
         <meta
           property="og:description"
           content="분양 전 필수 체크포인트를 한눈에 확인하세요. 청약 자격부터 서류 준비, 일정까지 빠짐없이 안내합니다."
@@ -83,17 +83,17 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이 - 체크포인트
+        힐스테이트 도안리버파크 - 체크포인트
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이 분양 전 필수 체크포인트를 확인하세요. 청약
+        힐스테이트 도안리버파크 분양 전 필수 체크포인트를 확인하세요. 청약
         자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을
         정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수
         있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>힐스테이트 양산더스카이가 눈부신 가치 위에</div>
+        <div>힐스테이트 도안리버파크가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -101,7 +101,7 @@ const ComplexGuide1 = () => {
       {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="힐스테이트 양산더스카이청약체크포인트-image1"
+        alt="힐스테이트 도안리버파크청약체크포인트-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
       /> */}
 

@@ -44,10 +44,10 @@ const LocationEnvironment1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>힐스테이트 양산더스카이 - 프리미엄</title>
+        <title>힐스테이트 도안리버파크 - 프리미엄</title>
         <meta
           name="description"
-          content="힐스테이트 양산더스카이의 차별화된 프리미엄을 소개합니다. 고급 디자인, 첨단 설계, 입주민을 위한 특별한 혜택을 확인하세요."
+          content="힐스테이트 도안리버파크의 차별화된 프리미엄을 소개합니다. 고급 디자인, 첨단 설계, 입주민을 위한 특별한 혜택을 확인하세요."
         />
         <link
           rel="canonical"
@@ -55,10 +55,10 @@ const LocationEnvironment1 = () => {
         />
 
         {/* Open Graph */}
-        <meta property="og:title" content="힐스테이트 양산더스카이 - 프리미엄" />
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 프리미엄" />
         <meta
           property="og:description"
-          content="힐스테이트 양산더스카이의 독보적인 프리미엄 가치와 혜택을 확인하세요."
+          content="힐스테이트 도안리버파크의 독보적인 프리미엄 가치와 혜택을 확인하세요."
         />
         <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
         <meta
@@ -79,20 +79,20 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이 - 프리미엄
+        힐스테이트 도안리버파크 - 프리미엄
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이의 차별화된 프리미엄을 만나보세요. 고급스러운
+        힐스테이트 도안리버파크의 차별화된 프리미엄을 만나보세요. 고급스러운
         디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해
         힐스테이트만의 독보적인 가치를 제공합니다.
       </p>
 
       <div className={styles.textBox}>
         <div>도안의 눈부신 가치 위에</div>
-        <div>힐스테이트 양산더스카이의 새로운 자부심으로 찾아옵니다.</div>
+        <div>힐스테이트 도안리버파크의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      <img src={page1} className={styles.image3} alt="힐스테이트 양산더스카이프리미엄-image1" />
+      <img src={page1} className={styles.image3} alt="힐스테이트 도안리버파크프리미엄-image1" />
  
 
       <Footer />

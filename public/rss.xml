@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>힐스테이트 양산더스카이</title>
+    <title>힐스테이트 도안리버파크</title>
     <link>https://www.alwatanyh.com/</link>
-    <description>힐스테이트 양산더스카이 공식 안내 RSS입니다. 사업 개요, 분양·청약, 입지·프리미엄, 단지·평면, 커뮤니티, 안내문 등을 한 곳에서 확인하세요.</description>
+    <description>힐스테이트 도안리버파크 공식 안내 RSS입니다. 사업 개요, 분양·청약, 입지·프리미엄, 단지·평면, 커뮤니티, 안내문 등을 한 곳에서 확인하세요.</description>
     <language>ko-KR</language>
     <atom:link href="https://www.alwatanyh.com/rss.xml" rel="self" type="application/rss+xml"/>
 
@@ -19,7 +19,7 @@
       <title>브랜드 영상</title>
       <link>https://www.alwatanyh.com/Brand/video</link>
       <guid isPermaLink="true">https://www.alwatanyh.com/Brand/video</guid>
-      <description><![CDATA[힐스테이트 양산더스카이의 입지와 단지 가치를 영상으로 확인하세요.]]></description>
+      <description><![CDATA[힐스테이트 도안리버파크의 입지와 단지 가치를 영상으로 확인하세요.]]></description>
       <pubDate>Sun, 31 Aug 2025 09:00:00 +0900</pubDate>
     </item>
 

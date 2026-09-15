@@ -74,7 +74,7 @@ const FloorPlan3 = () => {
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="힐스테이트 양산더스카이 84C 평면image"
+				alt="힐스테이트 도안리버파크 84C 평면image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

@@ -94,21 +94,21 @@ const LocationEnvironment1 = () => {
     <div className={styles.container}>
       <Helmet>
         {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
-        <title>힐스테이트 양산더스카이 - 입지환경</title>
+        <title>힐스테이트 도안리버파크 - 입지환경</title>
         <meta
           name="description"
-          content="대전 도안신도시 중심 입지, 힐스테이트 양산더스카이의 입지환경을 확인하세요. 도시철도 2호선(트램 예정)·유성IC 광역 교통망, 신설 초·중학교, 갑천·유림공원 등 쾌적한 자연환경과 생활 인프라."
+          content="대전 도안신도시 중심 입지, 힐스테이트 도안리버파크의 입지환경을 확인하세요. 도시철도 2호선(트램 예정)·유성IC 광역 교통망, 신설 초·중학교, 갑천·유림공원 등 쾌적한 자연환경과 생활 인프라."
         />
         <meta name="robots" content="index,follow" />
         <link rel="canonical" href="https://www.apay.co.kr/LocationEnvironment/intro" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="힐스테이트 양산더스카이" />
-        <meta property="og:title" content="힐스테이트 양산더스카이 - 입지환경" />
+        <meta property="og:site_name" content="힐스테이트 도안리버파크" />
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 입지환경" />
         <meta
           property="og:description"
-          content="대전 도안신도시 중심 입지, 힐스테이트 양산더스카이의 입지환경을 확인하세요. 트램(2호선 예정)·유성IC, 신설 학교, 갑천·유림공원 등 생활 인프라와 자연환경을 누리는 핵심 입지."
+          content="대전 도안신도시 중심 입지, 힐스테이트 도안리버파크의 입지환경을 확인하세요. 트램(2호선 예정)·유성IC, 신설 학교, 갑천·유림공원 등 생활 인프라와 자연환경을 누리는 핵심 입지."
         />
         <meta property="og:url" content="https://www.apay.co.kr/LocationEnvironment/intro" />
         <meta property="og:image" content="https://www.apay.co.kr/img/og/location.jpg" />
@@ -117,7 +117,7 @@ const LocationEnvironment1 = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="힐스테이트 양산더스카이 - 입지환경" />
+        <meta name="twitter:title" content="힐스테이트 도안리버파크 - 입지환경" />
         <meta
           name="twitter:description"
           content="대전 도안신도시 핵심 입지, 도시철도 2호선(트램 예정)·유성IC·현충원IC(예정) 교통망, 신설 학교, 갑천·도안근린공원 인접으로 생활과 자연을 동시에 누리는 입지환경."
@@ -130,10 +130,10 @@ const LocationEnvironment1 = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "힐스테이트 양산더스카이 - 입지환경",
+            "name": "힐스테이트 도안리버파크 - 입지환경",
             "url": "https://www.apay.co.kr/LocationEnvironment/intro",
             "description":
-              "대전 도안신도시 중심 입지, 도시철도 2호선(트램 예정)·유성IC 교통망, 신설 학교, 갑천·유림공원 등 생활 인프라와 쾌적한 자연환경을 갖춘 힐스테이트 양산더스카이 입지환경.",
+              "대전 도안신도시 중심 입지, 도시철도 2호선(트램 예정)·유성IC 교통망, 신설 학교, 갑천·유림공원 등 생활 인프라와 쾌적한 자연환경을 갖춘 힐스테이트 도안리버파크 입지환경.",
             "primaryImageOfPage": {
               "@type": "ImageObject",
               "contentUrl": "https://www.apay.co.kr/img/og/location.jpg",
@@ -159,10 +159,10 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이 - 입지안내
+        힐스테이트 도안리버파크 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        힐스테이트 도안리버파크의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
         인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 대전의
         중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
       </p>
@@ -176,7 +176,7 @@ const LocationEnvironment1 = () => {
       <img
         src={page1}
         className={styles.image2}
-        alt="힐스테이트 양산더스카이입지환경-image1"
+        alt="힐스테이트 도안리버파크입지환경-image1"
       />
 
       <div className={styles.section2}>
@@ -191,7 +191,7 @@ const LocationEnvironment1 = () => {
 
       <div className={styles.commonBox}>
         <div className={styles.notice}>
-          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 힐스테이트 양산더스카이 사업주체 및 시공사와 무관합니다.
+          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 힐스테이트 도안리버파크 사업주체 및 시공사와 무관합니다.
         </div>
       </div>
 

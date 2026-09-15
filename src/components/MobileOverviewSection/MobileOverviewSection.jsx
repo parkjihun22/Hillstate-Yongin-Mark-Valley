@@ -24,7 +24,7 @@ const items = [
       <ul className={styles.detailList}>
         <li>
           <strong>사업명</strong>
-          <span>힐스테이트 양산더스카이</span>
+          <span>힐스테이트 도안리버파크</span>
         </li>
         <li>
           <strong>대지위치</strong>

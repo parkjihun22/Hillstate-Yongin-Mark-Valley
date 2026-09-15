@@ -45,18 +45,18 @@ const Brand2 = () => {
   return (
     <div className={styles.container}>
         <Helmet>
-          <title>힐스테이트 양산더스카이 - 홍보영상</title>
+          <title>힐스테이트 도안리버파크 - 홍보영상</title>
           <meta
             name="description"
-            content="힐스테이트 양산더스카이의 홍보영상을 통해 세련된 디자인과 최신 편의시설을 확인하세요."
+            content="힐스테이트 도안리버파크의 홍보영상을 통해 세련된 디자인과 최신 편의시설을 확인하세요."
           />
           <link rel="canonical" href="https://www.alwatanyh.com/Brand/video" />
 
           {/* Open Graph */}
-          <meta property="og:title" content="힐스테이트 양산더스카이 - 홍보영상" />
+          <meta property="og:title" content="힐스테이트 도안리버파크 - 홍보영상" />
           <meta
             property="og:description"
-            content="도안 신도시 중심, 힐스테이트 양산더스카이의 홍보영상을 만나보세요."
+            content="도안 신도시 중심, 힐스테이트 도안리버파크의 홍보영상을 만나보세요."
           />
           <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
           <meta property="og:url" content="https://www.alwatanyh.com/Brand/video" />
@@ -75,10 +75,10 @@ const Brand2 = () => {
 
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이 - 홍보영상
+        힐스테이트 도안리버파크 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이의 홍보영상을 통해 단지의 세련된 디자인과 최신 편의시설을 확인하세요. 
+        힐스테이트 도안리버파크의 홍보영상을 통해 단지의 세련된 디자인과 최신 편의시설을 확인하세요. 
         도안 신도시의 새로운 라이프스타일을 영상으로 만나보실 수 있습니다.
       </p>
 
@@ -86,7 +86,7 @@ const Brand2 = () => {
       <div>
         className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}
       
-        <div>힐스테이트 양산더스카이가 눈부신 가치 위에</div>
+        <div>힐스테이트 도안리버파크가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 

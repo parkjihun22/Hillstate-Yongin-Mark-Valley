@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="힐스테이트 양산더스카이-benerimage"
+                alt="힐스테이트 도안리버파크-benerimage"
             />
             <div className={styles.overlay}></div>
             <div
@@ -50,7 +50,7 @@ const contents = (text, isLoaded) => {
                     대전 도안 신도시의 중심에서
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드, 힐스테이트 양산더스카이와 함께합니다.
+                    NO.1 브랜드, 힐스테이트 도안리버파크와 함께합니다.
                 </div>
             </>
         );
@@ -67,7 +67,7 @@ const contents = (text, isLoaded) => {
                     브랜드 가치와 함께 시작하는 미래
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    힐스테이트 양산더스카이
+                    힐스테이트 도안리버파크
                 </div>
             </>
         );
@@ -78,7 +78,7 @@ const contents = (text, isLoaded) => {
                     교육·교통·생활 인프라가 조화를 이루는 신도시 중심
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 힐스테이트 양산더스카이에서 실현됩니다
+                    기대하던 모든 프리미엄이 힐스테이트 도안리버파크에서 실현됩니다
                 </div>
             </>
         );
@@ -92,7 +92,7 @@ const contents = (text, isLoaded) => {
                     편리한 생활을 위한 최적의 공간 설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    힐스테이트 양산더스카이, 도안 신도시에 찾아옵니다
+                    힐스테이트 도안리버파크, 도안 신도시에 찾아옵니다
                 </div>
             </>
         );

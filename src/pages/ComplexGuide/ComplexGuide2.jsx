@@ -49,10 +49,10 @@ const ComplexGuide1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>힐스테이트 양산더스카이 - 호수배치도</title>
+        <title>힐스테이트 도안리버파크 - 호수배치도</title>
         <meta
           name="description"
-          content="힐스테이트 양산더스카이 동·호수 배치도를 통해 단지 구조와 편의시설 위치를 확인하세요."
+          content="힐스테이트 도안리버파크 동·호수 배치도를 통해 단지 구조와 편의시설 위치를 확인하세요."
         />
         <link
           rel="canonical"
@@ -60,10 +60,10 @@ const ComplexGuide1 = () => {
         />
 
         {/* Open Graph */}
-        <meta property="og:title" content="힐스테이트 양산더스카이 - 호수배치도" />
+        <meta property="og:title" content="힐스테이트 도안리버파크 - 호수배치도" />
         <meta
           property="og:description"
-          content="힐스테이트 양산더스카이 동·호수 배치도를 통해 단지 구조와 편의시설 위치를 확인하세요."
+          content="힐스테이트 도안리버파크 동·호수 배치도를 통해 단지 구조와 편의시설 위치를 확인하세요."
         />
         <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
         <meta
@@ -80,7 +80,7 @@ const ComplexGuide1 = () => {
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이 - 호수배치도
+        힐스테이트 도안리버파크 - 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
         호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
@@ -89,7 +89,7 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>힐스테이트 양산더스카이가 눈부신 가치 위에</div>
+        <div>힐스테이트 도안리버파크가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -97,7 +97,7 @@ const ComplexGuide1 = () => {
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="힐스테이트 양산더스카이 호수배치도-image1"
+				alt="힐스테이트 도안리버파크 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> 
 

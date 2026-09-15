@@ -53,10 +53,10 @@ const BusinessGuide2 = () => {
   return (
     <div className={styles.container}>
         <Helmet>
-          <title>힐스테이트 양산더스카이 - 분양일정</title>
+          <title>힐스테이트 도안리버파크 - 분양일정</title>
           <meta
             name="description"
-            content="힐스테이트 양산더스카이의 최신 분양일정을 확인하세요. 청약 일정과 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다."
+            content="힐스테이트 도안리버파크의 최신 분양일정을 확인하세요. 청약 일정과 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다."
           />
           <link
             rel="canonical"
@@ -64,10 +64,10 @@ const BusinessGuide2 = () => {
           />
 
           {/* Open Graph */}
-          <meta property="og:title" content="힐스테이트 양산더스카이 - 분양일정" />
+          <meta property="og:title" content="힐스테이트 도안리버파크 - 분양일정" />
           <meta
             property="og:description"
-            content="힐스테이트 양산더스카이의 최신 분양일정을 확인하세요. 청약 일정과 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다."
+            content="힐스테이트 도안리버파크의 최신 분양일정을 확인하세요. 청약 일정과 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다."
           />
           <meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
           <meta
@@ -88,10 +88,10 @@ const BusinessGuide2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이 - 분양일정
+        힐스테이트 도안리버파크 - 분양일정
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 양산더스카이의 분양 일정은 중요한 날짜들을 안내하는 핵심
+        힐스테이트 도안리버파크의 분양 일정은 중요한 날짜들을 안내하는 핵심
         정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을
         실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리
         진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을
@@ -100,10 +100,10 @@ const BusinessGuide2 = () => {
 
       <div className={styles.textBox}>
         <div>도안의 눈부신 가치 위에</div>
-        <div>힐스테이트 양산더스카이의 새로운 자부심으로 찾아옵니다.</div>
+        <div>힐스테이트 도안리버파크의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 양산더스카이 분양일정안내-image1" /> */}
+			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트 도안리버파크 분양일정안내-image1" /> */}
 
 
       <Ready/>
